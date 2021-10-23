@@ -1,12 +1,12 @@
 # Relief Single Line
 
-*Relief SingleLine* is the single line companion of [Relief](https://github.com/isdat-type/relief) oriented towards CNC and fablabs environment.
+*Relief SingleLine* is versatile sans serif “single-line” font with open paths designed oriented towards CNC (Computer Numerical Control) engraving and fablabs environment. *Relief SingleLine* provides a single line path for a pen, laser, or milling tool to follow for efficient & clean looking typographical rendering. *Relief SingleLine* has an “classic” outlined companion, [Relief](https://github.com/isdat-type/relief), for print and screen usages.
 
 ## Existing CNC mill & laser typographic tools
 Nowadays there is still a critically small amount of “central-line” or “single-stroke” fonts optimized for fablab environments and CNC mill or laser engraving practices, allowing the use of letters based on a single central line. Simultaneously, typographic tools dedicated to CNC engraving (such as [Hershey Text](https://wiki.evilmadscientist.com/Hershey_Text) extension on Inkscape) are hard to use, limited and the drawing quality of the proposed fonts doesn’t match current typographic standards. The existing offer (both commercial and open source) of single stroke fonts is very basic and the majority of these available typefaces are qualitatively deceptive (irregular drawing quality, poor spacing, no kerning, etc.). With the recent variable fonts technology, the typedesign field is currently in a boom, but strangely the rapidly democratizing domain of fablabs is hardly approached by typedesigners. This potential space for experimentation is practically left to engineers and “makers” which, despite all their noticeable efforts, need more typographic expertise and the help of the typedesign community.
 
 ## Relief, a skeletal font for fablabs and CNC engravings
-Relief is a versatile sans serif “central-line” typeface with open contours and skeletal letters designed for “makers” and fablabs’ environments by students of the Graphic Design Department of the Institut Supérieur des Arts et du Design de Toulouse / [isdaT](https://www.isdat.fr/) (Élisa Garzelli & Noëlie Dayma), a project proposed by François Chastanet (isdaT Graphic Design Department teacher) part of *Les Communs / Bibliothèque Infinie* pedagogical program curated by Nathalie Bruyère (isdaT Design Department teacher). The structure of this alphabet is influenced by Adrian Frutiger’s little known and underrated Vectora typeface. The idea is having things working honestly with as less kerning as possible, a sturdy design more based on drawing solutions than infinite kerning pairs. Relief comprises an additional ornamental geometric set matching with both uppercases and lowercases’ heights. 
+Relief is a versatile sans serif “single-line” font with open paths designed for “makers” and fablabs’ environments by students of the Graphic Design Department of the Institut Supérieur des Arts et du Design de Toulouse / [isdaT](https://www.isdat.fr/) (Élisa Garzelli & Noëlie Dayma), a project proposed by François Chastanet (isdaT Graphic Design Department teacher) part of *Les Communs / Bibliothèque Infinie* pedagogical program curated by Nathalie Bruyère (isdaT Design Department teacher). The structure of this alphabet is influenced by Adrian Frutiger’s little known and underrated Vectora typeface. Relief comprises an additional ornamental geometric set matching with both uppercases and lowercases’ heights. 
 
 Relief allows the user to drastically reduce the engraving / cutting machines’ runtime while offering a quality Bézier curves rendering. Relief project is based on a main skeletal .glyphs source and explores different font format exports: [Relief](https://github.com/isdat-type/reief) with classic closed outlines for print and web on one side (OTF, TTF, WOFF), *Relief SingleLine* as a skeleton font for engraving on the other side (open path OTF-SVG for Adobe, UFO for Fontlab Pad or Drawbot, SVG for Inkscape + Hershey Text Module and closed TTF for CAD softwares). 
 
@@ -16,11 +16,11 @@ When using *Relief SingleLine* font for laser or mill applications, it is recomm
 ## How to use it?
 
 ### OpenType-SVG color font method
-As this project is primarily focusing on graphic user interface solutions opened the largest possible audiences, the Relief CNC typeface is distributed as an OpenType-SVG color font format in order to simplify the layout process for the 2D fablab community, i.e. having a central-line font editable in popular vector graphics and typographic softwares such as Illustrator or Indesign. OpenType-SVG technology represents an interesting alternative to permit single-stroke fonts wider distribution and easier use. To our knowledge, Relief CNC is the first real skeletal font working in the Adobe CC environment (CC 2019 and above), opening new perspectives for the makers worldwide. Fablab users oriented towards 2D graphic practices can now easily access quality Bézier curves and kerning in their central-line typographical layouts!
+As this project is primarily focusing on graphic user interface solutions opened the largest possible audiences, *Relief SingleLine* typeface is distributed as an OpenType-SVG color font format in order to simplify the layout process for the 2D fablab community, i.e. having a central-line font editable in popular vector graphics and typographic softwares such as Illustrator or Indesign. OpenType-SVG technology represents an interesting alternative to permit single-line fonts wider distribution and easier use. To our knowledge, *Relief SingleLine* is the first single line font working in the Adobe CC environment (CC 2019 and above), opening new perspectives for makers worldwide. Fablab users oriented towards 2D graphic practices can now easily access quality Bézier curves, kerning and OpenType features in their single-line typographical layouts!
 
-Simply install the “Relief SingleLine-Regular_svg.otf” on your system and open Illustrator or Indesign, compose your paragraphs and titlings; when the layout is finished, just use the /Text/Vectorize function (shift+command+O) to obtain a skeletal design to export as PDF or SVG file to engrave through your prefered CNC machine (laser or mill).
+Simply install the “Relief SingleLine-Regular_svg.otf” on your system and open Illustrator or Indesign, compose your paragraphs and titlings; when the layout is finished, duplicate it and just use the /Text/Vectorize function (shift+command+O) to obtain a single-line design to export as PDF or SVG file to engrave through your prefered CNC machine (pen, laser or mill).
 
-*Relief SingleLine* export as OpenType-SVG format was made possible thanks to [Frederik Berlaen](https://typemytype.com/)’s *otf-svgMaker* Python script for [Robofont](https://robofont.com/). This script permits to export any skeletal UFO-based font project towards and OTF-SVG font.
+*Relief SingleLine* export as OpenType-SVG format was made possible thanks to [Frederik Berlaen](https://typemytype.com/)’s *otf-svgMaker* Python script for [Robofont](https://robofont.com/). This script permits to export any skeletal UFO-based font project towards an single line OTF-SVG font.
 
 →fonts/otf-svg/
 →scripts/Robofont_otf-svgMaker/
@@ -36,9 +36,9 @@ First install Relief-Regular.otf on your system, then parallelly copy Relief-Reg
 
 →fonts/svg/
 
-Process to export towards (old) SVG format with open contours (thanks to Tanguy Vanleys):
+Process to export towards (old) SVG format with open paths (thanks to Tanguy Vanleys):
 
-• Open UFO file in Fontforge, export as SVG,
+• Open UFO file in Fontforge, export as SVG;
 
 • Open the SVG file in a text editor (such as Sublime Text) and run two find & replace actions:
 
@@ -50,7 +50,7 @@ Process to export towards (old) SVG format with open contours (thanks to Tanguy 
 
 
 ### Closed TTF for CAD softwares method 
-[Rhinoceros 3D](https://www.rhino3d.com/) and some other CAD softwares are able to use closed TTF single stroke fonts by opening the closed contours the right way in its design interface with various views. When operating the text tools dialog box you have a special feature to tick to permit single stroke fonts usage (Windows version only); select the desired TTF. But composing paragraphs is simply impossible, it is limited to write some words on the same basline (no line breaks possible apparently), so quite limited to basic titling only.
+[Rhinoceros 3D](https://www.rhino3d.com/) and some other CAD softwares are able to use closed TTF single stroke fonts by opening the closed contours the right way in its design interface with various views. When operating the text tools dialog box you have a special feature to tick to permit single stroke fonts usage (Windows version only); select the desired TTF. But composing paragraphs is simply impossible, it is limited to write some words on the same baseline (no line breaks possible apparently), so quite limited to basic titling only.
 
 →fonts/ttf-closed
 
