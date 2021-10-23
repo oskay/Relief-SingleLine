@@ -26,7 +26,7 @@ Simply install the “Relief SingleLine-Regular_svg.otf” on your system and op
 →scripts/Robofont_otf-svgMaker/
 
 ### UFO / FontLab Pad or Drawbot method
-UFO format ([Unified Font Objects](https://unifiedfontobject.org/) is a cross-platform, cross-application, human readable format for storing font data. Download the Relief UFO file, open it with [FontLab Pad](https://www.fontlab.com/fontlab-pad/) text editor (free of use, available for Windows and Mac), type your text, then export it as an PDF or SVG composition that you can open in any vector graphics software, run CNC. The UFO file can also be used in [Drawbot](https://www.drawbot.com/) to export towards PDF or SVG textual vector patterns to engrave. 
+UFO format ([Unified Font Objects](https://unifiedfontobject.org/)) is a cross-platform, cross-application, human readable format for storing font data. Download the Relief UFO file, open it with [FontLab Pad](https://www.fontlab.com/fontlab-pad/) text editor (free of use, available for Windows and Mac), type your text, then export it as an PDF or SVG composition that you can open in any vector graphics software, run CNC. The UFO file can also be used in [Drawbot](https://www.drawbot.com/) to export towards PDF or SVG textual vector patterns to engrave. 
 
 →fonts/ufo/
 
