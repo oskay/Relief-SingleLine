@@ -1,0 +1,424 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        p {
+            width: 50%;
+            display: block;
+            height: auto;
+            font-family: 'Relief', sans-serif;
+            color: #000;
+            font-size: 22px;
+            margin-left: 5%;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        #navbar {
+            overflow: hidden;
+            background-color: #fff;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            border-bottom: 1px solid #000;
+            padding: 15px 15px 15px 0px;
+
+            padding-left: 5%;
+        }
+
+        #navbar a {
+            list-style-type: none;
+            position: static;
+            width: auto;
+            font-family: 'Relief', sans-serif;
+            font-size: 20px;
+            margin-right: 25px;
+            border-bottom: 1px solid #fff;
+            float: left;
+            display: block;
+        }
+
+        #navbar a:hover {
+            color: #000;
+            background-color: #fff;
+            border-bottom: 1px solid #000;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            border: solid 0px red;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-rendering: optimizeLegibility;
+            font-feature-settings: "kern";
+        }
+
+        @font-face {
+            font-family: "Relief";
+            src: url("font/Relief-Regular.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "ReliefMono";
+            src: url("font/ReliefMono-Regular.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "ReliefOrnament";
+            src: url("font/ReliefOrnament-Regular.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: #000;
+        }
+
+        /* IMAGE */
+
+        img {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        /*MENU*/
+
+        nav ul {
+            list-style-type: none;
+            background-color: #fff;
+            position: static;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 15px 15px 15px 0px;
+            border-bottom: solid 1px #000;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            font-family: 'Relief', sans-serif;
+            font-size: 20px;
+        }
+
+        nav ul li a {
+            display: inline-block;
+            color: #000;
+            margin-right: 10px;
+            text-align: left;
+            border-bottom: 1px solid #fff
+        }
+
+        nav ul li a:hover {
+            color: #000;
+            background-color: #fff;
+            border-bottom: 1px solid #000
+        }
+
+        /* TEXTE */
+
+        /* OpenType features & stylistic sets */
+        .alternates_gly {
+            font-feature-settings: "kern", "liga", "dlig", "ss01"1, "ss02"1, "ss03"1;
+        }
+
+        .alternates_onum {
+            font-feature-settings: "kern", "liga", "dlig", "onum";
+        }
+
+        .alternates_onum_gly {
+            font-feature-settings: "kern", "liga", "dlig", "onum", "ss01"1, "ss02"1, "ss03"1;
+        }
+
+        h1,
+        h2 {
+            width: 90%;
+            height: auto;
+            font-family: 'Relief', sans-serif;
+            color: #000;
+            font-size: 45px;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .specimen_relief,
+        .specimen_relief_ornament {
+            width: 90%;
+            height: auto;
+            color: #000;
+            font-size: 95px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .specimen_relief {
+            font-family: 'Relief', sans-serif;
+        }
+
+        .specimen_relief_ornament {
+            font-family: 'ReliefOrnament', sans-serif;
+        }
+
+        h3,
+        h4 {
+            display: none;
+        }
+
+        .name {
+            width: 90%;
+            height: auto;
+            font-family: 'Relief', sans-serif;
+            color: #000;
+            font-size: 17px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .name_tel {
+            display: none;
+        }
+
+        .dotted {
+            border-bottom: 1px solid grey;
+        }
+
+        .underline {
+            margin-left: 20px;
+        }
+
+        .underline:hover {
+            border-bottom: 1px solid #000;
+        }
+
+        .font_Relief,
+        .font_ReliefMono,
+        .font_ReliefOrnament {
+            width: 90%;
+            height: auto;
+            color: #000;
+            font-size: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;
+            margin-bottom: 50px;
+        }
+
+        .font_Relief {
+            font-family: "Relief", sans-serif;
+        }
+
+        .font_ReliefMono {
+            font-family: "ReliefMono", sans-serif;
+        }
+
+        .font_ReliefHairLine {
+            font-family: "ReliefHairLine", sans-serif;
+        }
+
+        .font_ReliefOrnamentHairLine {
+            font-family: "ReliefOrnamentHairLine", sans-serif;
+        }
+
+        .font_ReliefOrnament,
+        .font_ReliefOrnament_tel {
+            font-family: "ReliefOrnament", sans-serif;
+        }
+
+        .font_ReliefOrnament_tel {
+            display: none;
+        }
+
+        /* ESPACES - SEPARATEURS */
+
+        .espace {
+            width: 100%;
+            height: 50px;
+        }
+
+        .separateur {
+            width: 90%;
+            height: 1px;
+            background: grey;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        /*FOOTER*/
+
+        footer {
+            margin-top: 200px;
+            margin-bottom: 50px;
+            border: 0px solid green;
+            position: relative;
+            font-size: 0.6em;
+            text-decoration: none;
+        }
+
+        footer ul {
+            font-family: 'Relief', sans-serif;
+
+            list-style-type: none;
+            text-align: center;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #fff;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+        }
+
+        footer ul li a {
+            color: #000;
+            padding: 8px;
+        }
+
+        footer ul li a:hover {
+            text-decoration: underline;
+        }
+
+        footer ul li a:visited {
+            text-decoration: none;
+        }
+
+        /* //// Responsive //// */
+
+        @media (max-width: 800px) {
+
+            .espace {
+                height: 30px;
+            }
+
+            .separateur {
+                width: 95%;
+            }
+
+            h1 {
+                font-size: 73px;
+                margin-bottom: -65px;
+                line-height: 1.05em;
+            }
+
+            h2 {
+                display: none;
+            }
+
+            h3 {
+                display: block;
+                width: 90%;
+                height: auto;
+                font-family: 'Relief', sans-serif;
+                color: #000;
+                font-size: 25px;
+                text-align: left;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 30px;
+            }
+
+            h4 {
+                display: block;
+                width: 93%;
+                margin-left: 3%;
+                font-family: "Relief", sans-serif;
+                height: auto;
+                color: #000;
+                font-size: 54px;
+                margin-left: auto;
+                margin-right: auto;
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            .specimen_relief,
+            .specimen_relief_ornament {
+                display: none;
+            }
+
+            p {
+                width: 93%;
+                font-size: 24px;
+                margin-left: 3%;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+
+            .font_Relief,
+            .font_ReliefMono,
+            .font_ReliefOrnament {
+                width: 93%;
+                height: auto;
+                color: #000;
+                font-size: 25px;
+            }
+
+            .name {
+                display: none;
+            }
+
+            .name_tel {
+                display: block;
+                width: 93%;
+                height: auto;
+                font-family: 'Relief', sans-serif;
+                color: #000;
+                font-size: 17px;
+                margin-top: 25px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .underline_tel {
+                display: block;
+            }
+
+            .font_ReliefOrnament {
+                display: none;
+            }
+
+            .font_ReliefOrnament_tel {
+                display: block;
+                width: 93%;
+                height: auto;
+                color: #000;
+                font-size: 27px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 25px;
+                margin-bottom: 50px;
+            }
+
+        }

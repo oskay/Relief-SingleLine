@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Relief webfont in use</title>
+
+
+	<!-- FAVICON -->
+<link rel="icon" href="typo/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="typo/favicon.ico" type="image/x-icon" />
+
+
+	<!-- JAVASCRIPT -->
+
+	<script type="text/javascript" src="script/jquery.min.js"></script> 
+	<script type="text/javascript" src="script/jquery.easing.1.3.js"></script> 
+
+
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+
+			$('a.gotop').click(function(){ 
+				var elementClicked = $(this).attr("href");
+				var destination = $(elementClicked).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1500,'easeInOutExpo' );
+				return false;
+			});			
+
+
+			$('a.gopreface').click(function(){ 
+				var elementClicked = $(this).attr("href");
+				var destination = $(elementClicked).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1500,'easeInOutExpo' );
+				return false;
+			});
+
+			$('a.gochapter1').click(function(){ 
+				var elementClicked = $(this).attr("href");
+				var destination = $(elementClicked).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1500,'easeInOutExpo' );
+				return false;
+			});
+
+			$('a.gochapter2').click(function(){ 
+				var elementClicked = $(this).attr("href");
+				var destination = $(elementClicked).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1500,'easeInOutExpo' );
+				return false;
+			});
+
+			$('a.gochapter3').click(function(){ 
+				var elementClicked = $(this).attr("href");
+				var destination = $(elementClicked).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1500,'easeInOutExpo' );
+				return false;
+			});
+			
+			$('a.gochapter4').click(function(){ 
+				var elementClicked = $(this).attr("href");
+				var destination = $(elementClicked).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1500,'easeInOutExpo' );
+				return false;
+			});
+
+			$('a.gochapter5').click(function(){ 
+				var elementClicked = $(this).attr("href");
+				var destination = $(elementClicked).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1500,'easeInOutExpo' );
+				return false;
+			});
+
+			$('a.gofont').click(function(){ 
+				var elementClicked = $(this).attr("href");
+				var destination = $(elementClicked).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1500,'easeInOutExpo' );
+				return false;
+			});
+
+
+	});
+	</script>
+	
+
+	<style type="text/css">
+
+
+	/* REM */
+
+	:root 
+		{
+		--typesize: 1rem;
+		--fraction: calc( 75vw / 12 );
+		}
+
+	/* STRUCTURE */
+
+	body 
+		{
+		background:rgb(245,245,245);
+		text-rendering:optimizeLegibility;
+		/* -webkit-font-smoothing:antialiased; */
+		}
+			
+  
+  	#all, .chapter 
+  		{
+		width: 75vw; 
+		max-width: 960px;
+		margin:0 auto;
+		padding: 0.5rem 0;
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-gap: 1rem 2%;
+		/*
+		grid-gap: calc( 75vw / 12 );
+		column-gap: 1vw;
+		row-gap: 1vw; 
+		*/
+		}
+    
+    .chapter 
+    	{
+        padding: 0;
+    	}	
+    
+    .chapter ul 
+    	{
+        list-style: none inside;
+    	}
+	
+	/* CSS GRID CONTAINER • 12 COLUMNS (= 1FR, 8.333%) EACH COLUMN • GUTTER (1REM) */
+				
+	.grid_1 
+		{
+		grid-column: span 1;
+		}
+
+	.grid_2 
+		{
+		grid-column: span 2;
+		}
+
+	.grid_3 
+		{
+		grid-column: span 3;
+		}
+
+	.grid_4 
+		{
+		grid-column: span 4;
+		}
+
+	.grid_5 
+		{
+		grid-column: span 5;
+		}
+
+	.grid_6 
+		{
+		grid-column: span 6;
+		}
+
+	.grid_7 
+		{
+		grid-column: span 7;
+		}
+
+	.grid_8 
+		{
+		grid-column: span 8;
+		}
+
+	.grid_9 
+		{
+		grid-column: span 9;
+		}
+
+	.grid_10 
+		{
+		grid-column: span 10;
+		}
+
+	.grid_11 
+		{
+		grid-column: span 10;
+		}
+
+	.grid_12, .chapter
+		{
+		grid-column: 1 / span 12;
+		}
+
+	/* SEPARATOR */
+
+	.vertical_space 
+		{
+		display: block;
+		height: 4rem;
+		}
+
+
+	/* @FONT-FACE */
+
+	@font-face 
+		{
+		font-family:'Relief';
+		src: url('typo/Relief-Regular.woff') format('woff');
+		font-weight:normal;font-style:normal;
+		}
+
+	
+	/* RESET */	
+	* 	{
+		margin:0; 
+		padding:0;
+		}
+
+
+	/* OPENTYPE FEATURES & STYLISTIC SETS */
+
+	.default 
+		{
+		padding-bottom:0px;
+		margin-bottom:40px;
+		font-feature-settings: "kern", "liga";
+		}
+
+	.default_osf 
+		{
+		padding-bottom:0px;
+		margin-bottom:40px;
+		font-feature-settings: "kern", "liga", "onum";
+		}
+
+	.alternate_g
+		{
+		padding-bottom:0px;
+		margin-bottom:40px;
+		font-feature-settings: "kern", "liga", "ss01" 1;
+		}
+
+	.alternate_l 
+		{
+		padding-bottom:0px;
+		margin-bottom:40px;
+		font-feature-settings: "kern", "liga", "ss02" 1;
+		}
+
+	.alternate_y 
+		{
+		padding-bottom:0px;
+		margin-bottom:40px;
+		font-feature-settings: "kern", "liga", "ss03" 1;
+		}
+
+	
+		}
+
+
+	/* TEXT SELECTION */
+
+	::selection 
+		{
+		color:black;
+		background:rgb(255,230,0);
+		}
+
+	::-moz-selection 
+		{
+		color:black;
+		background:rgb(255,230,0);
+		}
+	
+
+	/* HIERARCHY */
+
+
+	h1, h2, h3, h4, p, p.small, p.display, p.specimen 
+		{
+		font-weight:normal;
+		font-style:normal;
+		text-align:left;
+		list-style:none;
+		}
+
+	h1, h2 
+		{
+		line-height:1.4;
+		}
+
+
+	h3, h4, p, p.light, p.bold, p.small 
+		{
+		line-height:1.4;
+		}
+
+	p.display, p.specimen 
+		{
+		line-height:1.1;
+		}
+
+
+	h1 	{
+		font-family:'Relief',sans-serif;
+		font-size:calc( var(--typesize) * 0.875);
+		color:black;
+		}
+
+		h1 a 
+		{
+		color:black;
+		text-decoration:none;
+		}
+
+		h1 a:hover 
+		{
+		color:rgb(180,180,180);
+		text-decoration:none;
+		}
+	
+
+	h2 	{
+		font-family:'Relief',sans-serif;
+		font-size:calc( var(--typesize) * 0.875);
+		color:black;
+		}
+
+		h2 a 
+		{
+		color:black;
+		text-decoration:none;
+		}
+
+		h2 a:hover 
+		{
+		color:rgb(180,180,180);
+		text-decoration:none;
+		}
+
+
+	h3, ul li {
+		font-family:'Relief',sans-serif;
+		font-size:calc( var(--typesize) * 1.6875);
+		color:black;
+		}
+			
+		h3 a, 
+        .chapter ul li a 
+		{
+		color:black;
+		text-decoration:none;
+		}
+		
+		h3 a:hover,
+        .chapter ul li a:hover 
+		{
+		color:rgb(180,180,180);
+		text-decoration:none;
+		}
+
+
+	h4 	{
+		font-family:'Relief',sans-serif;
+		font-size:calc( var(--typesize) * 0.875);
+		color:black;
+		}
+			
+		h4 a 
+		{
+		color:black;
+		text-decoration:none;
+		}
+			
+		h4 a:hover 
+		{
+		color:rgb(180,180,180);
+		text-decoration:none;
+		}
+		
+	
+	hr 	{
+		display:none;
+		}
+	
+	
+	p 	{
+		font-family:'Relief',sans-serif;
+		font-size:calc( var(--typesize) * 1.6875);
+		color:black;
+		}
+	
+		p+p 
+		{
+		text-indent:calc(var(--fraction));
+		}
+
+		p a 
+		{
+		color:black;
+		text-decoration:none;
+		border-bottom:1px solid rgb(180,180,180)
+		}
+
+		p a:hover 
+		{
+		color:black;
+		text-decoration:none;
+		border-bottom:1px solid black;
+		}
+
+	p.small 
+		{
+		font-family:'Relief',sans-serif;
+		font-size:calc( var(--typesize) * 0.875);
+		color:black;
+		}
+	
+		p.small+p.small 
+		{
+		text-indent:35px;
+		} 
+	
+    	p.small a 
+    	{
+    	color:black;
+    	text-decoration:none;
+    	border-bottom:1px solid rgb(180,180,180)
+    	}
+	
+    	p.small a:hover 
+    	{
+    	color:black;
+    	text-decoration:none;
+    	border-bottom:1px solid black;
+    	}
+
+    p.display 
+    	{
+    	font-family:'Relief',sans-serif;
+    	font-size:calc(var(--typesize)*6.25);
+		color:black;
+    	}
+	
+		p.display+p.display 
+		{
+		text-indent:80px;
+		} 
+	
+    	p.display a 
+    	{
+    	color:black;
+    	text-decoration:none;
+    	border-bottom:2px solid rgb(180,180,180)
+    	}
+	
+    	p.display a:hover 
+    	{
+    	color:black;
+    	text-decoration:none;
+    	border-bottom:2px solid black;
+    	}
+
+
+    p.specimen 
+    	{
+		font-family:'Relief',sans-serif;
+    	font-size:calc(var(--typesize)*6.8);
+		color:black;
+    	}
+	
+		p.specimen+p.specimen 
+		{
+		text-indent:80px;
+		} 
+	
+    	p.specimen a 
+    	{
+    	color:black;
+    	text-decoration:none;
+    	border-bottom:2px solid rgb(180,180,180)
+    	}
+	
+    	p.specimen a:hover 
+    	{
+    	color:black;
+    	text-decoration:none;
+    	border-bottom:2px solid black;
+    	}
+
+
+
+	/* SCREEN SIZES */
+
+	/* SMARTPHONES */
+@media (max-width:767px) 
+	{
+	
+	:root 
+		{
+		--typesize: 1rem;
+		--fraction: calc( 92vw / 12 );
+		}
+	
+	#all, 
+	.chapter  
+		{
+		max-width: 92vw;
+		width: 92vw;
+		padding: 0.1rem 0;
+		/*
+		column-gap: 1vw;
+		row-gap: 1vw;
+		*/
+		}
+	
+    .chapter 
+    	{
+        padding: 0;
+    	}
+
+	h1, h2, h3, h4, p, p.small, ul li 
+		{
+		font-size:calc(var(--typesize) * 1.15);
+		}
+
+	p+p, p.small+p.small
+		{
+		text-indent:calc(var(--fraction));
+		} 
+
+	h1, h2
+		{
+		padding-left:calc(var(--fraction));
+		} 
+
+	p.display
+		{
+		font-size:calc(var(--typesize)*5);
+		}
+
+		p.display+p.display
+		{
+		text-indent:60px;
+		} 
+
+	p.specimen 
+		{
+		font-size:calc(var(--typesize)*2.625);
+		}
+
+		/*
+	p img 
+		{
+		max-width: 100%;
+		height: auto;
+		}
+		*/
+
+	.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11 
+		{
+		grid-column: span 12;
+		}
+	
+    .chapter .grid_9 {grid-column: span 9;}
+    .chapter .grid_1 {grid-column: span 1;}
+
+    .vertical_space 
+		{
+		height: 1rem;
+		}
+
+
+	}	
+
+
+	/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 1200px)
+	{
+	
+	:root 
+		{
+		--typesize: 1rem;
+		--fraction: calc( 90vw / 12 );
+		}
+	
+	#all, 
+	.chapter  
+		{
+		max-width: 90vw;
+		width: 90vw;
+		padding: 0.1rem 0;
+		}
+	
+    .chapter 
+    	{
+        padding: 0;
+    	}
+	
+	h3, p
+		{
+		font-size:calc(var(--typesize) * 1.5);
+		}
+
+	p.small 
+		{
+		font-size:calc( var(--typesize) * 0.6);
+		}
+
+	p.display 
+		{
+		font-size:calc(var(--typesize)*6);
+		}
+
+	p.specimen 
+		{
+		font-size:calc(var(--typesize)*5);
+		}
+
+	}	
+
+	</style>
+	
+</head>
+
+
+<body>
+
+	<div id="all">
+
+<!-- MENU -->	
+
+	<div class="grid_12">
+	<div id="top">
+<p class="small">&nbsp;</p>
+	</div>
+	</div>
+
+	<div class="grid_12">
+	<div class= "default">
+<p class="display">Design For<br/>The Real World</p>
+<p class="display">Human Ecology</p>
+<p class="display">&amp; Social Change</p>
+	</div>
+	</div>
+	
+	<div class="grid_12">
+<p class="small">&nbsp;</p>
+	</div>
+	
+	<div class="grid_2">
+<h1><a href="https://en.wikipedia.org/wiki/Victor_Papanek" target="_blank">Victor Papanek</a></h1>
+	</div>
+
+	<div class="grid_4">
+<h2><a href="https://monoskop.org/images/f/f8/Papanek_Victor_Design_for_the_Real_World.pdf" target="_blank">Design For The Real World<br/>Human Ecology &amp; Social Change</a><br/>1971</h2>
+	</div>
+	
+	<div class="grid_4">
+	<div class= "default_osf">
+<h2><a href="#preface" class="gopreface" title="Preface">Preface</a><br/>&nbsp;<br/>Part I &mdash; Like it is<br/><a href="#chapter1" class="gochapter1" title="Chapter 1">1 What Is Design?</a><br/><a href="#chapter2" class="gochapter2" title="Chapter 2">2 Phylogenocide</a><br/><a href="#chapter3" class="gochapter3" title="Chapter 3">3 The Myth of The Noble Slob</a><br/><a href="#chapter4" class="gochapter4" title="Chapter 4">4 Do-It-Yourself Murder</a></h2>
+	</div>
+	</div>
+
+	<div class="grid_2">
+	<div class= "default">
+<h2><a href="#font" class="gofont" title="Font">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</a></h2> 	  
+	</div>
+	</div> 
+	
+
+<!-- SEPARATOR -->
+<div class="grid_12 vertical_space"></div> 
+
+
+<!-- PREFACE --> 
+
+	<div class="grid_12">
+	<div id="preface">
+<p class="small">&nbsp;</p>
+	</div>
+	</div>
+    
+    <div class="chapter">
+
+    <div class="grid_1">
+<h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_9">
+    <div class= "default">
+<h3>Preface</h3>
+    </div>
+    </div>
+
+    <div class="grid_1">
+<h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_1">
+<h3><a href="#chapter1" class="gochapter1" title="Chapter 1">›</a></h3>
+    </div>
+
+    </div>
+
+
+	<div class="grid_12">
+	<div class= "default">
+<p>There are professions more harmful than industrial design, but only a very few of them. And possibly only one profession is phonier. Advertising design, in persuading people to buy things they don’t need, with money they don’t have, in order to impress others who don’t care, is probably the phoniest field in existence today. Industrial design, by connecting the tawdry idiocies hawked by advisers, comes a close second. Never before in history have grown men sat down and seriously designed electric hairbrushes, rhinestone-covered shoe horns, and mink carpeting from bathrooms, and then drawn up elaborate plans to make and sell these gadgets to millions of people. Before (in the ‹good old days›), if a person liked killing people, he had to become a general, purchase a coal mine, or else study nuclear physics. Today, industrial design has put murder on mass-production basis. By designing criminally unsafe automobiles that kill or maim nearly one million people around the world each year, by creating whole new species of permanent garbage to clutter up the landscape, and by choosing materials and process that pollute the air we breath, designers have become a dangerous breed. And the skills needed in these activities are carefully taught to young people.</p>
+
+<p>In this age of mass production when everything must be planned and designed, design has become the most powerful tool with which man shapes his tools and environments (and, by extension, society and himself). This demands high social and moral responsibility from the designer. It also demands greater understanding of the people by those who practice design and more insight into the design process by the public. Not a single volume on the responsibility of the designer, no book on design that considers the public in this way, has ever been published anywhere.</p>
+
+<p>In February of 1968 Fortune magazine published an article that foretold the end of the industrial design profession. Predictably, designers reacted with scorn and alarm. But I feel that the main arguments of the Fortune article are valid. It is about time that industrial design, as we have come to know it, should cease to exist. As long as design concerns itself with confecting trivial ‹toys for adults›, killing machines with gleaming tailfins, and ‹sexed-up› shrouds for typewriters, toasters, telephones, and computers, it has all lost reason to exist.</p>
+
+<p>Design must become an innovative, highly creative, cross-disciplinary tool responsible to the true needs of men. It must be more research oriented, and we must stop defiling the earth itself with poorly designed objects and structures. For the last ten years or so, I have worked with designers and student design teams in many parts of the world. Whether on an island in Finland, in a village school in Indonesia, an air-conditioned office overlooking Tokyo, a small fishing village in Norway, or where I teach in the United States, I have tried to give a clear picture of what it means to design within a social context. But there is only so much one can say and do, and, even in Marshall McLuhan’s electronic era, sooner or later one must fall back on the printed word.</p>
+
+<p>Included in the enormous amount of literature we have about design are hundreds of ‹how-to-do-it› books that address themselves exclusively to an audience of other designers or (with the gleam of textbook sales in the author’s eye) to students. The social context of design, as well as the public and lay reader, is damned by omission.</p>
+
+<p>Looking at the books on design in seven languages, covering the walls of my home, I realized that the one book I wanted to read, the one book I most wanted to hand to my fellow students and designers, was missing. Because our society makes it crucial for designers to understand clearly the social, economic, and political background of what they do, my problem was not just one of personal frustration. So I decided to write the kind of book I’d like to read.</p>
+
+<p>This book is also written from the viewpoint that there is something basically wrong with the whole concept of patents and copyrights. If I design a toy that provides therapeutic exercise for handicapped children, then I think it is just unjust to delay the release of the design by a year and a half, going through a patent application. I feel that ideas are plentiful and cheap, and it is wrong to make money from the needs of the others. I have been very lucky in persuading many of my students to accept this view. Much of what you will find as design examples throughout this book has never been patented. In fact, quite the opposite strategy prevails: in many cases students and I have made measured drawings of, say, a play environment for blind children, written a description of how to build it simply, and then mimeographed drawings and all. If any agency, anywhere, will write in, my students will send them all the instructions free of charge. I try to do the same myself. An actual case history may explain this principle better.</p>
+
+<p>Shortly after leaving school nearly two decades ago, I designed a coffee table based on entirely new concepts of structure and assembly. I gave a photograph and drawings of the table to the magazine Sunset, which printed it as a do-it-yourself project in the February 1953 issue. Almost at once a Southern California furniture firm, Modern Colour, Inc., ‹ripped-off› the design and went into production. Admittedly they sold about eight thousand tables in 1953. But now it is 1970. Modern Colour has long since gone bankrupt, but Sunset recently reprinted the design in their book ‹Furniture You Can Build›, so people are still building the table for themselves.</p>
+
+<p>Thomas Jefferson himself entertained grave doubts as to the philosophy inherent in a patent grant. At the time of his invention of the hempbreak, he took positive steps to prevent being granted a patent and wrote to a friend: ‹Something of this kind has been so long wanted by cultivators of hemp that as soon as I can speak of its effect with certainty, I shall probably describe it anonymously in the public papers in order to forestall the prevention of its use by some interloping patentee›.</p>
+
+<p>I hope this book will bring new thinking to the design process and start an intelligent dialogue between designer and consumer. It is organized into two parts, each six chapters long. The first part, ‹Like It Is›, attempts to define and criticize design as it is practised and taught today. The six chapters of ‹How It Could Be› give the reader at least one newer way of looking at things in each chapter.</p>
+
+<p>I have received inspiration and help in many parts of the world, over many years, in forming the ideas and ideals that made the writing of this book so necessary. I have spent large chunks of time living among Navahos, Eskimos, and Balinese, as well as spending nearly one-third of each of the last seven years in Finland and Sweden, and I feel that this has shaped my thoughts. In <a href="#chapter4" class="gochapter4" title="Chapter 4">Chapter Four</a>, ‹Do-It-Yourself Murder›, I am indebted to the late Dr Robert Lindner of Baltimore, with whom I corresponded for a number of years, for his concept of the ‹Triad of Limitations›. The idea of ‹kymmenykset› was first formulated by me during a design conference on the island of Suomenlinna in Finland in 1968. The word ‹ujamaa›, as a simple way of saying ‹we work together and help each other without colonialism or neo-colonial exploitation›, was supplied in Africa during my Unesco work.</p>
+
+<p>Mr Harry M. Philo, an attorney from Detroit, is responsible for many of the examples of unsafe design cited in Chapter Five. Much in Chapter Eleven, ‹The Neon Blackboard›, reflects similar thinking by my two good friends, Bob Malone of Connecticut, and Bucky Fuller.</p>
+
+<p>Four people are entitled to special thanks. Walter Muhonen of Costa Mesa, California, because the example set by his life has kept me going, even though my goals seemed unattainable. He taught me the real meaning of the Finnish word ‹sisu›. Patrick Decker of College Station, Texas, for persuading me to write this book. Telle Olof Johansson of Halmstad and Stockholm, Sweden, for arguing the fine points of design with me, long into many nights; and for making the actual completion of this book's first Swedish edition possible. My wife, Harlanne, helped me to write what I wanted to say, instead of writing what seemed to sound good. Her searching questions, criticism, and encouragement often made all the difference.</p>
+
+<p>The incisive thinking and the help of my editor, Verne Moberg, have made this revised edition sounder and more direct. In an environment that is screwed up visually, physically, and chemically, the best and simplest thing that architects, industrial designers, planners, etc., could do for humanity would be to stop working entirely. In all pollution, designers are implicated at least partially. But in this book I take a more affirmative view: it seems to me that we can go beyond not working at all, and work positively. Design can and must become a way in which young people can participate in changing society.</p>
+
+<p>As socially and morally involved designers, we must address ourselves to the needs of a world with its back to the wall, while the hands on the clock point perpetually to one minute before twelve.</p>
+
+<p>@ Helsinki / Shigaraja / Stockholm</p>
+
+<p>1963&thinsp;&ndash;&thinsp;1971</p>
+	</div>
+	</div>
+
+
+<!-- SEPARATOR -->
+<div class="grid_12 vertical_space"></div> 
+
+
+<!-- CHAPTER 1 --> 
+
+	<div class="grid_12">
+	<div id="chapter1">
+<p class="small">&nbsp;</p>
+	</div>
+	</div>
+    
+    <div class="chapter">
+
+    <div class="grid_1">
+ <h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_9">
+    <div class= "default_osf">
+ <h3>1<br/>What Is Design?<br/>A Definition of Design and The Function Complex</h3>
+    </div>
+    </div>
+
+    <div class="grid_1">
+<h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_1">
+<h3><a href="#top" class="gotop" title="Top">&#8593;</a></h3>
+<h3><a href="#font" class="gofont" title="Font">Aa</a></h3>
+<h3><a href="#chapter2" class="gochapter2" title="Chapter 2">›</a></h3>
+<h3><a href="#preface" class="gopreface" title="Preface">‹</a></h3>
+    </div>
+
+    </div>
+
+	<div class="grid_12">
+	<div class= "default_osf">
+
+<p>The wheel’s hub holds thirty spokes.<br/>
+Utility depends on the hole through the hub.<br/>
+The potter's clay forms a vessel.<br/>
+It is the space within that serves.<br/>
+A house is built with solid walls<br/>
+The nothingness of window and door alone renders it usable,<br/>
+That which exists may be transformed<br/>
+What is non-existent has boundless uses.</p>
+
+<p>Lao-Tse<br/>&nbsp;</p>
+
+<hr />
+
+<p>All men are designers. All that we do, almost all the time, is design, for design is basic to all human activity. The planning and patterning of any act towards a desired, foreseeable end constitutes the design process. Any attempt to separate design, to make it a thing-by-itself, works counter to the inherent value, of design as the primary underlying matrix of life. Design is composing an epic poem, executing a mural, painting a masterpiece, writing a concerto. But design is also cleaning &amp; reorganizing a desk drawer, pulling an impacted tooth, baking an apple pie, choosing sides for a back-lot baseball game, &amp; educating a child. Design is the conscious effort to impose meaningful order.</p>
+
+<p>The order and delight we find in frost flowers on a window pane, in the hexagonal perfection of a honeycomb, in leaves, or in the architecture of a rose, reflect man's preoccupation with pattern, the constant attempt to understand an ever-changing, highly complex existence by imposing order on it — but these things are not the product of design. They possess only the order we ascribe to them. The reason we enjoy things in nature is that we see an economy of means, simplicity, elegance and an essential tightness in them. But they are not design. Though they have pattern, order, and beauty, they lack conscious intention. If we call them design, we artificially ascribe our own values to an accidental side issue. The streamlining of a trout's body is æsthetically satisfying to us, but to the trout it is a by-product of swimming efficiency. The æsthetically satisfying spiral growth pattern found in sunflowers, pineapples, pine cones, or the arrangement of leaves on a stem can be explained by the Fibonacci sequence where each member is the sum of the two previous members 1, 1, 2, 3, 5, 8, 13, 21, 34… but the plant is only concerned with improving photosynthesis by exposing a maximum of its surface. Similarly, the beauty we find in the tail of a peacock, although no doubt even more attractive to a peahen, is the result of intra-specific selection (which, in the case cited, may even ultimately prove fatal to the species).</p>
+
+<p>Intent is also missing from the random order system of a pile of coins. If, however, we move the coins around and arrange them according to size and shape, we add the element of intent and produce some sort of symmetrical alignment. This symmetrical order system is a favourite of small children, unusually primitive peoples, and some of the insane, because it is so easy to understand. Further shifting of the coins will produce an infinite number of asymmetrical arrangements which require a higher level of sophistication and greater participation on the part of the viewer to be understood and appreciated. While the æsthetic values of the symmetrical and asymmetrical designs differ, both can give ready satisfaction since the underlying intent is clear. Only marginal patterns (those lying in the threshold area between symmetry and asymmetry) fail to make the designer's intent clear. The ambiguity of these ‹threshold cases› produces a feeling of unease in the viewer. But apart from these threshold cases there are an infinite number of possible satisfactory arrangements of the coins. Importantly, none of these is the one right answer, though some may seem better than others.</p>
+
+<p>Shoving coins around on a board is a design act in miniature because design as a problem-solving activity can never, by definition, yield the one right answer: it will always produce an infinite number of answers, some ‹righter› and some ‹wronger›. The brightness of any design solution will depend on the meaning with which we invest the arrangement.</p>
+
+<p>Design must be meaningful. And ‹meaningful› replaces the semantically loaded noise of such expressions as ‹beautiful›, ‹ugly›, ‹cool›, ‹cute›, ‹disgusting›, ‹realistic›, ‹obscure›, ‹abstract›, and ‹nice›, labels convenient to a bankrupt mind when confronted by Picasso's <a href="https://en.wikipedia.org/wiki/Guernica_(Picasso)" target="_blank">Guernica</a>, Frank Lloyd Wright's <a href="http://www.fallingwater.org/" target="_blank">Falling-Water</a>, Beethoven's <a href="https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)" target="_blank">Eroica</a>, Stravinsky's <a href="https://en.wikipedia.org/wiki/The_Rite_of_Spring" target="_blank">Le Sacre du printemps</a>, Joyce's <a href="https://en.wikipedia.org/wiki/Finnegans_Wake" target="_blank">Finnegans Wake</a>. In all of these we respond to that which has meaning.</p>
+
+<p>The mode of action by which a design fulfils its purpose is its function.</p>
+
+<p>‹Form follows function›, Louis Sullivan's battle cry of the 1880s and 1890s, was followed by Frank Lloyd Wright's ‹Form and function are one›. But semantically, all the statements from Horatio Greenough to the German Bauhaus are meaningless. The concept that what works well will of necessity look well has been the lame excuse for all the sterile, operating-room-like furniture and implements of the twenties and thirties. A dining table of the period might have a top, well proportioned in glistening white marble, the legs carefully nurtured for maximum strength with minimum materials in gleaming stainless steel. And the first reaction on encountering such a table is to lie down on it and have your appendix extracted. Nothing about the table says: ‹Dine off me›. Le Style International and Die Neue Sachlichkeit have let us down rather badly in terms of human value. Le Corbusier's house as ‹La Machine à Habiter› and the packing-crate houses evolved in the Dutch De Stijl movement reflect a perversion of æsthetics and utility.</p>
+
+<p>‹Should I design it to be functional›, the students say, ‹or to be æsthetically pleasing?› This is the most heard, the most understandable, and the most mixed-up question in design today. ‹Do you want it to look good, or to work?› Barricades erected between what are really just two of the many aspects of function. It is all quite simple: æsthetic value is an inherent part of function. A simple diagram will show the dynamic actions and relationships that make up the function complex.</p>
+
+<p>It is now possible to go through the six parts of the function complex (above) and to define every one of its aspects.</p>
+
+<p>METHOD. The interaction of tools, processes, and materials. An honest use of materials, never making the material seem that which it is not, is good method. Materials and tools must be used optimally, never using one material where another can do the job less expensively and/or more efficiently. The steel beam in a house, painted a fake wood grain; the moulded plastic bottle designed to look like expensive blown glass; the 1967 New England cobbler's bench reproduction (‹worm holes extra›) dragged into a twentieth-century living room to provide dubious footing for Martini glass and ashtray: these are all perversions of materials, tools, and processes. And this discipline of using a suitable method extends naturally to the field of the fine arts as well. Alexander Calder's ‹The Horse›, a compelling sculpture at the Museum of Modern Art in New York, was shaped by the particular material in which it was conceived. Calder decided that boxwood would give him the specific colour and texture he desired in his sculpture. But boxwood comes only in rather narrow planks of small sizes. (It is for this reason that it traditionally has been used in the making of small boxes: hence its name.) The only way he could make a fair-sized piece of sculpture out of a wood that only comes in small pieces was to interlock them somewhat in the manner of a child's toy. ‹The Horse›, then, is a piece of sculpture, the æsthetic of which was largely determined by method. For the final execution at the Museum of Modern Art Calder chose to use thin slats of walnut, a wood similar in texture.</p>
+
+<p>When early Swedish settlers in what is now Delaware decided to build, they had at their disposal trees and axes. The material was a round tree trunk, the tool an axe, and the process a simple kerf cut into the log. The inevitable result of this combination of tools, materials, and process is a log cabin.</p>
+
+<p>From the log cabin in the Delaware Valley of 1680 to Paolo Soleri's desert home in twentieth-century Arizona is no jump at all. Soleri's house is as much the inevitable result of tools, materials, and processes as is the log cabin. The peculiar viscosity of the desert sand where Soleri built his home made his unique method possible. Selecting a mound of desert sand, Soleri criss-crossed it with V-shaped channels cut into the sand, making a pattern somewhat like the ribs of a whale. Then he poured concrete in the channels, forming, when set, the roof-beams of the house-to-be. He added a concrete skin for the roof and bulldozed the sand out from underneath to create the living space itself. He then completed the structure by setting in car windows garnered from automobile junkyards. Soleri's creative use of tools, materials, and processes was a tour de force that gave us a radically new building method.</p>
+
+<p>Dow Chemical's ‹self-generating› styrofoam dome is the product of another radical approach to building methods. The foundation of the building can be a 12-inch high circular retaining wall. To this wall a 4-inch wide strip of styrofoam is attached which raises as it goes around the wall from zero to 4 inches in height, forming the base for the spiral dome. On the ground in the centre, motorized equipment operates two spinning booms, one with an operator and the other holding a welding machine. The booms move around, somewhat like a compass drawing a circle, and they rise with a spiralling motion at about 30 feet a minute. Gradually they move in towards the centre. A man sitting in the saddle feeds an ‹endless› 4&#8239;×&#8239;4-inch strip of styrofoam into the welding machine, which heat-welds it to the previously hand-laid styrofoam. As the feeding mechanism follows its circular, rising, but ever-diminishing diameter path, this spiral process creates the dome. Finally, a hole 36-inches in diameter is left in the top, through which man, mast, and movement arm can be removed. The hole is then closed with a clear plastic pop-in bubble or a vent. At this point the structure is translucent, soft, but still entirely without doors or windows. The doors and windows are then cut (with a minimum of effort; in fact the structure is still so soft that openings could be cut with one's fingernail), and the structure is sprayed inside and out with latex-modified concrete. The dome is ultralightweight, is secured to withstand high wind speeds and great snow loads, is vermin-proof, and inexpensive. Several of these 54-foot diameter domes can be easily joined together into a cluster.</p>
+
+<p>All these building methods demonstrate the elegance of solution possible with a creative interaction of tools, materials, and processes.</p>
+
+<p>USE. ‹Does it work?› A vitamin bottle should dispense pills singly. An ink bottle should not tip over. A plastic-film package covering sliced pastrami should withstand boiling water. As in any reasonably conducted home, alarm-clocks seldom travel through the air at speeds approaching five hundred miles per hour, ‹streamlining› clocks is out of place. Will a cigarette lighter designed like the tail fin of an automobile (the design of that automobile was copied from a pursuit plane of the Korean War) give more efficient service? Look at some hammers: they are all different in weight, material, and form. The sculptor's mallet is fully round, permitting constant rotation in the hand. The jeweller's chasing hammer is a precision instrument used for fine work on metal. The prospector's pick is delicately balanced to add to the swing of his arm when cracking rocks.</p>
+
+<p>The ball-point pen with a fake polyethylene orchid surrounded by fake styrene carrot leaves sprouting out of its top, on the other hand, is a tawdry perversion of design for use.</p>
+
+<p>But the results of the introduction of a new device are never predictable. In the case of the automobile, a fine irony developed. One of the earliest criticisms of the car was that, unlike ‹old Dobbin›, it didn't have the sense ‹to find its way home› whenever its owner was incapacitated by an evening of genteel drinking. No one foresaw that mass acceptance of the car would put the American bedroom on wheels, offering everyone a new place to copulate (and privacy from supervision by parents and spouses). Nobody expected the car to accelerate our mobility, thereby creating the exurbant sprawl and the dormitory suburbs that strangle our larger cities; or to sanction the killing of fifty thousand people per annum, brutalising us and making it possible, as Philip Wylie says ‹to see babies with their jaws ripped off on the corner of Maine and Maple›; or to dislocate our societal groupings, thus contributing to our alienation; and to put every yut, yahoo, and prickamouse from sixteen to sixty in permanent hock to the tune of $80 a month. In the middle forties, no one foresaw that, with the primary use function of the automobile solved, it would emerge as a combination status symbol and disposable, chrome-plated codpiece. But two greater ironies were to follow. In the early sixties, when people began to fly more, and to rent standard cars at their destination, the businessman's clients no longer saw the car he owned and therefore could not judge his ‹style of life› by it. Most of Detroit's Baroque exuberance subsided, and the automobile again came closer to being a transportation device. Money earmarked for status demonstration was now spent on boats, colour television sets, and other ephemera. The last irony is still to come: with carbon monoxide fumes poisoning our atmosphere, the electric car, driven at low speeds and with a cruising range of less than one hundred miles, reminiscent of the turn of the century, may soon make an anachronistic comeback. Anachronistic because the days of individual transportation devices are numbered.</p>
+
+<p>The automobile gives us a typical case history of seventy years of the perversion of design for use.</p>
+
+<p>NEED. Much recent design has satisfied only evanescent wants and desires, while the genuine needs of man have often been neglected by the designer. The economic, psychological, spiritual, technological, and intellectual needs of a human being are usually more difficult and less profitable to satisfy than the carefully engineered and manipulated ‹wants› inculcated by fad and fashion.</p>
+
+<p>People seem to prefer the ornate to the plain as they prefer day-dreaming to thinking and mysticism to rationalism. As they seek crowd pleasures and choose widely travelled roads rather than solitude and lonely paths, they seem to feel a sense of security in crowds and crowdedness. Horror vacui is horror of inner as well as outer vacuum.</p>
+
+<p>The need for security-through-identity has been perverted into role-playing. The consumer, unable or unwilling to live a strenuous life, can now act out the role by appearing caparisoned in Naugahyde boots, pseudo-military uniforms, voyageur's shirts, little fur jackets, and all the other outward trappings of Davy Crockett, Foreign Legionnaires, and Cossack Hetmans. (The apotheosis of the ridiculous: a ‹be-your-own-Paul-Bunyan-kit, beard included›, neglecting the fact that Paul Bunyan is the imaginary creature of an advertising firm early in this century). The furry parkas and elk-hide boots are obviously only role-playing devices, since climatic control makes their real use redundant.</p>
+
+<p>A short ten months after the Scott Paper Company introduced disposable paper dresses for QQC, it was possible to buy throwaway paper dresses ranging from $20 to $149.50. With increased consumption, the price of the 99¢ dress could have dropped to 40¢. And a 40¢ paper dress is a good idea. Typically, industry perverted the idea and chose to ignore an important need-fulfilling function of the design: disposable dresses inexpensive enough to make disposability economically feasible for the consumer.</p>
+
+<p>Greatly accelerated technological change has been used to create technological obsolescence. This year's product often incorporates enough technical changes to make it really superior to last year's offering. The economy of the market place, however, is still geared to a static philosophy of purchasing-owning' rather than a dynamic one of ‹leasing-using›, and price policy has not resulted in lowered consumer cost. If a television set, for instance, is to be an every-year affair, rather than a once-in-a-lifetime purchase, the price must reflect it. Instead, the real values of real things have been driven out by false values of false things, a sort of Gresham's Law of Design.</p>
+
+<p>As an attitude, ‹Let them eat cake› has been thought of as a manufacturer's basic right. And by now people, no longer ‹turned on› by a loaf of bread, can differentiate only between frostings. Our profit-oriented and consumer-oriented Western society has become so over specialised that few people experience the pleasures and benefits of full life, and many never participate in even the most modest forms of creative activity which might help to keep their sensory and intellectual faculties alive. Members of a ‹civilised› community or nation depend on the hands, brains, and imaginations of experts. But however well trained these experts may be, unless they have a sense of ethical, intellectual, and artistic responsibility, then morality and an intelligent, ‹beautiful›, and elegant quality of life will suffer in astronomical proportions under our present-day system of mass production and private capital.</p>
+
+<p>TELESIS. ‹The deliberate, purposeful utilisation of the processes of nature and society to obtain particular goals› (<a href="https://en.wikipedia.org/wiki/American_College_Dictionary" target="_blank">American College Dictionary</a>, 1961). The telesic content of a design must reflect the times and conditions that have given rise to it, and must fit in with the general human socio-economic order in which it is to operate.</p>
+
+<p>The uncertainties and the new and complex pressures in our society make many people feel that the most logical way to regain lost values is to go out and buy Early American furniture, put a hooked rug on the floor, buy ready-made phoney ancestor portraits, and hang a flint-lock rifle over the fireplace. The gas-light so popular in our subdivisions is a dangerous and senseless anachronism that only reflects an insecure striving for the ‹good old days› by consumer and designer alike.</p>
+
+<p>Our twenty-year love affair with things Japanese &mdash; Zen Buddhism, the architecture of the Ise Shrine and Katsura Imperial Palace, haiku poetry, Hiroshige and Hokusai block-prints, the music of koto and samisen, lanterns and sake sets, green tea liqueur and sukiyaki and tempura &mdash; has triggered an intemperate demand by consumers who disregard telesic aptness. By now it is obvious that our interest in things Japanese is not just a passing fad or fashion but rather the result of a major cultural confrontation. As Japan was shut off for nearly two hundred years from the Western world under the Tokugawa Shogunate, its cultural expressions flourished in a pure (although somewhat inbred) form in the imperial cities of Kyoto and Edo (now Tokyo). The Western world's response to an in-depth knowledge of things Japanese is comparable only to the European reaction to things classical, which we are now pleased to call the Renaissance. Nonetheless, it is not possible to translate things from one culture to another.</p>
+
+<p>The floors of traditional Japanese homes are covered by floor mats. These mats are 3&#8239;×&#8239;6 feet in size and consist of rice straw closely packed inside a cover of woven rush. The long sides are bound with black linen tape. While tatami mats impose a module (homes are spoken of as six-, eight-, or twelve-mat homes), their primary purposes are to absorb sounds and to act as a sort of wall-to-wall vacuum cleaner which filters particles of dirt through the woven surface and retains them in the inner core of rice straw. Periodically these mats (and the dirt within them) are discarded, and new ones are installed. Japanese feet encased in clean, sock-like ‹tabi› (the sandal-like street shoe, or ‹geta›, having been left at the door) are also designed to fit in with this system. Western-style leather-soled shoes and spike heels would destroy the surface of the mats and also carry much more dirt into the house. The increasing use of regular shoes and industrial precipitation make the use of tatami difficult enough in Japan and absolutely ridiculous in the United States, where high cost makes periodic disposal and reinstallation ruinously expensive.</p>
+
+<p>But a tatami-covered floor is only part of the larger design system of the Japanese house. Fragile, sliding paper walls and tatami give the house definite and significant acoustical properties that have influenced the design and development of musical instruments and even the melodic structure of Japanese speech, poetry, and drama. A piano, designed for the reverberating insulated walls and floors of Western homes and concert halls, cannot be introduced into a Japanese home without reducing the brilliance of a Rachmaninoff concerto to a shrill cacophony. Similarly, the fragile quality of a Japanese samisen cannot be fully appreciated in the reverberating box that constitutes the American house. Americans who try to couple a Japanese interior with an American living experience in their search for exotica find that elements cannot be ripped out of their telesic context with impunity.</p>
+
+<p>ASSOCIATION. Our psychological conditioning, often going back to earliest childhood memories, comes into play and pre-disposes us, or provides us with antipathy against a given value. Increased consumer resistance in many product areas testifies to design neglect of the associational aspect of the function complex. After two decades, the television-set industry, for instance, has not yet resolved the question of whether a television set should carry the associational values of a piece of furniture (a lacquered mah-jongg chest of the Ming Dynasty) or of technical equipment (a portable tube tester). Television receivers that carry new associations (sets for children's rooms in bright colours and materials, enhanced by tactilely pleasant but non-working controls and pre-set for given times and channels, clip-on swivel sets for hospital beds, etc., etc.) might not only clear up the astoundingly large back inventory of sets in warehouses, but also create new markets.</p>
+
+<p>And what shape is most appropriate to a vitamin bottle: a candy jar of the Gay Nineties, a perfume bottle, or a ‹Danish modern› style salt shaker?</p>
+
+<p>The response of many designers has been like that so unsuccessfully practised by Hollywood: the public has been pictured as totally unsophisticated, possessed of neither taste nor discrimination. A picture emerges of a moral weakling with an IQ of about 70, ready to accept whatever specious values the unholy trinity of Motivation Research, Market Analysis, and Sales have decided is good for him. In short, the associational values of design have degenerated to the lowest common denominator, determined more by inspired guesswork and piebald graphic charts rather than by the genuinely felt wants of the consumer.</p>
+
+<p>Many products already successfully embody values of high associational content, either accidentally or ‹by design›.</p>
+
+<p>The Sucaryl bottle by Raymond Loewy Associates for Abbott Laboratories communicates both table elegance and sweetening agent without any suggestion of being medicine-like. The Lettera 22 portable typewriter by Olivetti establishes an immediate aura of refined elegance, precision, extreme portability, and businesslike efficiency, while its two-toned carrying case of canvas and leather connotes all-climate-proof.</p>
+
+<p>Abstract values can be communicated directly to everyone, and this can be simply demonstrated.</p>
+
+<p>If the reader is asked to choose which one of the figures below he would rather call Takete or Maluma (both are words devoid of all meaning in any known language), he will easily call the one on the right Takete (W. Koehler, Gestalt Psychology).</p>
+
+<p>Many associational values are really universal, providing for unconscious, deep-seated drives and compulsions. Even totally meaningless sounds and shapes can, as demonstrated, mean the same thing to all of us. The unconscious relationship between spectator expectation and the configuration of the object can be experimented with and manipulated. This will not only enhance the ‹chair-ness› of a chair, for instance, but also load it with associational values of, say, elegance, formality, portability, or what-have-you.</p>
+
+<p>ÆSTHETICS. Here dwells the traditionally bearded artist, mythological figure, equipped with sandals, mistress, garret, and easel, pursuing his dream-shrouded designs. The cloud of mystery surrounding æsthetics can (and should be) dispelled. The dictionary definition, ‹a theory of the beautiful, in taste and Art› leaves us not much better off than before. Nonetheless we know that æsthetics is a tool, one of the most important ones in the repertory of the designer, a tool that helps in shaping his forms and colours into entities that move us, please us, and are beautiful, exciting, filled with delight, meaningful.</p>
+
+<p>Because there is no ready yardstick for the analysis of æsthetics, it is simply considered to be a personal expression fraught with mystery and surrounded with nonsense. We ‹know what we like› or dislike and let it go at that. Artists themselves begin to look at their productions as auto-therapeutic devices of self-expression, confuse licence and liberty, and forsake all discipline. They are often unable to agree on the various elements and attributes of design æsthetics. If we contrast the ‹Last Supper› by Leonardo da Vinci with an ordinary piece of wallboard, we will understand how both operate in the area of æsthetics. In the work of so-called ‹pure› art, the main job is to operate on a level of inspiration, delight, beauty, catharsis... in short, to serve as a propagandistic communications device for the Holy Church at a time when a largely pre-literate population was exposed to a few non-verbal stimuli. But the ‹Last Supper› also had to fill the other requirements of function; aside from the spiritual, its use was to cover a wall. In terms of method it had to reflect the material (pigment and vehicle), tools (brushes and painting knives), and processes (individualistic brushwork) employed by Leonardo. It had to fulfil the human need for spiritual satisfaction. And it had to work on the associational and telesic plane, providing reference points from the Bible. Finally, it had to make 30 identifications through association easier for the beholder through such clichés as the racial type, garb, and posture of the Saviour. ‹The Last Supper›, by Leonardo da Vinci. Earlier ‹Last Supper› versions, painted during the sixth and seventh centuries, saw Christ lying or reclining in the place of honour. For nearly a thousand years, the well-mannered did not sit at the table. Leonardo da Vinci disregarded the reclining position followed by earlier civilisations and painters for Jesus and the Disciples. To make the ‹Last Supper› acceptable to Italians of his time, on an associational plane, Leonardo sat the crowd around the last supper table on chairs or benches in the proper positions of his (Leonardo’s) time. Unfortunately the scriptural account of St. John resting his head on the Saviour's bosom presented an unsolvable positioning problem to the artist, once everybody was seated according to the Renaissance custom. On the other hand, the primary use of wallboard is to cover a wall. But an increased choice of textures and colours applied by the factory shows that it, too, must fulfil the æsthetic aspect of function. No one argues that in a great work of art such as the ‹Last Supper›, prime functional emphasis is æsthetic, with use (to cover a wall) subsidiary. The main job of wallboard is its use in covering a wall, and the æsthetic assumes a highly subsidiary position. But both examples must operate in all six areas of the function complex. Designers often attempt to go beyond the primary functional requirements of method, use, need, telesis, association, and æsthetics; they strive for a more concise statement: precision, simplicity. In a statement so conceived, we find a degree of æsthetic satisfaction comparable to that found in the logarithmic spiral of a chambered nautilus, the ease of a seagull’s flight, the strength of a gnarled tree trunk, the colour of a sunset. The particular satisfaction derived from the simplicity of a thing can be called elegance. When we speak of an ‹elegant› solution, we refer to something consciously evolved by men which reduces the complex to the simple:</p>
+
+<p>Euclid’s Proof that the number of primes is infinite, from the field of mathematics, will serve: ‹Primes› are numbers which are not divisible, like 3, 17, 23, etc. One would imagine as we get higher in the numerical series, primes would get rarer, crowded out by the ever-increasing products of small numbers, and that we would finally arrive at a very high number which would be the highest prime, the last numerical virgin.</p>
+
+<p>Euclid’s Proof demonstrates in a simple and elegant way that this is not true and that to whatever astronomical regions we ascend, we shall always find numbers which are not the product of smaller ones but are generated by immaculate conceptions, as it were. Here is the proof: assume that P is the hypothetically highest prime; then imagine a number equal to 1&#8239;×&#8239;2&#8239;×&#8239;3&#8239;×&#8239;4…&#8239;×&#8239;P. This number is expressed by the numerical symbol (P!). Now add to it 1: (P! + 1). This number is obviously not divisible by P or any number less than P (because they are all contained in (P!)); hence (P! + 1) is either a prime higher than P or it contains a prime factor higher than P… Q.E.D.</p>
+
+<p>The deep satisfaction evoked by this proof is æsthetic as well as intellectual: a type of enchantment with the near-perfect.</p>
+
+	</div>
+	</div>
+
+<!-- SEPARATOR -->
+<div class="grid_12 vertical_space"></div> 
+
+
+<!-- CHAPTER 2 --> 
+
+	<div class="grid_12">
+	<div id="chapter2">
+<p class="small">&nbsp;</p>
+	</div>
+	</div>
+
+    <div class="chapter">
+
+    <div class="grid_1">
+ <h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_9">
+	<div class="alternate_g">
+<h3>2<br/>Phylogenocide<br/>A History of The Industrial Design Profession</h3>
+    </div>
+    </div>
+
+    <div class="grid_1">
+<h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_1">
+<h3><a href="#top" class="gotop" title="Top">&#8593;</a></h3>
+<h3><a href="#font" class="gofont" title="Font">Aa</a></h3>
+<h3><a href="#chapter3" class="gochapter3" title="Chapter 3">›</a></h3>
+<h3><a href="#chapter1" class="gochapter1" title="Chapter 1">‹</a></h3>
+    </div>
+
+    </div>
+
+
+	<div class="grid_12">
+	<div class="alternate_g">
+
+<p>We are all in the gutter, but some of us are looking at the stars.</p>
+<p>Oscar Wilde<br/>&nbsp;</p>
+
+<hr />
+
+<p>The ultimate job of design is to transform man's environment and tools and, by extension, man himself. Man has always tried to change himself and his surroundings, but only recently have science, technology, and mass production made this more nearly possible. We are beginning to be able to define and isolate problems, to determine possible goals and work meaningfully towards them. And an overtechnologized, sterile, and inhuman environment has become one possible future; a world choking under a permanent, dun-coloured pollution umbrella, another. In addition the various sciences and technologies have become woefully compartmentalised and specialised. Often, more complex problems can be attacked only by teams of specialists, who often speak only their own professional jargon. Industrial designers, who are often members of such a team, frequently find that, besides fulfilling their normal design function, they must act as a communication bridge between other team members. Frequently the designer may be the only one who speaks the various technical jargons. Because of his educational background, the role of team interpreter is often forced upon him. So we find the industrial designer in a team situation becoming the ‹team synthesist›, a position to which he has been elevated only by the default of people from all the other disciplines.</p>
+
+<p>This has not always been true.</p>
+
+<p>Many books on industrial design suggest that design began when man began making tools. While the difference between Australopithecus Africanus and the modern designer may not be as great as one might think or hope for, the stance of equating man the toolmaker with the start of the profession is just an attempt to gain status for the profession by evoking a specious historical precedent. ‹In the beginning was Design›: obviously, but not industrial design. Henry Dreyfuss, one of the founders of the profession, says in <a href="https://babel.hathitrust.org/cgi/pt?id=mdp.39015031567053" target="_blank">Designing for People</a> (probably the best and most characteristic book about industrial design).</p>
+
+<p>The Industrial Designer began by eliminating excess decoration, his real job began when he insisted on dissecting the product, seeing what made it tick, and devising means of making it tick better &mdash; then making it look better. He never forgets that beauty is only skin-deep. For years in our office we have kept before us the concept that what we are working on is going to be ridden in, sat upon, looked at, talked into, activated, operated, or in some way used by people individually or en masse. If the point of contact between the product and the people becomes a point of friction, then the Industrial Designer has failed. If, on the other hand, people are made safer, more comfortable, more eager to purchase, more efficient &mdash; or just plain happier &mdash; the designer has succeeded. He brings to this task a detached, analytical point of view. He consults closely with the manufacturer, the manufacturer’s engineers, production men, and sales staff, keeping in mind whatever peculiar problems the firm may have in the business or industrial world. He will compromise up to a point but he refuses to budge on design principles he knows to be sound. Occasionally he may lose a client, but he rarely loses the client’s respect.</p>  
+
+<p>Industrial design, then, is always related to production and/or manufacturing facilities, a state of affairs enjoyed by neither man nor the Deity. The first concern with the design of tools and machinery coincided almost exactly with the beginnings of the Industrial Revolution and, appropriately enough, made its first appearance in England. The first industrial design society was formed in Sweden in 1849, to be followed shortly by similar associations in Austria, Germany, Denmark, England, Norway, and Finland (in that order). The designers of the period were concerned with form-giving, an erratic search for ‹appropriate beauty› in machine tools and machine-made objects. Looking at the machine, they saw a new thing, a thing that seemed to cry out for decorative embellishments. These decorations were usually garnered from classical ornaments and from major raids into the animal and vegetable kingdoms. Thus, giant hydraulic presses dripped with acanthus leaves, pineapples, stylised wheat sheaves. Many of the ‹sane design› or ‹design reform› movements of the time, as those engendered by the writings and teachings of William Morris in England and Elbert Hubbard in America, were rooted in a sort of Luddite anti-machine philosophy. Frank Lloyd Wright said in 1894 that ‹the machine is here to stay› and that the designer should ‹use this normal tool of civilisation to best advantage instead of prostituting it as he has hitherto done in reproducing with murderous ubiquity forms born of other times and other conditions which it can only serve to destroy›. Yet designers of the last century were either perpetrators of voluptuous Victorian-Baroque, or members of an arty-crafty clique who were dismayed by machine technology. The work of the Kunstgerverbeschule, in Austria, and some isolated German design groups anticipated things to come, but it was not until Walter Gropius founded the German Bauhaus in 1919 that an uneasy marriage between art and machine was achieved.</p>
+
+<p>No design school in history has had greater influence in shaping taste and design than the Bauhaus. It was the first school to consider design a vital part of the production process rather than ‹applied art› or ‹industrial arts›. It became the first international forum on design because it drew its faculty and students from all over the world, and its influence travelled as these people later founded design offices and schools in major countries. Almost every major design school in the United States today still uses the basic foundation design course developed by the Bauhaus. It made sense in 1919 to let a German nineteen-year-old experiment with drill press and circular saw, welding gun and lathe, so that he might ‹experience the interaction between tool and material›. Today the same method is an anachronism, for an American teenager has spent his entire life in a machine-dominated society (and cumulatively probably a great deal of time lying under various automobiles, souping them up). For a student whose American design school still slavishly imitates teaching patterns developed by the Bauhaus, computer sciences and electronics and plastics technology and cybernetics and bionics simply do not exist. The courses which the Bauhaus developed were excellent for their time and place (telesis), but American schools following this pattern in the seventies are perpetuating design infantilism.</p> 
+
+<p>The Bauhaus was in a sense a non-adaptive mutation in design, for the genes contributing to its convergence characteristics were badly chosen. In bold-face type, it announced its manifesto: ‹Architects, sculptors, painters, we must all turn to the crafts…› Let us create a new guild of craftsmen? The heavy emphasis on interaction between crafts, art, and design turned out to be a blind alley. The inherent nihilism of the pictorial arts of the post World War I period had little to contribute that would be useful to the average, or even to the discriminating, consumer. The paintings of Kandinsky, Klee, Feininger, et al., on the other hand had no connection whatsoever with the anaemic elegance that some designers imposed on products.</p>  
+
+<p>In America, industrial design, like marathon dances, six-day bicycle races, the NRA and the Blue Eagle, and free dishes at the movies, was a child of the Depression. At first glance the swollen belly of a child suffering from malnutrition gives it the appearance of being well fed; later you notice the emaciated arms and legs. The products of early American industrial design convey the same sleek obesity and have the same weaknesses. For the Depression market, the manufacturer needed a new sales gimmick, and the industrial designer reshaped his products for better appearance and Tower manufacturing and sales costs. Harold Van Doren’s definition of that time in Industrial Design was apt:</p>  
+
+<p>Industrial Design is the practice of analysing, creating, and developing products for mass-manufacture. Its goal is to achieve forms which are assured of acceptance before extensive capital investment has been made, and which can be manufactured at a price permitting wide distribution and reasonable profits.</p> 
+
+<p>Harold Van Doren, Norman Bel Geddes, Raymond Loewy, Russel Wright, Henry Dreyfuss, Donald Deskey, and Walter Dorwin Teague were the pioneering practitioners of design in America. It is significant that all of them came from the field of stage design and/or window display. While the architects sold apples on street corners, the ex-stage-designers and ex-window-dressers were creating ‹lemons› in lush suites upstairs. Raymond Loewy’s redesign of the Gestetner duplicating machine is probably the first and most famous case of industrial design development. But as Don Wallance was to remark three decades later in ‹Shaping America’s Products›:</p> 
+
+<p>The ‹before and after› pictures showing mimeographs, locomotives, refrigerators, furniture and numerous other things transformed by industrial design were most impressive. Even more impressive were the differences in before and after sales figures. Oddly enough, when we look at these things now after a passage of more than twenty-five years, it is no longer so clear whether the ‹before› or the ‹after› version has best stood the test of time.</p> 
+
+<p>This sort of design for the manipulated visual excitement of the moment continued unabated until the beginning of World War II.</p> 
+
+<p>The automobile and other consumer industries had to turn their production facilities over to the creation of war supplies, and wartime demands forced a new (though temporary) sense of responsibility on industrial designers. ‹Ease-o-matic gear shifts› and ‹auto-magic shell feeding mechanisms› were out of place in a Sherman tank. Design staffs encountered real requirements of performance in the function complex, imposed by combat conditions. The necessity for honest design (design-in-use versus design-in-sales) imposed a healthier discipline than that of the market place. Critical material shortages forced these designers who remained in the consumer field to a much keener realization of performance, materials, and other war-imposed limitations. A three-quart casserole, made of plasticized cardboard able to sustain temperatures of 475° for several hours, washable and infinitely reusable, retailing for 45c is an excellent example and seems curiously to have disappeared from the market at the end of 1945.</p> 
+
+<p>Shortly after the end of the war the New York Times carried the first full-page ad for Gimbel’s sale of the Reynolds ball-point pen at only $25 each. By Monday morning, Herald Square was so clogged with people waiting for Gimbel’s to open that extra police had to be brought in to control the crowds. Places in the ball-point pen queue could be sold for $5 to $10, and until Gimbel’s slapped a one-pen-to-a-customer order on the sale Wednesday, pens could be readily sold for $50 to $60 each.</p> 
+
+<p>This zany state of affairs lasted for some five weeks: each day Hudson Lodestar monoplanes landed at LaGuardia with thousands of pens in their bellies. Even a three-day truckers’ strike couldn’t affect the sale, as the union promised to ‹deliver milk, critical food and Reynolds pens›. With a Reynolds pen you could ‹write under water› but practically nowhere else. They skipped, they blotted, they leaked in your pockets, and there were no replacement cartridges because the pens were one-shot affairs. You threw them away as soon as they ran dry, if not sooner. Still they sold. For the pen was a do-it-yourself Buck Rogers kit; you bought a pen and you were ‹post-war›; just as every ‹ruptured duck› dully gleaming in the lapel of a service man’s first civilian suit marked the end of one era, the Reynolds pen leaking in his breast pocket marked the beginning of a new. There were other consumer goods available, but this was the only totally new product on the market.</p> 
+
+<p>The technology of the year 2000 had come to roost in 1945. Each man’s miraculously lightweight Reynolds pen gleaming in aluminium was also his personal reassurance that ‹our side› had won the war.</p> 
+
+<p>(Now it can be told: ‹our› pen was copied from German ballpoints found by Reynolds in a South American bar in 1943). Industry pandered to the public’s ready acceptance of anything new, anything different. The miscegenative union between technology and artificially accelerated consumer whims gave birth to the dark twins of styling and obsolescence. There are three types of obsolescence: technological (a better or more elegant way of doing things is discovered), material (the product wears out), and artificial (the death-rating of a product; either the materials are substandard and will wear out in a predictable time span, or else significant parts are not replaceable or repairable). Since World War II our major commitment has been to stylistic and artificial obsolescence. (Ironically enough, the accelerated pace of technological innovation frequently makes a product obsolete before artificial or stylistic obsolescence can be tacked on to it).</p>
+
+<p>In the seventies the social environment within which design operates has undergone still another change, since society itself has become more polarised. Within the United States the ‹poor are getting poorer› and the fat cats are getting incredibly fatter. On one hand, the middle class attempts to express itself more and more through possession of ‹campy› little gadgets and to find both identity and value through owning products. On the other hand, abject poverty (previously, decorously and piously hidden away like a demented maiden aunt in a nineteenth century New England attic) has emerged as a major reality of life. There are children starving to death in parts of Mississippi and South Carolina. There are vast population sinks in the large city ghettos, the inhabitants of which share absolutely none of the motivations and aspirations of the middle class. And by no means are all of these people of Negro, Puerto Rican, or Mexican descent. Embittered ‹senior citizens› from our rural areas, foiled in their attempts to ‹retire gracefully on $150 a month at age 65›, haunt the sleazy resorts of Florida, Southern Texas and Southern California, dreaming a paranoid dream of fascist restoration to the ‹good old days›.</p> 
+
+<p>On a global scale the disparities between the haves and have-nots have become even more terrifyingly vast. Since 1960 this chasm has widened, with the declining birth rate in both the North American and the Western European technate and the fantastic population explosion in the rest of the world.</p> 
+
+<p>By adding UNESCO statistics to an extrapolation of the figures prepared by Buckminster Fuller for his Inventory of World Resources… we find that finally the correlation between the ‹primary useful product life› and the actual length of use also works to the disadvantage of the have-not parts of the world, as the following brief table will show:</p> 
+
+<p>(Useful product life in years / Actual time used in the USA / Actual time used in underdeveloped countries)
+<br/>Bicycles 25 / 2 / 75 
+<br/>Washing Machines + Irons 5 / 5 / 25 
+<br/>Band powered tools 10 / 3 / 25 
+<br/>Automobiles 11 / 2.2 / 40+ 
+<br/>Construction Equipment 14 / 8 / 100+ 
+<br/>General Purpose Industrial Equipment 20 / 12 / 75+ 
+<br/>Agricultural Machinery 17 / 15 / 2500+ 
+<br/>Railroad Equipment 30 / 30 / 50 
+<br/>Ships 30 / 15 / 80+ 
+<br/>Miniaturised Hi-Fi, Photographic and Film Equipment 35 / 1.1 / 50</p> 
+
+<p>Much of the above may lie squarely in the areas of sociology and economics, but, as previously pointed out, industrial design attempts a horizontal synthesis that cuts across narrow disciplines and narrow minds. Even though in nearly all other disciplines there is a greater emphasis on vertical specialisation, the above is of legitimate concern to the designer (or should be).</p> 
+
+<p>In ‹Never Leave Well Enough Alone›, Raymond Loewy amusingly reminisces about the early years of his crusade, a crusade to get clients. In the late twenties and thirties he, together with other designers, kept knocking on corporate doors, such as those of General Motors, General Electric, General Rubber, General Steel, General Dynamics. In all fairness it must be admitted that he and his co-workers served their corporate masters well and, in fact, still do. But it is dismaying to find that all too many of today’s graduating design students eagerly join corporate design staffs, safely wrapped in the cocoon of corporate expense accounts, company-paid country club membership, deferred annuities, retirement benefits, dread-disease coverage, and a yearly revitalising visit to one of the stamping grounds of the corporation gauleiters in New England or Aspen, Colorado. By now it is abundantly clear that a new crusade is needed. Vast areas of need, and concomitantly, need for design, exist all over the world. It is up to the designer (like Raymond Loewy, but in a socially and morally more acceptable way) to knock on doors that have never opened before.</p>
+
+<p> The choice is not between corporate charcoal grey, buttoned-down security, on one hand, and a giggling freak-out, high on LSD in a Haight-Ashbury gutter, on the other. There is a third way. The Office of Economic Opportunity, the Southern Appalachian Project, the International Labour Organization in Geneva, Switzerland, UNESCO, UNICEF, as well as many other organizations (of various political colours) in hundreds of areas concerned with optimal human survival needs: these are just a few directions in which designers should and must move.</p>
+
+	</div>
+	</div>
+
+<!-- SEPARATOR -->
+<div class="grid_12 vertical_space"></div> 
+
+
+<!-- CHAPTER 3 --> 
+
+	<div class="grid_12">
+	<div id="chapter3">
+<p class="small">&nbsp;</p>
+	</div>
+	</div>
+
+    <div class="chapter">
+
+    <div class="grid_1">
+ <h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_9">
+	<div class= "alternate_l">
+<h3>3<br/>The Myth of The Noble Slob<br/>Design, ‹Art›, and the Crafts</h3>
+    </div>
+    </div>
+
+    <div class="grid_1">
+<h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_1">
+<h3><a href="#top" class="gotop" title="Top">&#8593;</a></h3>
+<h3><a href="#font" class="gofont" title="Font">Aa</a></h3>
+<h3><a href="#chapter4" class="gochapter4" title="Chapter 4">›</a></h3>
+<h3><a href="#chapter2" class="gochapter2" title="Chapter 2">‹</a></h3>
+    </div>
+
+    </div>
+
+	<div class="grid_12">
+	<div class= "alternate_l">
+
+<p>Good taste is the most obvious resource of the insecure. People of good taste eagerly buy the Emperor’s old clothes. Good taste is the first refuge of the non-creative. It is the last-ditch stand of the artist. Good taste is the anæsthetic of the public.</p> 
+
+<p>Harley Parker<br/>&nbsp;</p> 
+
+<hr />
+
+<p>The cancerous growth of the creative individual expressing himself egocentrically at the expense of spectator and&#8239;/&#8239;or consumer has spread from the arts, overrun most of the crafts, and finally reached even into design. No longer does the artist, craftsman, or in some cases the designer, operate with the good of the consumer in mind; rather, many creative statements have become highly individualistic, autotherapeutic little comments by the artist to himself. As early as the mid-twenties there appeared on the market chairs, tables, and stools designed in Holland by Wijdveldt, as a result of the De Stijl movement in painting. These square abstractions painted in shrill primaries were almost impossible to sit in; they were extremely uncomfortable. Sharp corners ripped clothing, and the entire zany construction bore no relation to the human body. Today we can allow ourselves to sneer at these attempts to transfer the two-dimensional paintings of Piet Mondrian and Theo van Doesburg into ‹home furnishing›. The chairs lasted as sophisticated status symbols for only a few years, but the trend, the attempt to translate fashionable daubs into three-dimensional objects for daily use, still continues. Salvador Dali’s sofa constructed in the shape of Mae West’s lips may have been a ‹disengaged› surrealist act, much like Meret Oppenheim’s fur-lined cup and saucer, but the oppypoppy pillows of today sell by the thousands. While it is not a bad idea to have a pillow that sells for $1.50, a pillow that can be folded and stored in one’s watch pocket and blown up for use, these small plastic horrors perform none of their functions. They yield but slightly and, being made of transparent plastic with silk-screened polka dots, don’t ‹breathe› &mdash; hence the user sweats profusely. In pictures in shelter magazines (such as House Beautiful and House and Garden), these pillows are usually shown in clusters, but when several are placed together they have an unfortunate tendency to squeak against one another like suckling pigs put to the knife. A clutch of these pillows, tastefully ‹unarranged› on a day bed, looks pleasant. Their use indicates that, as in so many other areas, we have sacrificed all our other needs for a purely visual statement. As the pillows are also bought in a purely visual setting, dissatisfaction does not set in until one attempts to use them. And imagine the dismay of having some romantic interlude punctured by a sudden pillow blow-out.</p> 
+
+<p>With new processes and an endless list of new materials at his disposal, the artist, craftsman, and designer now suffers from the tyranny of absolute choice. When everything becomes possible, when all the limitations are gone, design and art can easily become a never-ending search for novelty, until newness-for-the-sake-of-newness becomes the only measure. It is at this point that many different versions of novelty begin to create many different esoteric consumer cliques, and the designer with his wares may become more and more alienated from his society and from the functional complex.</p> 
+
+<p>In his novel <a href="https://en.wikipedia.org/wiki/The_Glass_Bead_Game" target="_blank">Magister Ludi</a>, Hermann Hesse writes about a community of intellectual elites who have perfected a mystical, symbolic language, called the ‹Bead Game›, that has reduced all knowledge to a sort of unified field theory. The world outside the community is convulsed by riots, wars, and revolutions, but the players of the ‹Bead Game› have lost all contact. They are engaged in exchanging their esoterica with one another in the game. There is a disturbing parallel between Hesse’s game and the aspirations of the contemporary artist when he speaks of his goals in the exercise of his private visions. He discourses on space, the transcendence of space, the multiplication of space, the division and negation of space. It is a space devoid of man, as though mankind did not exist. It is, in fact, a version of the ‹Bead Game›.</p> 
+
+<p>Concerning the artist Ad Reinhardt, Time says:</p> 
+
+<p>Among the new acquisitions currently on display at Manhattan’s Museum of Modern Art is a large square canvas called ‹Abstract Painting› that seems at first glance to be entirely black. Closer inspection shows that it is subtly divided into seven lesser areas. In a helpful gallery note at one side, abstractionist Ad Reinhardt explains his painting. It is: ‹A square (neutral, shapeless) canvas, five feet wide, five feet high, as high as a man, as wide as a man’s outstretched arms (not large, not small, sizeless), trisected (no composition), one horizontal form negating one vertical [sic] form (formless, no top, no bottom, directionless), three (more or less) dark (lightless), non-contrasting, (colourless) colours, brushwork brushed out to remove brushwork, a mat, flat freehand painted surface (glossless, textureless, non-linear, no hard edge, no soft edge) which does not reflect its surroundings &mdash; a pure abstract, non-objective, timeless, spaceless, changeless, relationless, disinterested painting &mdash; an object that is self-conscious (not unconsciousness), ideal, transcendent, aware of nothing but art (absolutely no anti-art)›.</p> 
+
+<p>This from one of America’s ‹most eloquent artists›.</p> 
+
+<p>The tomes by learned art historians make a great to-do over the influence of the camera and photography on the plastic arts. And it is certainly true that by placing an apparatus in everyone’s hand that made ‹copying nature› possible for everyone with enough wit to push a button, one of the main objectives of painting &mdash; to produce a high-fidelity reproduction &mdash; seemed partially fulfilled. It is usually overlooked that even a photograph is a first-order abstraction. Thus in the Galician and Polish backwater sections of the old Austro-Hungarian Empire, village pharmacists did a brisk trade in male model photographs at the beginning of World War I. Each of these wily shopkeepers would stock four stacks of small identical photographs of a cabinet view of male models, 5&#8239;×&#8239;4 inches in size. One picture showed the face of a clean-shaven man. The second, that of a man with a moustache. The third picture showed a man with a full beard, while, in the fourth, the model’s hirsute elegance encompassed both beard and moustache. A young man called up for military service bought the one of the four photographs that most nearly matched his own face and presented it to his wife or sweetheart to remember him by. And it worked! It worked because the picture of even a stranger with the right kind of moustache was closer to the face of the departed husband than anything his wife had ever seen before except for his face itself. (Only by glancing at several, or many, photographs could she have gained the sophistication to be able to differentiate among these various first-order abstractions). But the role of photography and its influence on art is by now fairly well documented and established.</p> 
+
+<p>However, hardly anyone has considered the important impact made by the machine tool and machine perfection. The tolerances demanded of the case for a Zippo cigarette lighter and achieved by automatic handling machinery are far more exact than anything Benvenuto Cellini, possibly the greatest metal-smith of the Renaissance, could have achieved. With modern space hardware technology, plus-minus tolerances of 1/10,000 of an inch are a routine production achievement. This is not to make a value judgement of Cellini versus an automated turret lathe; it is merely to show that ‹mere perfection› can be routinely had on assembly lines and in factories, thus depriving the plastic arts of a second goal, the ‹search for perfection›. Like it or not, the contemporary artist lives in contemporary society. Man lives today as much in the environment of the machine as the machine lives in the environment of man. It may be belabouring the obvious to say that there are more man-made objects in the landscape than landscape itself. Unable personally to cope with this change in the environment, the modern artist has created a series of escape mechanisms for himself.</p> 
+
+<p>Ineluctably, the artist lives in a technological world. Even an academic landscape painter living in, say, Cornwall, is bound to see more automobiles than cows on any given day. Some artists, then, see the machine as a threat, some as a way of life, some as salvation. All of them have to find a way to live with it. Seemingly, one simple way to get rid of a threat is to poke fun at it. While, from its earliest days at the Cabaret Voltaire in 1916, the Dadaist movement attempted to show the general absurdity of twentieth-century man and his world, there was always a heavy dose of satirization of the machine involved. From Marcel Duchamp’s ‹ready-mades› (‹Why not sneeze›, ‹Fountain›, etc.) to many of Max Ernst’s ‹collages›, to the satirical conglomerations of mass-produced items in Kurt Schwitters’s ‹Merzbau›, the attempt has been to make fun of the machine through ridicule, satire, or burlesque. A contemporary manifestation is Jean Tinguely’s ‹machines›. These vast constructs of cogs, screws, umbrella guts, pinwheels, light bulbs, and deflowered sewing machines shake, jiggle, and quake, sometimes exploding or (disappointingly) just smouldering a little. In 1960 one of these ‹sculptures›, composed of myriad pieces of old machines, was erected in the garden of the Museum of Modern Art in New York and, with the setting sun, began to grind into motion. To the delectation of an overflow audience, parts of the sculpture frenziedly came into action, catching fire and burning until they collapsed into puddles of kerosene and rust, a proceeding that was viewed with some dismay by the New York City fire companies that were called by frightened neighbours.</p> 
+
+<p>Over-compensation can be fun, too. Piet Mondrian, finding himself surrounded by machine-made precision in the middle twenties in Holland, decided to turn himself into a machine. His square white canvases divided by narrow black bands with only two or three primary-coloured squares or rectangles dynamically balanced could well be the result of machine production. In fact, a computer in Basel, Switzerland, is at present creating Mondrian-like pictures. This may raise the question of creativity; the computer versus Mondrian. Leaving aside the fact that the computer had to be programmed, it shows just what aspect of Mondrian’s work was really creative. Shortly after his death, I saw a Mondrian retrospective showing in New York which included some of his unfinished canvases. The black pigment lines were represented by lengths of black tape; on the white background one could still discern the traces of the tape having been moved back and forth. Obviously, Mondrian tried various positions. Having known him during his illness, I know that he would have preferred to sit calmly back in his chair and have two servants move the lines and colour areas back and forth until he considered them to be in perfect balance. Had he lived to see graphic readout computers, he would have found them a delightful new toy. From the traces of tape on his white unfinished canvases we can see that Mondrian himself followed computer-like behaviour patterns and that what creativity he brought to the process of painting was entirely in the area of æsthetic decision-making. Piet Mondrian’s work has found a ready but debased acceptance in the facade design of contemporary buildings, Kleenex packages, and typographical layout.</p> 
+
+<p>A third way of dealing with the machine is to avoid it altogether. The Surrealist movement, inheritors of the irrational side of Dadaism, attempted to plumb that region, half cesspool and half garden, known as the unconscious, or id. By basing their highly realistic canvases on subconscious symbols, they hoped to turn themselves into latter-day medicine men, witch doctors, shamans of the pigment. The trouble with this concept is that id-motivated emotions differ from person to person. Salvador Dali may experience a world of voluptuous sexuality from his painting of a burning giraffe (and in fact considers it his most potent painterly sexual stimulus), but it does not communicate sexuality to any of his spectators. Dorothea Tanning’s jack-booted naked ten-year-old girl wearing a Gay Nineties sailor hat and sensuously embracing the red-hot pipe of a stove also fails to elicit an appropriate response. There has been a lot of loose talk about the ‹left hand being the dreamer›, Jungian archetypes, intuitional and poetic feeling tones, metaphysics, mysticism, etc. But all the totemistic and fetishistic emblems of the Surrealists failed to come across. A reference point was missing. The Comte de Lautreamont described surrealism as being like ‹the chance encounter of a sewing machine and an umbrella upon a dissecting table›, but thousands of those surreal chance encounters have taken place since then &mdash; and some are now one with the hot dust of Spain, of Europe, of Vietnam &mdash; and the concept is no longer bizarre.</p> 
+
+<p>The human preoccupation of liking to play with dolls’ houses has been used cleverly by Joseph Cornell. His little boxes with strange and esoteric objects cunningly arranged therein are manageable small universes, perfect within themselves, into which no hint of masscult or midcult can enter.</p>
+
+<p>Seeking refuge from the threatening surround by catering to a small coterie (as in the Bead Game) was carried to its highest level by Yves Klein. Some of his methods are described in the book Collage. When not busy glueing 426,000 sponges to the wall of a resort hotel, Mr Klein was fond of painting watercolours and then placing them in his backyard during heavy rains in order to ‹obtain a dynamic interchange between nature and man-made images›. He used the same rationale for doing oil paintings in a slow-drying vehicle and then strapping them to the roof of his Citroën and driving briskly around ‹to make the colours clarify›. The height of his career was reached when the Galerie Iris Clert held his first non-painting show in 1958. The gallery had been painted festively in white, the only objects in view were simple white frames hanging on the walls with descriptions of prices attached, such as: ‹Non-painting, 30&#8239;cm&#8239;×&#8239;73&#8239;cm, Fr. 80,000›. The show was a sellout. Hundreds of Parisians and American visitors solemnly paid for and carried empty white frames to their cars, and, one supposes, then hung them triumphantly in their living rooms. It would be instructive to find out if Mr Klein would have accepted non-cheques.</p>
+
+<p>Although Andy Warhol, Roy Lichtenstein &amp; Robert Rauschenberg have surrounded their productions with much rationale, their attempts to reduce the unusual to the common-place and raise the commonplace to the stature of the unusual, are losing propositions. Marilyn Monroe’s face identically stencilled fifty times merely attempts to say that Miss Monroe was one of a herd, and interchangeably so, a charge that can be levelled at most Hollywood sex symbols but certainly not at Miss Monroe. The reduction of human emotions to the level of a comic strip episode is an attempt to shield oneself from involvement through banality. And Marcel Duchamp said in a recent periodical: ‹If a man takes fifty Campbell Soup cans and puts them on a canvas, it is not the retinal image which concerns us. What interests us is the kind of mind that wants to put fifty Campbell Soup cans on a canvas›.</p> 
+
+<p>Art as self-gratification can, of course, also act as an outlet for aggression and hostility. Niki de Saint-Phalle fires rounds of ammunition into her white plaster constructions from a gun, releasing little bags of paint that spurt out and dribble all over her pieces. When not engaged with plaster of Paris and her fowling-piece, Miss de Saint-Phalle got together with two ‹collaborators› and constructed a gigantic reclining nude in Stockholm which spectators enter through the vagina to view the interior constructions, a merry-go-round for the kiddies and a cocktail bar within her generously proportioned mammary glands.</p> 
+
+<p>Earlier we spoke about the artist suffering from the tyranny of absolute choice. But if he doesn’t care to poke fun at the machine, become a machine, turn himself into a bogus witch doctor, construct tiny boxed universes, elevate the commonplace to a symbol of banality, or let out his aggressions on a middle class no longer capable of being shocked, the area of choice is narrowed abruptly. One thing remains: accidents. For a well-programmed computer makes no mistakes. A well-designed machine is free of error. What, then, is more logical than to glorify the mistakes and to venerate the accidents. Jean (Hans) Arp, one of the co-founders of the Dada movement in Zurich during World War I, tried it first: ‹Forms Arranged According to the Laws of Chance›.</p> 
+
+<p>Mr Arp tore up one of his gouache paintings (without looking) then climbed up on top of a step-ladder and let the pieces drop. Carefully, he glued them down where they had fallen. A few decades later, another Swiss, named Spoerri, will invite his girlfriend for breakfast, then glue all the dishes, soiled paper napkins, bacon rinds, and cereal dregs down on the table, entitle the result ‹Breakfast with Marie›, and hang it, table and all, in a museum. It was probably unavoidable that after Jackson Pollock’s dribble-and-blob paintings of the forties and early fifties, the Abstract Expressionist painters would whoop it up for mistake, accident, and the unplanned. One member of this group paints by strapping his brushes to his left forearm since, he says, he ‹can’t breed the ability even out of his left hand›. With other painters rolling naked models across their canvases, or riding across their wet paintings on motorcycles, scooters, bicycles, roller-skates, or trampling across them on snowshoes, the ‹desire for novelty› is getting full play.</p> 
+
+<p>Most of what has been said before regarding the artist’s relation to a machine culture still holds true with the most recent movements. To this can be added that, with a continuing search for things that will be perceived as ‹different›, avant-garde, or ‹far out› by his clients or spectators, the contemporary artist has tended to become more ‹trendy› in his work.</p> 
+
+<p>Increasingly, many of us (especially the young) have come to reject material possessions, objects, products per se. That this emotion is engendered largely by the fact that we live in a post-industrial society bursting with gadgets, knick-knacks, and manufactured trivia is abundantly clear. So now we have ‹Conceptual Art›. A recent production by a leading West Coast painter consisted of some fifteen pages of yellow paper. On each page he described with meticulous detail the sizes, colours, textures, and compositions that would have constituted nearly 400 paintings, provided he had painted them. Added to this were descriptions of the working conditions under which these canvases would have been painted, had they been painted at all. After reading these descriptive passages, he then burned the papers.</p> 
+
+<p>George McKinnon, an exhibition-oriented photographer from the West Coast, re-photographs pictures appearing in old magazines and entitles these ‹retrospective pieces›.</p> 
+
+<p>When museum patrons are invited to a formal opening and are advised not to come to the museum but to go instead to the Sixty-third Street subway station and peer into the mirror of a gum-vending machine on the second level; while their friends at exactly the same time are advised to take the Staten Island Ferry and spend the entire trip in the toilet reading <a href="https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3" target="_blank">Silence</a>, by John Cage; and still another party is told to rent a room at the Americana Hotel and spend the time shaving; and all these many activities, indulged in by all these many people simultaneously, constitute both the opening of the art show, as well as the art show itself; we are in the presence of folks trying to play random games. And randomness, as has been stated earlier, is the one game the machine won’t play, and, therefore, this too is a reaction against the machine.</p> 
+
+<p>Ever since the environment became an ‹in› thing, we have had Earthworks as another artistic trend. Now Earthworks can be many things: A 30-foot trench dug in the Mojave Desert, one leaf torn off every third oak tree in Tallahassee, Florida; or for that matter, snow lying on a meadow in Colorado, to which nothing has been done whatever.</p> 
+
+<p>I don’t wish to make any judgements about others finding meaningful creative and artistic engagement by pissing into a snow bank, but surely the good people working in the arts can find more authentic ways of surprising us, delighting us, or reflecting their views. (Incidentally, all of this and what the future will bring in the arts was listed, described, and explained in a book written in 1948 in England by C.E.M. Joad. Its incredibly appropriate title is <a href="https://archive.org/details/decadence035187mbp" target="_blank">Decadence</a>).</p> 
+
+<p>What is the relevance of all ‹art games› of this sort to life? Without question, our time needs paintings, music, sculpture, and poetry. Seldom in fact have both delight and catharsis been needed more. An alternative view might hold that the artists of China, Cuba, and North Vietnam have helped their people’s struggle towards liberation through developing new modes of expression that are firmly based on underlying folk art motifs and peasant culture.</p> 
+
+<p>Of course, even the self-indulgent salon drivel of New York and San Francisco and Los Angeles can be justified in terms of the people who are doing it. But a recent encounter in New York can at least point to an alternative view: when a number of ‹painters› smashed two dozen violins and bass fiddles to glue the fragments on to a wall and create a mural, some probing questions were asked about the young Puerto Ricans and Blacks in the neighbourhood who might wish to study music but who could never afford to buy instruments…</p> 
+
+<p>And where are there permanent design collections? Besides the Museum of Modern Art in New York, there are vestigial collections in Minneapolis, San Francisco, Boston, and Buffalo, N.Y. The rest of the country may sometimes see a travelling ‹good design› exhibition, but their exposure to well-designed objects ends with that.</p> 
+
+<p>And for that matter, even the most prestigious exhibitions of ‹good design› can be disappointments. In New York the Museum of Modern Art recently held an exhibition of ‹well-designed› objects that elevated the ugly, in fact the consciously ugly, to a new level. Thus we could see a small, high-intensity lamp that has been designed to look precarious and unstable no matter at what angle it is put down. An unruly gush of plastic, coloured precisely the shade of frozen diarrhoea, doubles as an easy chair. In short, in a society in which the ‹machine perfect› or even the ‹fashionably pleasing› can be obtained with a minimum of effort, grossness and the ugly have become imbued with value to the untrained and under-equipped spectator or consumer. Other such exhibitions of objects are discussed in Chapter Six.</p> 
+
+<p>If design is a problem-solving activity, this kow-towing to the lowest common denominator has no reason for existence. It is only when the designer abrogates his responsibilities to himself and others and operates as a pimp for the sales department that he finds this creation of warmed-over ‹soul food› palatable at all.</p> 
+
+<p>Much has been said about the decadence of Rome when the barbarians were outside the gate. There are no barbarians outside ours: we have become our own barbarians, and barbarism has become a do-it-yourself kit.</p>
+
+	</div>
+	</div>
+
+
+<!-- SEPARATOR -->
+<div class="grid_12 vertical_space"></div> 
+
+
+<!-- CHAPTER 4 -->
+
+	<div class="grid_12">
+	<div id="chapter4">
+<p class="small">&nbsp;</p>
+	</div>
+	</div>
+
+    <div class="chapter">
+
+    <div class="grid_1">
+ <h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_9">
+	<div class="alternate_y">
+<p>4<br/>Do-It-Yourself Murder<br/>The Social and Moral Responsibilities of the Designer</p>
+	</div>
+    </div>
+
+    <div class="grid_1">
+<h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_1">
+<h3><a href="#top" class="gotop" title="Top">&#8593;</a></h3>
+<h3><a href="#font" class="gofont" title="Font">Aa</a></h3>
+<h3><a href="#font" class="gofont" title="Font">›</a></h3>
+<h3><a href="#chapter3" class="gochapter3" title="Chapter 3">‹</a></h3>
+    </div>
+
+    </div>
+
+	<div class="grid_12">
+	<div class="alternate_y">
+<p>The truth is that engineers are not asked to design for safety. Further inaction will be criminal &mdash; for it will be with full knowledge that our action can make a difference, that auto deaths can be cut down, that the slaughter on our highways is needless waste... it is time to act.</p> 
+ 
+<p>Robert F. Kennedy<br/>&nbsp;</p> 
+
+<hr />
+
+<p>One of my first jobs after leaving school was to design a table radio. This was shroud design: the design of the external covering of the mechanical and electrical guts. It was my first, and I hope my last, encounter with appearance design, styling, or design ‹cosmetics›. The radio was to be one of the first small and inexpensive table radios to compete on the post-war market. Still attending school part-time, I naturally felt insecure and frightened by the enormity of the job, especially since my radio was to be the only object manufactured by a new corporation. One evening Mr G., my client, took me out on the balcony of his apartment overlooking Central Park. He asked me if I realised the kind of responsibility I had in designing a radio for him.</p> 
+
+<p>‹Just think what making your radio entails in terms of our workers. In order to get it produced, we're building a plant in Long Island City. We're hiring about 600 new men. Workers from many states, Georgia, Kentucky, Alabama, Indiana, are going to be uprooted. They'll sell their homes and buy new ones here. They'll form a whole new community of their own. Their kids will be jerked out of school and go to different schools. In their new subdivision supermarkets, drugstores, and service stations will open up, just to fill their needs. And now, just suppose the radio doesn't sell. In a year we'll have to lay them all off. They'll be stuck for their monthly payments on homes and cars. Stores and service stations will go bankrupt when the money stops rolling in; homes will go into sacrifice sales. Their kids, unless daddy finds a new job, will have to change schools. There will be a lot of heartaches all around, and that's not even thinking of my stockholders. And all this because you have made a design mistake. That's where your responsibility really lies, and I bet that they never taught you this at school!›</p> 
+
+<p>I was very young and, frankly, impressed. Within the closed system of Mr G.'s narrow market dialectics, it all made sense. Looking back at the scene from a vantage-point of a good number of years, I must agree that the designer bears a responsibility for the way the products he designs are received at the market-place. But this is still a narrow and parochial view. The designer's responsibility must go far beyond these considerations. His social and moral judgement must be brought into play long before he begins to design, since he has to make a judgement, an a priori judgement at that, as to whether the products he is asked to design or redesign merit his attention at all. In other words, will his design be on the side of the social good or not.</p> 
+
+<p>Food, shelter, and clothing: that is the way we have always described mankind's basic needs; with increasing sophistication we have added: tools and machines. But man has more basic needs than food, shelter, and clothing. We have taken clean air and pure water for granted for the first ten million years or so, but now this picture has changed drastically. While the reasons for our poisoned air and polluted streams and lakes are fairly complex, it must be admitted that the industrial designer and industry in general are certainly co-responsible with others for this appalling state of affairs.</p> 
+
+<p>In the mid-thirties the American image abroad was frequently created by the movies. The make-believe, fairyland, Cinderella-world of ‹Andy Hardy Goes To College› and ‹Scarface› communicated something which moved our foreign viewers more, directly and subliminally, than either plot or stars. It was the communication of an idealised environment, an environment upholstered and fitted out with all the latest gadgets available.</p> 
+
+<p>Today we export the products and gadgets themselves. And with the increasing cultural and technological Coca-colonisation of that part of the world we are pleased to think of as ‹free›, we are also in the business of exporting environments and ‹life-styles› of the prevalent white, middle-class, middle-income society abroad and into ghettos, poverty pockets, Indian reservations, etc., at home.</p> 
+
+<p>The designer-planner is responsible for nearly all of our products and tools and nearly all of our environmental mistakes. He is responsible either through bad design or by default: by having thrown away his responsible creative abilities, by ‹not getting involved›, or by ‹muddling through›.</p> 
+
+<p>Three diagrams will explain the lack of social engagement in design. If we equate the triangle with a design problem, we readily see that industry and its designers are concerned only with the tiny top portion, without addressing themselves to the real needs.</p> 
+
+<p>Let's take a rural mailbox for example. As it is now, it is usually large enough to hold letters and several magazines for a number of days. The structure is sheet metal and vaguely bread box-shaped so that snow, ice, and rain will easily slide off. It also carries a small signal flag to be raised when the mail is delivered. It is inexpensive and sturdy.</p> 
+
+<p>Quite recently a West Coast design office redesigned rural mailboxes for a national manufacturer. The result: a series of French Provincial, Japanese, colonial, or spaceship-inspired extravaganzas which are costly and which clutter up the visual landscape. They are ‹high-style› enough to be forced into obsolescence every few years and, incidentally, snow no longer slides off them. They will probably sell well in suburbia and exurbia and will take on some of the symbolic values of new status objects. The manufacturers are to be congratulated: many more mailboxes will be sold and, more importantly, many more can be pushed upon the public every few years as even fashion in mailboxes is manipulated.</p> 
+
+<p>What is the designer's evaluation? There is little wrong with the rural mailbox as it stands, apart from its cluttering the landscape. But if redesign is called for, then the real problems of rural mail delivery, in other words the huge bottom area of our diagrammatic triangle, must be re-examined. To what extent can mailboxes be made to recede (or even disappear) into the landscape? Can new materials, tools, and processes reduce costs and, more importantly, reduce material waste? Can these containers be made tamper-proof and vandal-proof? With heavier mail does the old size still hold true? Can redesign help delivery? (With the incredibly antiquated mail delivery system in the United States there is little doubt that electronic data-scanning procedures will result in a more nearly normal delivery schedule: until quite recently in England, for instance, city mail was delivered eight times daily, rural mail four times). Should the consumer in fact be required to buy mailboxes at all or should a minimal Federal standard be written which eases delivery procedures and guards privacy? Should local newspapers be permitted to add their own tubular mailboxes, using them as shrill billboards which further befoul the edge of the road? These are only a few of the questions which a committed designer would ask himself; at last, most of the triangle (top and bottom) would be explored.</p>
+
+<p>Only the labels have changed. For ‹Design Problem› we have substituted ‹Country›. In a way, the justice of this becomes immediately apparent when talking about some far-off, exotic place. If we let the entire triangle stand for nearly any South or Central American nation we can see its telesic aptness. Nearly all of these countries exist with wealth concentrated in the hands of a small group of ‹absentee landlords›. Many of these people have never seen the South American country which they so efficiently ‹administer› and exploit. Design is a luxury enjoyed by a small clique who form the technological, moneyed, and cultural ‹elite› of each nation. The 90 per cent native Indian population which multicolour floral print pattern on black handsomely crafted of fine mahogany beautifully hand polished looks well in room. So, give your feet a treat makes an unusual and thoughtful gift, too' satisfaction guaranteed only $16.95 plus 50c for delivery.</p>
+
+<p>This idiot gadget is made and successfully sold in one part of the world...</p> 
+
+<p>Lives ‹up-country› has neither tools nor beds nor shelter nor schools nor hospitals that have ever been within breathing distance of designer's board or workbench. It is this huge population of the needy and the dispossessed who are represented by the bottom area of our triangle. If I suggest that this holds equally true of most of Africa, South-east Asia, and the Middle East, there will be little disagreement.</p> 
+
+<p>Unfortunately, this diagram applies just as easily to our own country. The rural poor, the black and white citizens of our inner cities, the educational tools we use in over 90 per cent of our school systems, our hospitals, doctors' offices, diagnostic devices, farm tools, etc., suffer design neglect. New designs may sporadically occur in these areas, but usually only as a result of market pressures, rather than as a result of either research break-through or a genuine response to a real need. Here at home we too must assign those served by the designer to the minuscule upper part of the triangle.</p> 
+
+<p>As the reader will have discovered by now, the third diagram is identical to the first and the second. But again we have changed labels. For now we call it ‹The World›. Can there be substantial doubt that the peoples of this world are not served by designers?</p> 
+
+<p>Where has our spirit of innovation gone? This is not an attempt to ‹take all the fun out of life›. After all, it is only right and proper that ‹toys for adults› should be available to those willing to pay for them, and after all, as has been pointed out all too often, we live in an abundant society. But only a small part of our responsibility lies in the area of æsthetics. Sometimes one is tempted to ask why not one American table radio, for example, is well designed, whereas Sony, Hitachi, Panasonic, and Aiwa carry lines of some eighty-four specialised table radios, each one designed for a specific use area. (This record could easily be duplicated with tape-recorders, TV sets, or, say, cameras). After all, many book publishers, while pushing incredible trash on to best-seller lists, manage to bring out a few worthwhile volumes each year.</p> 
+
+<p>I am not necessarily pleading for extraordinary, innovative design for radios, alarm clocks, high-intensity lamps, refrigerators, or whatever; I am just hoping for product statements æsthetically acceptable enough not to conjure up visions of a breadbox raped by a Cadillac in heat. Isn't it too bad that so little design, so few products are really relevant to the needs of mankind? Watching the children of Biafra dying in living colour while sipping a frost-beaded Martini can be kicks for lots of people, but only until their town starts burning down. To an engaged designer, this way of life, this lack of design, is not acceptable.</p> 
+
+<p>All too often designers who try to operate within the entire triangle (problem country or world) find themselves accused of ‹designing for the minority›. Apart from being foolish, this charge is completely false and reflects the misconception and misperception under which the design field operates. The nature of this faulty perception must be examined and cleared up.</p> 
+
+<p>Let us suppose that an industrial designer or an entire design office were to ‹specialise› exclusively within the areas of human needs outlined in this and other chapters. What would the work load consist of? There would be the design of teaching aids: teaching aids to be used in prenursery-school settings, nursery schools, kindergartens, primary and secondary schools, junior colleges, colleges and universities, graduate and post-doctoral research and study. There would be teaching aids and devices for such specialised fields as adult education, the teaching of both knowledge and skills to the retarded, the disadvantaged, and the handicapped; as well as special language studies, vocational reeducation, the rehabilitation of prisoners, and mental defectives. Add to this the education in totally new skills for people about to undergo radical transformation in their habitats: from slum, ghetto, or rural poverty pocket to the city; from the milieu of, say, a central Australian aborigine to life in a technocratic society; from Earth to space or Mars; from the tranquillity of the English countryside to life in the Mindanao Deep or the Arctic. The design work done by our mythical office would include the design, invention, and development of medical diagnostic devices, hospital equipment, dental equipment, surgical tools and devices, equipment and furnishings for mental hospitals, obstetrician's equipment, diagnostic and training devices for ophthalmologists, etc. The range of things would go all the way from a better readout of a fever thermometer at home to such exotic devices as heart-lung machines, heart pacers, artificial organs, and cyborgian implants, and back again to humble visor-like eyeglasses, reading mechanisms for the blind, improved stethoscopes and urinalysis devices, hearing aids and improved calendrical dispensers for ‹the pill›, etc.</p> 
+
+<p>The office would concern itself with safety devices for home, industry, transportation, and many other areas; and with pollution, both chemical and thermal, of rivers, streams, lakes, and oceans as well as air. The nearly 75 per cent of the world's people who live in poverty, starvation, and need would certainly occupy still more time in the already busy schedule of our theoretical office. But not only the underdeveloped and emergent countries of the world have special needs. These special needs home as well. ‹Black lung› disease among the miners of Kentucky and West Virginia is just one of a myriad of occupational ills, many of which can be abolished through relevant redesign of equipment and/or processes.</p> 
+
+<p>Middle and upper managerial ranks (if male and between ages of thirty-five and sixty) are a prime health-hazard group. The incidence of death from cardiovascular arrests by stroke or heart attack is frighteningly high. This loss of human lives can be ascribed to three main causes: faulty diet, a lack of exercise and stress syndromes. Exercising equipment with built-in motivation might spare the lives of many people in this group, a group desperately needed all over the world to keep humanity going. Basic shelters for American Indians and the Lapp population of Norway, Sweden, and Finland &mdash; and shelters (both temporary and permanent) for all men poised at the edge of an alien environment &mdash; need design and discovery. Whether it be a comparably simple shelter such as a space station or dome cities for Venus or Mars or something as complex as the complete ‹terraforming› of the moon, our design office will be needed here just as it is in sub-oceanic cities, Arctic factories, and artificial island cities to be anchored like so many pleasure boats in the Amazon River Basin, the Mediterranean, or around the (genuine) island chains of Japan and Indonesia.</p> 
+
+<p>Research tools are usually ‹tuck-together›, ‹jury-rigged› contraptions, and advanced research is suffering from an absence of rationally designed equipment. From radar telescopes to simple chemical beakers, design has lagged behind. And what about the needs of the elderly and the senile? And of pregnant women and the obese? What about the alienation of young people all over the world? What about transportation (surely the fact that the American automobile is the most efficient killing-device since the invention of the machine-gun doesn't permit us to rest on our laurels), communication, and design for entirely new ‹break-through› concepts?</p> 
+
+<p>Are we still designing for minorities? The fact of the matter is that all of us are children at one point of our lives, and that we need education throughout our lives. Almost all of us become adolescent, middle-aged, and old. We all need the services and help of teachers, doctors, dentists, and hospitals. We all belong special need groups, we all live in an underdeveloped and emergent country of the mind, no matter what our geographical or cultural location. We all need transportation, communication, products, tools, shelter, and clothing. We must have water and air that is clean. As a species we need the challenge of research, the promise of space, the fulfilment of knowledge.</p> 
+
+<p>If we then ‹lump together› all the seemingly little minorities of the last few pages, if we combine all these ‹special› needs, we find that we have designed for the majority after all. It is only the ‹industrial designer›, style-happy in the seventies of this century, who, by concocting trivia for the market-places of a few abundant societies, really designs for the minority.</p> 
+
+<p>Why this polemic? What is the answer? Not just for next year but for the future, and not just in one country but in the world. During the summer of 1968 I discovered a Finnish word dating back to medieval times. A word so obscure that many Finns have never even heard it. The word is ‹kymmenykset›. It means the same thing as the medieval church word tithe. A tithe was something one paid: the peasant would set aside 10 per cent of his crop for the poor, the rich man would give up 10 per cent of his income at the end of the year to feed those in need. Being designers, we don't have to pay money in the form of ‹kymmenykset› or a tithe. Being designers, we can pay by giving 10 per cent of our crop of ideas and talents to the 75 per cent of mankind in need.</p> 
+
+<p>There will always be men like Buckminster Fuller who spend 100 per cent of their time designing for the needs of man. Most of the rest of us can't do that well, but I think that even the most successful designer can afford one-tenth of his time for the needs of men. It is unimportant what the mechanics of the situation are: four hours out of every forty, one working day out of every ten, or ideally, every tenth year to be spent as a sort of sabbatical designing for many instead of designing for money.</p> 
+
+<p>Even if the corporate greed of many design offices makes this kind of design impossible, students should at least be encouraged to work in this manner. For in showing students new areas of engagement, we may set up alternative patterns of thinking about design problems. We may help them to develop the kind of social and moral responsibility that is needed in design.</p>
+
+<p>Problems are everywhere. Left-handedness has never been designed for (see Chapter Six). The SDS used compelling rhetoric some years ago about &lsquo;talking to the workers&rsquo;. But how about working with the workers? &lsquo;Hard hats&rsquo; are given their name because of the protective headgear they wear. But these hats are unsafe, not sufficiently tested for absorption of kinetic energy. I should like to quote from the pamphlet of the &lsquo;safety&rsquo; helmet made by Jackson Products of Warren, Michigan:</p>
+
+<p>&ldquo;CAUTION: This helmet provides limited protection. It reduces the effect of the force of a falling object striking the top of the shell. Contact of this helmet shell with energised electrical conductors (live wires) or equipment, should be avoided. NEVER ALTER or MODIFY the shell or suspension system. Inspect regularly and replace suspension system and shell at first sign of wear or damage.&rdquo;</p>
+
+<p>The WARNING stated above applies to all industrial safety hats and caps regardless of manufacturer. [My italics] This last statement really seems to be true since all hard-hat pamphlets carry this warning, using almost identical words.</p>
+
+<p>The nearly two million safety goggles manufactured annually in this country are unsafe &mdash; the lenses scratch easily, some may shatter, and most crack the bridge of the nose under a blow. So-called &lsquo;hard shoes&rsquo;, designed to protect the front of the foot against falling debris, do not absorb sufficient kinetic energy to be useful; the steep cap over the toes can be crushed by a small steel beam falling one yard. Most cabs in long-distance trucks vibrate so that they will materially destroy a man&rsquo;s kidneys in four to ten years. The list could go on.</p>
+
+<p>What may be needed here is a designers&rsquo; commune. Most communes in this country have determinedly marched into the past. But baking bread, playing a guitar, weaving fabrics, and doing ceramics are not the only rational alternatives to a consumer society. Nor is the mind-blowing violence of a Charles Manson. With most of the communes poised in a choice between nihilism and nostalgia, a commune of planners and designers might prove to be the best alternative (I've written more about this in Chapter Twelve).</p>
+
+<p>There must have been a time a few million years ago when some nameless early caveman killed a rabbit, ate it in his cave, and threw the bones on the ground. And surely his wife implored him to throw the bones out of the cave, to keep it neat and clean. Times have changed. We are all in the same cave together, and there is no longer any place to throw the trash. Or to change to a more meaningful metaphor, we are all together on this small spaceship called Earth, 9,700 miles in diameter and sailing through the vast oceans of space. It&rsquo;s a small spaceship and 50 to 60 per cent of the population cannot help to run it, or even help themselves stay alive, through no fault of their own. Where hunger and poverty lead small children to eat the paint off walls and die of lead poisoning in Chicago and New York ghettos. Where children in Los Angeles and Boston die of infected rat bites. To deprive ourselves of the brain and potential of any person on our spaceship is wrong and no longer acceptable.</p>
+
+<p>All this raises the question of value. If we have seen that the designer is powerful enough (by affecting all of man&rsquo;s tools and environment) to put murder on a mass-production basis, we have also seen that this imposes great moral and social responsibilities. I have tried to demonstrate that by freely giving 10 per cent of his time, talents, and skills the designer can help. But help where? What is a need?</p>
+
+<p>In the early fifties I had the good fortune to enjoy a lengthy correspondence with the late Dr Robert Lindner of Baltimore. Together we worked on a book to be called Creativity Versus Conformity, a collaboration ending only with his untimely death. I should like to quote extensively from the Prologue (pp. 3&ndash;6) of his Prescription for Rebellion concerning his concept of value: The end to which man studies himself cannot be other than to realize the full potentiality of his being, and to conquer the triad of limitations fate or God, or destiny, or sheer accident, has imposed on him. Human beings are enclosed by an iron triangle that forms for their race a veritable prison cell. One side of this triangle is the medium in which they must live; the second is the equipment they have, or can fashion, with which to live; the third is the fact of their mortality. All effort, all being, is directed upon the elimination of the sides of this enclosure. If there is purpose to life, that purpose must be to break through the triangle that thus imprisons humanity into a new order of existence where such a triad of limitations no longer obtains. This is the end toward which both individual and species function; this is the end toward which the race strives; this is the end which gives meaning and substance to life.</p>
+
+<p>Behind and beyond the word-games philosophers play, and in the final analysis, all that man does &mdash; alone or in the organisations he erects &mdash; has as its design the overcoming of one or more or all aspects of this basic triad of limitations. What we call progress is nothing more than the small victories every man or every age wins over any or all of the sides of the imprisoning triangle. Thus progress, in this one and only possible sense, is a measurable thing against which the sole existence of a person, the activities and aims of a group, even the achievements of a culture, can be estimated and assigned value.</p>
+
+<p>The as yet uncalculated millennia during which man has tenanted Earth have been witness to his continued valiant efforts to escape from the triangle that interns him. Inexorably and against odds, over the centuries, he has fought against and conquered the medium of his habitat until now he stands poised on a springboard to the stars. Today, earthbound no longer, and loosening even the fetters of gravity, he can look backward to count his conquests. The elements have succumbed to him, and also the natural barriers of space and time. Once confined to a small area bounded by the height of the trees he could climb, the distance his legs could carry him, the view his eye could encompass, the length his voice could carry, the reach of his arms, and the acuity of his remaining senses &mdash; once a cowed victim of every hazard to existence vagrant Nature has in her catalogue &mdash; now he is lord over those containing powers that would have held him slave to them forever. So one iron wall of his cell has been worn thin, and, through the vents and cracks he has made in it, come far-travelled winds of freedom and the beckoning gleam of the universes outside.</p>
+
+<p>Similarly, the second side of the triangle &mdash; the limitations imposed by the biologically given equipment of human beings &mdash; has yielded step by step to the ongoing, persistent struggle against it by men. In the main, this has been a process of extension. It has been marked by the fashioning of tools to improve the uses of the limbs, the sensitivities of the specialised end-organs and the efficiency of those other parts and organs that complete the body. Here the victories have been of an immense order of magnitude. They have culminated in what amounts to a total breakthrough of the envelope of skin that enwraps us, even to the point where the products of hand and brain &mdash; as in the giant computing machines and other physical miracles of our time &mdash; by far outdo many capacities of their creators. And, finally, in the matter of the last side of the triangle, while the days of our years still last but an eyewink on the bland face of the eternal clock, longevity if not immortality is now more than a promise.</p>
+
+<p>The uses of knowledge are clear despite the turgid morass through which a seeker must plough to find order and sense therein. The sciences and arts &mdash; like the individual lives men live &mdash; are all strivings and experiments. They are pointed toward the realisation of human potentiality and ultimately contributory to that evolutionary break-through which will come when the walls of the containing triangle finally crash to earth. Thus the value of an item of knowledge, an entire discipline, or a deed of art can be placed upon a scale, and its measure also taken.</p>
+
+<p>Much as we have established a six-sided &lsquo;function complex&rsquo; in order to evaluate design in the first chapter, we can now plug in the &lsquo;triad of limitations&rsquo; and use it as a primary filter to establish the social value of the design act. While the American automobile is examined in great detail in a later chapter, it can be used as a demonstration object now.</p>
+
+<p>Early automobiles overcame one of the three prison walls of the triad. It was possible to go farther and faster in an auto-mobile than a human being&rsquo;s legs would carry him, and to carry a heavy load as well. But today the automobile has become so overloaded with false values that it has emerged as a full-blown status symbol, dangerous rather than convenient. It breathes and exhales a great amount of cancer-inducing fumes. It is overly fast, wastes raw materials, is clumsy, and kills 50,000 people in an average year. On an average weekday the time needed in rush hour to go from the East River to the Hudson on Forty-second Street in New York is at least one hour: a man walking can easily do it in but a fraction of that time. Considering these aspects, the concept of the automobile has been manipulated so that it now shores up the wall of mortality in the triad; its contributions have grown negligible by comparison.</p>
+
+<p>The car, however, is only one example. Everything designed by man can be forced through the filter and evaluated in a similar manner.</p>
+
+<p>K. G. Pontus Hulten&rsquo;s The Machine as Seen at the End of the Mechanical Age (1968) is an excellent book. Two quotes from it are relevant here. Commenting on Jean Tinguely&rsquo;s &lsquo;Rotozaza No. 1&rsquo;, Hultensays: The production of articles that nobody really needs, but which occupy the ground floors of all big stores, is one of the many outward symptoms of something basically wrong in a world of overproduction and under nourishment. In order to control overproduction, without going through the intricacies of selling the product, it becomes necessary for a wilfully destructive war to be going on permanently somewhere. Today, the world is spending over $150 billion per annum on the actual or potential destruction of lives and property, as compared with the capital transfer from rich to poor countries of about $10 billion per year &mdash; including a large share for military aid. And on the following page, in reference to another work, he continues: Probably the greatest political problem facing the world today is the difference among various regions as regards their technological development. Many parts of Europe and America are already leaving the mechanical age to enter the electronic era, while much of Africa, for example, is only beginning to be industrialised.</p>
+
+<p>To some extent, the mechanical age seems linked to the age of colonialism. Both reached their apogee in the nineteenth century; both were based on the instinct for exploitation. The world was prospected to discover and cultivate raw materials with which to feed the machines. It rarely occurred to the ruling powers that the people whose soil produced these materials, and who sweated to bring them forth, should have any appreciable use and benefit from other products. Whenever the natives made any serious trouble, the usual response was to send a gunboat.</p>
+
+<p>Up to 1950, there were four independent countries in Africa; today, there are more than forty. They are politically aware and highly nationalistic, but technologically extremely underdeveloped. Industrial output in all of Africa (except South Africa) is, in fact, less than that in Sweden alone. Unless foreign governments and private corporations unite with the African nations in a massive and long-range programme of industrial development, the social and political results will probably be explosive.</p>
+
+<p>What needs to be done? And how can we do it? A series of examples may serve as the best answer.</p>
+
+<p>One of the world&rsquo;s few really great designs for emergent countries was developed during the last twenty-five years by a team of three designers from as many different countries. It is a brick-making machine. This simple device is used as follows: Mud or earth is packed into a brick-shaped receptacle, a large lever is pulled down, and a perfect &lsquo;rammed earth&rsquo; brick results. This apparatus permits people to &lsquo;manufacture&rsquo; bricks at their own speed &mdash; 500,000 a day or two a week. Out of these bricks schools, homes, and hospitals have been built all over South America and the rest of the Third World. Today schools, hospitals, and entire villages stand in Ecuador, Venezuela, Ghana, Nigeria, Tanzania, and many other parts of the world. The concept is a great one: it has kept the rain off the heads of people, and it has made instruction possible in schools where it was not possible before and where the schools themselves did not exist a few years ago. The brick machine has made it possible to construct factories and install equipment in areas where this had never been attempted in the past. This is socially conscious design, relevant to the needs of people in the world today.</p>
+
+<p>During the international design festival at Jyvaskyla, Finland, in 1968, I participated as part of a UNESCO team of international design experts to develop new ideas for Black Africa. Many problems await solution. The circulatory system of the Third World, and specifically Black Africa, is very bad. The people get sick because waste products cannot be efficiently rinsed away; there is almost no sanitation. There is not enough water because water is polluted by precipitation, by flowing through open ditches, and by incredibly fast evaporation. Often water is uncontrolled and washes away precious topsoil. Irrigation is virtually non-existent in the villages. The missing element is a pipe, or rather a simple device that will make it possible to manufacture pipe segments in the village, by &lsquo;cottage industry&rsquo; or by an individual. So the task is to design a pipe-making machine. A pipe-making machine that can be built in Africa by Africans and used for the common good. A machine (or tool) that will by-pass private profit, corporate structures, exploitation, and neo-colonialism.</p>
+
+<p>Black men from seven nations told me that one of their greatest needs was an inexpensive educational TV set. This will be a set to be distributed to African states through UNESCO, to be made in Africa, using native materials as far as possible, as well as local labour. It should give no profit to any private corporation in Europe or North America.</p>
+
+<p>Television was developed in Great Britain and the United States nearly forty years ago. Since these were the first countries to develop it and because of their market structure, set design has been frozen into early levels, technologically. TV sets in North America show images with a line resolution of 525 lines to the inch. Russian sets have 625; Great Britain has 405 and 625. French sets have a line resolution of 819 to the inch. This means that these images are clearer and demand less from the eye and brain to decode the information. Obviously a television set that is completely new, devoted primarily to educational needs, should carry a high line resolution.</p>
+
+<p>In doing the basic research for this set, my graduate students and I have found much to astonish and delight us. Even in a sophisticated, technologically advanced country like Germany, TV sets have selectors for thirteen different channels, even though only two channels are used. In our case this entire selection mechanism can safely be left out because we are working on a one-channel set. The eventual breakdown of the vacuum picture tube is speeded up through the use of on-off switches. We plan to broadcast educational material only, and the set will always be &lsquo;on&rsquo;. Current drain is negligible with the use of transistors. Since the set must be tropicalized, venting it seemed to be crucial. Tropicalization in Africa, however, also means preventing the entry of thousands of small insects. We found that through the use of integrated circuits, internal heat build-up was negligible enough to eliminate all need for fans and/or vents. In fact, by burying an aluminium heat sink in the housing of the set, enough heat is drained off.</p>
+
+<p>Our research had to consider climatology, anthropology, electrics and electronics, population densities, prevalence of African languages in various areas, terrain (for transmission reasons), and social attitudes, as guidelines for design.</p>
+
+<p>After we discovered, somewhat late in our research, that a highly sophisticated, market-competitive TV set (including thirty-six channels, on-off switching, internal fans, and an in-ordinate amount of &lsquo;sexy&rsquo; styling) sold for $119&thinsp;&ndash;&thinsp;95 retail in the United States (including all profits, shipping, and customs charges), we investigated that set. We found that labour, manufacturing costs, and material cost the Japanese manufacturer less than $18. We have accepted the fact that in terms of existing African skills, factories, and distribution networks, our set can be made for considerably less than $9.</p>
+
+<p>Our final concept of the shell of the TV set will permit both mass production (at the rate of 2,000 shells per machine-day) or individual production by one individual standing in a village street. It can then be his decision as to whether he wishes to make thirty shells a day or one every few days.</p>
+
+<p>At the time of this writing (December 1970), the introduction of video-tape cartridges in both black and white and colour is only a matter of time. It is for this reason that we are redesigning our educational television set so that it will also accommodate the cartridge. There can be no doubt that, especially in areas of education, video cartridges will completely revolutionise the development of the Third World.</p>
+
+<p>In a short time this $9 TV set will be completed and given to UNESCO. It will join our 9¢ non-electric, thermo-coupled, cow-dung-powered radio (designed for Indonesia).</p>
+
+<p>There are many ways of working for the needs of under-developed and emergent countries. The simplest, most often employed, and probably shabbiest is for the designer to sit in his New York, London, or Stockholm office and to design things to be made in, say, Tanzania, Souvenir-like objects are then manufactured, using native materials and skills, with the pious hope that they will sell in developed countries. They do, but for a short while only, for by designing &lsquo;decorative objects for the home&rsquo; and &lsquo;fashion accessories&rsquo;, we merely tie the economy of that country to the economy of other countries. Only two possibilities remain: Should the economy of the wealthy Western country fail, the emergent country&rsquo;s new economic independence fails with it. Should the economy of the wealthy Western country continue climbing, the fashion likes and dislikes of its population will be manipulated even more, and consequently, the emergent country&rsquo;s new economic independence will fail also.</p>
+
+<p>A second, slightly more effective way for the designer to participate would be to spend some time in the underdeveloped country developing designs really suited to the needs of the people there. This still begs the question of meaningful engagement.</p>
+
+<p>A somewhat better way: to move the designer to the under-developed country and have him train designers there, as well as designing and working out the logistics of design needs for that nation. But even this is no ideal solution.</p>
+
+<p>Ideally (as things stand now): the designer would move to the country and do all the things indicated above. But in addition, he would also train designers to train designers. In other words he would become a &lsquo;seed project&rsquo; helping to form a corps of able designers out of the indigenous population of the country. Thus within one generation at most, five years at the least, he would be able to create a group of designers firmly committed to their own cultural heritage, their own life-style, and their own needs.</p>
+
+<p>All design must be operative. Just as the African TV set becomes synergetically more than a TV set as its manufacture requires new native skills, a large pool of labour reserve, new factories, and new communication channels, design itself must, as shown in the above example, always be a seed project, always operative.</p>
+
+	</div>
+	</div>
+
+
+<!-- SEPARATOR -->
+<div class="grid_12 vertical_space"></div> 
+
+
+<!-- CHARACTER SET --> 
+
+	<div class="grid_12">
+	<div id="font">
+<p class="small">&nbsp;</p>
+	</div>
+	</div>
+
+    <div class="chapter">
+
+    <div class="grid_1">
+ <h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_9">
+<h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_1">
+<h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_1">
+<h3><a href="#top" class="gotop" title="Top">&#8593;</a></h3>
+    </div>
+
+    </div>
+	
+	<div class="grid_12">
+	<div class= "default">
+<p class="specimen">ABCDEFGHIJKLMN<br/>OPQRSTUVWXYZ<br/>1234567890<br/>abcdefg<span class="alternate_g">g</span>hijkl<span class="alternate_l">l</span>mn<br/>opqrstuvwxy<span class="alternate_y">y</span>z<br/><span class="default_osf">1234567890</span><br/>«@&amp;?!:;,...»</p>
+	</div>
+	</div>
+
+
+<!-- DESCRIPTION --> 
+
+	<div class="grid_4">
+	<div class= "default">
+<p class="small">&nbsp;</p> 
+	</div>
+	</div>
+
+	<div class="grid_4">
+	<div class= "default_osf">
+<p class="small">‹Relief› is a monolinear condensed sans serif, its design is based on a simple skeleton. The structure of this alphabet is influenced by Adrian Frutiger’s little known and underrated «Vectora» typeface. Its companion ‹Relief CNC› will be soon available through isdaT-type Github account, a “single-stroke” or ‘central line’ font using OTF-SVG font format to provide a true skeleton text tool oriented for laser and mill engravings working in the Adobe environment (CC2019 and above on both Illustrator and Indesign). Fablabs and makers also deserve quality kerning!</p> 
+<br/>
+<hr />
+<p class="small">Design collective: Élisa Garzelli & Noëlie Dayma (students of the Graphic Design Department of the Institut Supérieur des Arts et du Design de Toulouse / isdaT), François Chastanet (isdaT Graphic Design Department teacher). This project is part of «Les Communs / Bibliothèque infinie» pedagogical program curated by Nathalie Bruyère (isdaT Design Department teacher). Currently in development, 2020&thinsp;&ndash;&thinsp;2021, proofing webpage regularly updated.</p>
+	</div>
+	</div>
+
+	<div class="grid_4">
+	<div class= "default">
+<p class="small">Default character set, lining figures<br/> 
+<a href="#preface" class="gopreface" title="Preface">Preface</a><br/> 
+&nbsp;<br/>
+<span class="default_osf">Default character set, old style figures<br/>
+<a href="#chapter1" class="gochapter1" title="Chapter 1">Chapter 1</a><br/>
+&nbsp;<br/>
+<span class="alternate_g">Alternate lowercase g</span><br/>
+<a href="#chapter2" class="gochapter2" title="Chapter 2">Chapter 2</a><br/>
+&nbsp;<br/>
+<span class="alternate_l">Alternate lowercase l</span><br/>
+<a href="#chapter3" class="gochapter3" title="Chapter 3">Chapter 3</a><br/>
+&nbsp;<br/>
+<span class="alternate_y">Alternate lowercase y</span><br/>
+<a href="#chapter4" class="gochapter4" title="Chapter 4">Chapter 4</a></p> 
+	</div>
+	</div>
+
+<!-- SEPARATOR -->
+<div class="grid_12 vertical_space"></div> 
+
+
+<!-- BOTTOM ARROW -->
+
+    <div class="chapter">
+
+    <div class="grid_1">
+ <h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_9">
+ <h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_1">
+<h3>&nbsp;</h3>
+    </div>
+
+    <div class="grid_1">
+<h3><a href="#top" class="gotop" title="Top">&#10227;</a></h3>
+    </div>
+
+    </div>
+
+<!-- SEPARATOR -->
+<div class="grid_12 vertical_space"></div> 
+	
+	
+<!-- CLOSE #ALL -->
+</div> 
+
+
+</body>
+</html>
+
