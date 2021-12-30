@@ -94,11 +94,11 @@ If you have some Python coding skills, you can play around with *Relief SingleLi
 
 Élisa Garzelli & Noëlie Dayma, isdaT Graphic Design Department students.
 
-[François Chastanet](http://francoischastanet.com/), isdaT Graphic Design Department teacher in typography and type design, general design and project coordination.
+[François Chastanet](http://francoischastanet.com/) Instagram @francois_chastanet / Twitter @f_chastanet, isdaT Graphic Design Department teacher in typography and type design, general design and project coordination.
 
-[Tanguy Vanlaeys](https://vnls-tanguy.tumblr.com/), research on CNC type started at [ANRT](https://anrt-nancy.fr/), advices on Inkscape + Hershey Text Extension usages and open paths (old) SVG fonts export tricks, TTF exports, illustrations and type specimen layouts.
+[Tanguy Vanlaeys](https://vnls-tanguy.tumblr.com/) Instagram @vnls_tanguy + @cnc_type / Twitter @tanguy_vanlaeys, research on CNC type started at [ANRT](https://anrt-nancy.fr/), advices on Inkscape + Hershey Text Extension usages and open paths (old) SVG fonts export tricks, TTF exports, illustrations and type specimen layouts.
 
-[Frederik Berlaen](https://typemytype.com/), *otf-svgMaker* Python script for [Robofont](https://robofont.com/) exporting from any skeletal UFO source an OTF-SVF color font permitting editable single-line typographic layouts in the Adobe CC environment (CC 2019 and above). 
+[Frederik Berlaen](https://typemytype.com/) Instagram & Twitter @typemytype, *otf-svgMaker* Python script for [Robofont](https://robofont.com/) exporting from any skeletal UFO source an OTF-SVF color font permitting editable single-line typographic layouts in the Adobe CC environment (CC 2019 and above). 
 
 ## Abstract
 
