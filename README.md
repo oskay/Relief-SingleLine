@@ -1,7 +1,8 @@
-# Relief SingleLine typeface
-![](documentation/software-screenshots/Relief-SingleLine_compact_preview.jpg)
+![](documentation/character-map/Relief-SingleLine_compact_preview.jpg)
 
-*Relief SingleLine* is a versatile sans serif “single-line” font with open paths oriented towards CNC (Computer Numerical Control) engraving and fab labs environments. *Relief SingleLine* provides a single-line path for a pen, laser, or milling tool to follow for an efficient and clean looking typographical rendering. *Relief SingleLine* is the first single-line font working in the Adobe CC environment (CC 2019 and above) with kerning and opentype features. *Relief SingleLine* with its skeletal logic and parametric thickness can also be useful in print and web experiments. *Relief SingleLine* has a “classic” outlined companion, [*Relief*](https://github.com/isdat-type/relief), for print and screen environments. *Relief SingleLine* typeface is an open-source project and available for download and use following the Open Font License ([OFL](https://scripts.sil.org/ofl)).
+# Relief SingleLine typeface
+
+*Relief SingleLine* is a versatile sans serif “single-line” font with open paths oriented towards CNC (Computer Numerical Control) engraving and fab labs environments. *Relief SingleLine* provides a single-line path for a pen, laser, or milling tool to follow for an efficient and clean looking typographical rendering. *Relief SingleLine* is the first single-line font working in the Adobe CC environment (CC 2019 and above) with kerning and opentype features. *Relief SingleLine* with its skeletal logic and parametric thickness can also be useful in print and web experiments. *Relief SingleLine* has a “classic” outlined companion, [*Relief*](https://github.com/isdat-type/relief), for print and screen environments. *Relief SingleLine* typeface is an open-source project available for download and use following the Open Font License ([OFL](https://scripts.sil.org/ofl)).
 
 ## Existing CNC mill & laser typographic tools
 Nowadays there is still a critically small amount of “single-line”, “single-stroke” or “central-line” fonts optimized for fab labs CNC machinery, allowing the use of letters based on a single central line. Simultaneously, typographic tools dedicated to CNC usages (such as [Hershey Text](https://wiki.evilmadscientist.com/Hershey_Text) Inkscape extension) are truly limited and the drawing quality of the proposed fonts doesn’t match current typographic standards. The existing offer (both commercial and open-source) of single-line fonts is very basic and the majority of these available typefaces are qualitatively deceptive (irregular drawing quality, poor spacing, no kerning, etc.). With the recent variable fonts technology, the type design field is currently in a boom, but strangely the rapidly democratizing domain of fab labs is hardly approached by type designers. This potential space for experimentation is practically left to engineers and “makers” which, despite all their noticeable efforts, need more typographic expertise and the help of the type design community.
@@ -35,7 +36,7 @@ As this project is primarily focusing on graphic user interface solutions opened
 
 Simply install the “Relief SingleLine-Regular_svg.otf” on your system (or directly in the / Fonts subfolder of Illustrator or Indesign), open Illustrator or Indesign, compose your paragraphs and titlings; when the layout is finished, duplicate it and just use the / Text / Vectorize function to obtain a single-line design to export as PDF or SVG file to engrave through your favorite CNC machine (pen plotters, laser cutting or milling machine).
 
-*Relief SingleLine* export as OpenType-SVG format was made possible thanks to [Frederik Berlaen](https://typemytype.com/)’s *otf-svgMaker* Python script for [Robofont](https://robofont.com/). This script permits to export any skeletal UFO-based font project towards a single-line OTF-SVG font. *otf-svgMaker* uses [roundingPen](https://github.com/typemytype/outlinerRoboFontExtension/blob/master/Outliner.roboFontExt/lib/outlinePen.py) script by Jost Van Rossum. *otf-svgMaker* script will be soon available in this repository.
+*Relief SingleLine* export as OpenType-SVG format was made possible thanks to [Frederik Berlaen](https://typemytype.com/)’s *otf-svgMaker* Python script for [Robofont](https://robofont.com/). This script permits to export any skeletal UFO-based font project towards a single-line OTF-SVG font. *otf-svgMaker* uses [roundingPen](https://github.com/typemytype/outlinerRoboFontExtension/blob/master/Outliner.roboFontExt/lib/outlinePen.py) script by Just Van Rossum. *otf-svgMaker* script will be soon available in this repository.
 
 ## Inkscape + Hershey Text Extension SVG fonts method
 ## →fonts/open_svg/
@@ -101,12 +102,12 @@ If you have some Python coding skills, you can play around with *Relief SingleLi
 
 ## Abstract
 
-Relief SingleLine → the first skeletal font (with open paths) working in Adobe CC with kerning and opentype features {based on .otf(-svg) format} → exports available for Inkscape, Rhino 3D and CAD softwares and Drawbot [.svg, .ttf, .ufo] or print and web usages (closed outlines .otf, .woff2) → Open Font License! → CNC machining, print and web.
+Relief SingleLine → CNC machining, print and web → the first skeletal font (with open paths) working in Adobe CC (2019 and above) with kerning and opentype features {based on .otf(-svg) format} → exports available for Inkscape + Hersey Text Extension, Rhino 3D and CAD softwares, Drawbot [.svg, .ttf, .ufo] or print and web usages (closed outlines .otf, .woff2) → Open Font License!
 
 ## CNC Typographic Engraving Proofs
 
 First laser engraving tests on plywood at various speeds and laser powers, [Artilect](https://artilect.fr/) fab lab, Toulouse, 2021 / 03 / 23.
 
-![](documentation/photos/relief_laser_2021_03_25_text.jpg)
-![](documentation/photos/relief_laser_2021_03_25_ornaments.jpg)
+![](documentation/cnc_samples/Relief-SingleLine_laser_plywood_text_bw.jpg)
+![](documentation/cnc_samples/Relief-SingleLine_laser_plywood_ornaments_bw.jpg)
 

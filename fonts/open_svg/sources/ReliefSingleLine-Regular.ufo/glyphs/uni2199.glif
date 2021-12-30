@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2199" format="2">
+	<advance width="746"/>
+	<unicode hex="2199"/>
+	<outline>
+		<contour>
+			<point x="163" y="56" type="move"/>
+			<point x="636" y="568" type="line"/>
+		</contour>
+		<contour>
+			<point x="130" y="471" type="move"/>
+			<point x="162" y="55" type="line"/>
+			<point x="579" y="56" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=|northEastArrow</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|northEastArrow</string>
+		</dict>
+	</lib>
+</glyph>

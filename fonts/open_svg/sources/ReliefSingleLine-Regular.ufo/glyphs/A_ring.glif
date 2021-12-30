@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aring" format="2">
+	<advance width="676"/>
+	<unicode hex="00C5"/>
+	<outline>
+		<contour>
+			<point x="155" y="213" type="move"/>
+			<point x="522" y="213" type="line"/>
+		</contour>
+		<contour>
+			<point x="606" y="0" type="move"/>
+			<point x="342" y="675" type="line"/>
+			<point x="338" y="675" type="line"/>
+			<point x="70" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="339" y="916" type="move"/>
+			<point x="298" y="916"/>
+			<point x="266" y="883"/>
+			<point x="266" y="843" type="curve" smooth="yes"/>
+			<point x="266" y="803"/>
+			<point x="299" y="770"/>
+			<point x="339" y="770" type="curve" smooth="yes"/>
+			<point x="380" y="770"/>
+			<point x="413" y="803"/>
+			<point x="413" y="843" type="curve" smooth="yes"/>
+			<point x="413" y="883"/>
+			<point x="380" y="916"/>
+			<point x="339" y="916" type="curve"/>
+		</contour>
+	</outline>
+</glyph>

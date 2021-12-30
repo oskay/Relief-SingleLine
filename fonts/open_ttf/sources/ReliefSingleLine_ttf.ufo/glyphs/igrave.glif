@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="igrave" format="2">
+	<advance width="280"/>
+	<unicode hex="00EC"/>
+	<outline>
+		<contour>
+			<point x="140" y="0" type="move"/>
+			<point x="140" y="555" type="line"/>
+		</contour>
+		<contour>
+			<point x="72" y="791" type="move"/>
+			<point x="207" y="658" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-03-17 07:33:32 +0000</string>
+		</dict>
+	</lib>
+</glyph>

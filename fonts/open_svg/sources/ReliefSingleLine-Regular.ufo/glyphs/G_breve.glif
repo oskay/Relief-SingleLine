@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gbreve" format="2">
+	<advance width="676"/>
+	<unicode hex="011E"/>
+	<outline>
+		<contour>
+			<point x="566" y="537" type="move"/>
+			<point x="529" y="631"/>
+			<point x="460" y="680"/>
+			<point x="358" y="680" type="curve" smooth="yes"/>
+			<point x="196" y="680"/>
+			<point x="95" y="556"/>
+			<point x="95" y="340" type="curve" smooth="yes"/>
+			<point x="95" y="152"/>
+			<point x="169" y="0"/>
+			<point x="363" y="0" type="curve" smooth="yes"/>
+			<point x="443" y="0"/>
+			<point x="509" y="26"/>
+			<point x="560" y="57" type="curve"/>
+			<point x="560" y="334" type="line"/>
+			<point x="383" y="334" type="line"/>
+		</contour>
+		<contour>
+			<point x="236" y="887" type="move"/>
+			<point x="236" y="832"/>
+			<point x="288" y="805"/>
+			<point x="354" y="805" type="curve" smooth="yes"/>
+			<point x="420" y="805"/>
+			<point x="476" y="831"/>
+			<point x="476" y="886" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+</glyph>

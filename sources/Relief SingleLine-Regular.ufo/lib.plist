@@ -46,8 +46,6 @@
 	<false/>
 	<key>com.schriftgestaltung.useNiceNames</key>
 	<false/>
-	<key>com.schriftgestaltung.weightValue</key>
-	<integer>40</integer>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>A</string>

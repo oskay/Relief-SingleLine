@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown.ss05" format="2">
+	<advance width="314"/>
+	<outline>
+		<contour>
+			<point x="154" y="375" type="move"/>
+			<point x="154" y="-125" type="line"/>
+		</contour>
+		<contour>
+			<point x="130" y="555" type="move"/>
+			<point x="130" y="488" type="line"/>
+			<point x="184" y="488" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=|exclam.ss05</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|exclam.ss05</string>
+			<key>public.markColor</key>
+			<string>0.98,0.36,0.67,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -40,7 +40,7 @@
 		</dict>
 	</array>
 	<key>openTypeHeadCreated</key>
-	<string>2021/12/08 13:31:17</string>
+	<string>2021/12/29 14:04:42</string>
 	<key>openTypeHheaAscender</key>
 	<integer>1030</integer>
 	<key>openTypeHheaDescender</key>
@@ -59,6 +59,8 @@
 	<string>institut supérieur des arts et du design Toulouse / isdaT</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>https://www.isdat.fr/</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Regular</string>
 	<key>openTypeNameSampleText</key>
 	<string>Writing Is Drawing Is Writing…</string>
 	<key>openTypeOS2Panose</key>
@@ -82,6 +84,10 @@
 	<integer>-290</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>0</integer>
+	<key>openTypeOS2WeightClass</key>
+	<integer>400</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
 	<integer>1030</integer>
 	<key>openTypeOS2WinDescent</key>
@@ -104,6 +110,8 @@
 	<integer>-200</integer>
 	<key>postscriptUnderlineThickness</key>
 	<integer>40</integer>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
 	<key>styleName</key>
 	<string>Regular</string>
 	<key>unitsPerEm</key>
@@ -111,7 +119,7 @@
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>xHeight</key>
 	<integer>555</integer>
 </dict>

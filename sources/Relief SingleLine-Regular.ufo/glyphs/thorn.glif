@@ -5,7 +5,7 @@
 	<outline>
 		<contour>
 			<point x="140" y="-190" type="move"/>
-			<point x="141" y="745" type="line"/>
+			<point x="140" y="745" type="line"/>
 		</contour>
 		<component base="_module_rond" xOffset="140"/>
 	</outline>

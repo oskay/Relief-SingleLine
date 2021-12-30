@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Obreve" format="2">
+	<advance width="716"/>
+	<unicode hex="014E"/>
+	<outline>
+		<contour>
+			<point x="357" y="680" type="move"/>
+			<point x="168" y="680"/>
+			<point x="95" y="501"/>
+			<point x="95" y="341" type="curve" smooth="yes"/>
+			<point x="95" y="207"/>
+			<point x="147" y="0"/>
+			<point x="358" y="0" type="curve" smooth="yes"/>
+			<point x="569" y="0"/>
+			<point x="621" y="207"/>
+			<point x="621" y="341" type="curve" smooth="yes"/>
+			<point x="621" y="501"/>
+			<point x="548" y="680"/>
+			<point x="359" y="680" type="curve"/>
+		</contour>
+		<contour>
+			<point x="238" y="887" type="move"/>
+			<point x="238" y="832"/>
+			<point x="290" y="805"/>
+			<point x="356" y="805" type="curve" smooth="yes"/>
+			<point x="422" y="805"/>
+			<point x="478" y="831"/>
+			<point x="478" y="886" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+</glyph>
