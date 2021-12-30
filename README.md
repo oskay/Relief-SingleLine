@@ -108,6 +108,6 @@ Relief SingleLine → CNC machining, print and web → the first skeletal font (
 
 First laser engraving tests on plywood at various speeds and laser powers, [Artilect](https://artilect.fr/) fab lab, Toulouse, 2021 / 03 / 23.
 
-![](documentation/cnc_samples/Relief-SingleLine_laser_plywood_text_bw.jpg)
-![](documentation/cnc_samples/Relief-SingleLine_laser_plywood_ornaments_bw.jpg)
+![](documentation/cnc_engraving_proofs/Relief-SingleLine_laser_plywood_text_bw.jpg)
+![](documentation/cnc_engraving_proofs/Relief-SingleLine_laser_plywood_ornaments_bw.jpg)
 
