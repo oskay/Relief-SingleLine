@@ -44,7 +44,7 @@ Simply install the “Relief SingleLine-Regular_svg.otf” on your system (or di
 ## Inkscape + Hershey Text Extension SVG fonts method
 ## →fonts/open_svg/
 
-First install “ReliefSingleLineOutline-Regular.otf” on your system; then copy Relief-SingleLine-Regular.svg there:
+First install “ReliefSingleLineOutline-Regular.otf” on your system; then copy “ReliefSingleLine-Regular.svg” there:
 
 • (macOS) 
 
