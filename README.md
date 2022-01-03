@@ -27,9 +27,9 @@ The Relief project is based on a main skeletal .glyphs + .ufo source and explore
 
 • WOFF2
 
-→ For detailed font informations check /documentation /character-map /manual + character map A4 format PDF. 
+→ For detailed font informations check / documentation / character-map / manual + character map A4 format PDF. 
 
-When using *Relief SingleLine* font with a laser-cutting machine, it is recommended to use the *cutting* function at low intensity and not the *engraving* function in order to reduce inscription’s tracing time on any surface (do preliminary laser power tests to determine the best speed / power couple for each material to engrave with an inscription).
+When using *Relief SingleLine* font with a laser-cutting machine, it is recommended to use the *cutting* function at low intensity and not the *engraving* function in order to reduce inscription’s tracing time on any surface (do preliminary laser power tests to determine the best speed-power couple for each material to engrave with an inscription).
 
 # How to use the Open Paths?
 ## Adobe CC ≥2019: OpenType-SVG color font method
@@ -37,7 +37,7 @@ When using *Relief SingleLine* font with a laser-cutting machine, it is recommen
 
 As this project is primarily focusing on graphic user interface solutions opened the largest possible audiences, *Relief SingleLine* typeface is distributed as an OpenType-SVG color font format in order to simplify the layout process for the 2D fab lab community, i.e. having a single-line font editable in popular vector graphics and typographic composition softwares such as Illustrator or Indesign. OpenType-SVG technology represents an interesting alternative to permit single-line fonts wider distribution and easier use. To our knowledge, *Relief SingleLine* is the first single-line font working in Adobe apps (CC 2019 and above), opening new perspectives for makers worldwide. Fab lab users oriented towards 2D graphic practices can now easily access quality Bézier curves, kerning and OpenType features in their single-line typographical layouts!
 
-Simply install the “Relief SingleLine-Regular_svg.otf” on your system (or directly in the /Fonts subfolder of Illustrator or Indesign), open Illustrator or Indesign, compose your paragraphs and titlings; when the layout is finished, duplicate it and just use the /Text /Vectorize function to obtain a single-line design to export as PDF or SVG file to engrave through your favorite CNC machine (pen plotters, laser cutting or milling machine).
+Simply install the “Relief SingleLine-Regular_svg.otf” on your system (or directly in the / Fonts subfolder of Illustrator or Indesign), open Illustrator or Indesign, compose your paragraphs and titlings; when the layout is finished, duplicate it and just use the / Text / Vectorize function to obtain a single-line design to export as PDF or SVG file to engrave through your favorite CNC machine (pen plotters, laser cutting or milling machine).
 
 *Relief SingleLine* export as OpenType-SVG format was made possible thanks to [Frederik Berlaen](https://typemytype.com/)’s *otf-svgMaker* Python script for [Robofont](https://robofont.com/). This script permits to export any skeletal UFO-based font project towards a single-line OTF-SVG font. *otf-svgMaker* uses [roundingPen](https://github.com/typemytype/outlinerRoboFontExtension/blob/master/Outliner.roboFontExt/lib/outlinePen.py) script by Frederik Berlaen. *otf-svgMaker* script will be soon available on *Relief SingleLine* Github repository.
 
@@ -54,9 +54,9 @@ First install “ReliefSingleLineOutline-Regular.otf” on your system; then cop
 
 `C:\Program Files\Inkscape\share\inkscape\extensions\svg_fonts`
 
-Only for Windows users: if you can not use “ReliefSingleLine-Regular.svg” even if effectively copied in the /svg_fonts folder, try the following action: right-click on “ReliefSingleLine-Regular.svg” then select /Properties /Security /Unlock /Apply
+Only for Windows users: if you can not use “ReliefSingleLine-Regular.svg” even if effectively copied in the / svg_fonts folder, try the following action: right-click on “ReliefSingleLine-Regular.svg” then select / Properties / Security / Unlock / Apply
 
-Compose your layout in [Inkscape](https://inkscape.org/) using “ReliefSingleLineOutline-Regular.otf”, launch [Hershey Text Extension](https://www.evilmadscientist.com/2019/hershey-text-v30/) (now available by default) to render your text blocks as single-line letters: go to /Extension /Text /Hershey Text. 
+Compose your layout in [Inkscape](https://inkscape.org/) using “ReliefSingleLineOutline-Regular.otf”, launch [Hershey Text Extension](https://www.evilmadscientist.com/2019/hershey-text-v30/) (now available by default) to render your text blocks as single-line letters: go to / Extension / Text / Hershey Text. 
 
 Then, in font select *Other* (bottom of the list after the existing Hershey fonts) and type “ReliefSingleLine-Regular” in the next field of the dialog box as a path-name, then apply rendering. 
 
@@ -107,5 +107,5 @@ If you have some Python coding skills, you can play around with *Relief SingleLi
 
 ## Abstract
 
-Relief SingleLine → CNC machining, print and web → the first skeletal / open paths font running on Adobe apps (CC2019 and above) with kerning and OpenType features {based on .otf(-svg) format} → exports available for Inkscape + Hersey Text Extension, Rhino 3D and CAD softwares, Drawbot {.svg, .ttf, .ufo} or print and web usages {closed outlines .otf, .woff2} → Open Font License!
+Relief SingleLine → CNC machining, print and web → the first skeletal font with open paths running on Adobe apps (CC2019 and above) with kerning and OpenType features {based on .otf(-svg) format} → exports available for Inkscape + Hersey Text Extension, Rhino 3D and CAD softwares, Drawbot {.svg, .ttf, .ufo} or print and web usages {closed outlines .otf, .woff2} → Open Font License!
 
