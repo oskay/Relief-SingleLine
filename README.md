@@ -92,24 +92,24 @@ When operating the text tool dialog box, one can find a special feature to tick 
 
 If you have some Python coding skills, you can play around with *Relief SingleLine* main .ufo source in [Drawbot](https://www.drawbot.com/) to export toward PDF or SVG textual vector patterns to engrave. UFO ([Unified Font Objects](https://unifiedfontobject.org/)) is a cross-platform, cross-application, human readable format for storing font data.
 
-## Contributors
-
-Élisa Garzelli & Noëlie Dayma, isdaT Graphic Design Department students.
-
-[François Chastanet](http://francoischastanet.com/) Instagram @francois_chastanet / Twitter @f_chastanet, isdaT Graphic Design Department teacher in typography and type design, general design and project coordination.
-
-[Tanguy Vanlaeys](https://vnls-tanguy.tumblr.com/) Instagram @vnls_tanguy + @cnc_type / Twitter @tanguy_vanlaeys, research on CNC type started at [ANRT](https://anrt-nancy.fr/), advices on Inkscape + Hershey Text Extension usages and open paths (old) SVG fonts export tricks, TTF exports, illustrations and type specimen layouts.
-
-[Frederik Berlaen](https://typemytype.com/) Instagram & Twitter @typemytype, *otf-svgMaker* Python script for [Robofont](https://robofont.com/) exporting from any skeletal UFO source an OTF-SVG color font permitting editable single-line typographic layouts in the Adobe environment (CC 2019 and above). 
-
-## Abstract
-
-Relief SingleLine → CNC machining, print and web → the first skeletal / open paths font running on Adobe apps (CC2019 and above) with kerning and OpenType features {based on .otf(-svg) format} → exports available for Inkscape + Hersey Text Extension, Rhino 3D and CAD softwares, Drawbot [.svg, .ttf, .ufo] or print and web usages (closed outlines .otf, .woff2) → Open Font License!
-
 ## CNC Typographic Engraving Proofs
 
 Laser engraving tests on plywood at various speeds and laser powers, [Artilect](https://artilect.fr/) fab lab, Toulouse, 2021 / 03 / 23.
 
 ![](documentation/cnc_engraving_proofs/Relief-SingleLine_laser_plywood_text_bw.jpg)
 ![](documentation/cnc_engraving_proofs/Relief-SingleLine_laser_plywood_ornaments_bw.jpg)
+
+## Contributors
+
+Élisa Garzelli & Noëlie Dayma, isdaT Graphic Design Department students.
+
+[François Chastanet](http://francoischastanet.com/) Instagram [@francois_chastanet](https://www.instagram.com/francois_chastanet/) / Twitter [@f_chastanet](https://twitter.com/f_chastanet)), isdaT Graphic Design Department teacher in typography and type design, general design and project coordination.
+
+[Tanguy Vanlaeys](https://vnls-tanguy.tumblr.com/) Instagram [@vnls_tanguy](https://www.instagram.com/vnls_tanguy/) + [@cnc_type](https://www.instagram.com/cnc_type/) / Twitter [@tanguy_vanlaeys](https://twitter.com/tanguy_vanlaeys), research on CNC type started at [ANRT](https://anrt-nancy.fr/), advices on Inkscape + Hershey Text Extension usages and open paths (old) SVG fonts export tricks, TTF exports, illustrations and type specimen layouts.
+
+[Frederik Berlaen](https://typemytype.com/) Instagram [@typemytype](https://www.instagram.com/typemytype/) / Twitter [@typemytype](https://twitter.com/typemytype), *otf-svgMaker* Python script for [Robofont](https://robofont.com/) exporting from any skeletal UFO source an OTF-SVG color font permitting editable single-line typographic layouts in the Adobe environment (CC 2019 and above). 
+
+## Abstract
+
+Relief SingleLine → CNC machining, print and web → the first skeletal / open paths font running on Adobe apps (CC2019 and above) with kerning and OpenType features {based on .otf(-svg) format} → exports available for Inkscape + Hersey Text Extension, Rhino 3D and CAD softwares, Drawbot {.svg, .ttf, .ufo} or print and web usages {closed outlines .otf, .woff2} → Open Font License!
 
