@@ -1,4 +1,5 @@
 ![](documentation/character-map/Relief-SingleLine_compact_preview.jpg)
+![](documentation/cnc_engraving_proofs/Relief-SingleLine_laser_plywood_text_bw.jpg)
 
 # Relief SingleLine typeface
 
@@ -91,13 +92,6 @@ When operating the text tool dialog box, one can find a special feature to tick 
 ## →sources/Relief-SingleLine.ufo
 
 If you have some Python coding skills, you can play around with *Relief SingleLine* main .ufo source in [Drawbot](https://www.drawbot.com/) to export toward PDF or SVG textual vector patterns to engrave. UFO ([Unified Font Objects](https://unifiedfontobject.org/)) is a cross-platform, cross-application, human readable format for storing font data.
-
-## CNC Typographic Engraving Proofs
-
-Laser engraving tests on plywood at various speeds and laser powers, [Artilect](https://artilect.fr/) fab lab, Toulouse, 2021 / 03 / 23.
-
-![](documentation/cnc_engraving_proofs/Relief-SingleLine_laser_plywood_text_bw.jpg)
-![](documentation/cnc_engraving_proofs/Relief-SingleLine_laser_plywood_ornaments_bw.jpg)
 
 ## Contributors
 
