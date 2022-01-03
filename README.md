@@ -1,6 +1,5 @@
 ![](documentation/character-map/Relief-SingleLine_compact_preview.jpg)
 ![](documentation/cnc_engraving_proofs/Relief-SingleLine_laser_plywood_text_bw.jpg)
-![](documentation/character-map/Relief-SingleLine_character_map_animation.gif)
 
 # Relief SingleLine typeface
 
@@ -28,7 +27,7 @@ The Relief project is based on a main skeletal .glyphs + .ufo source and explore
 
 • WOFF2
 
-→ Check *Relief SingleLine* [A4 format manual + character map](https://github.com/isdat-type/Relief-SingleLine/documentation/character-map/Relief-SingleLine_character_map_A4_format.pdf) and [character map animated gif](https://github.com/isdat-type/Relief-SingleLine/documentation/character-map/Relief-SingleLine_character_map_animation.gif). 
+→ For detailed informations check *Relief SingleLine* [A4 format manual + character map](https://github.com/isdat-type/Relief-SingleLine/documentation/character-map/Relief-SingleLine_character_map_A4_format.pdf). 
 
 When using *Relief SingleLine* font with a laser-cutting machine, it is recommended to use the *cutting* function at low intensity and not the *engraving* function in order to reduce inscription’s tracing time on any surface (do preliminary laser power tests to determine the best speed / power couple for each material to engrave with an inscription).
 
