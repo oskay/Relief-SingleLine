@@ -15,17 +15,17 @@ The Relief project is based on a main skeletal .glyphs + .ufo source and explore
 
 ¶ Open Paths / CNC machining (see “open-” prefix font folders)
 
-• OTF-SVG for Adobe 
+• `OTF-SVG` for Adobe (CC ≥2019)
 
-• SVG for Inkscape + Hershey Text Extension
+• `SVG` for Inkscape + Hershey Text Extension
 
-• TTF for CAD softwares (like Rhinoceros 3D)
+• `TTF` for CAD softwares (like Rhinoceros 3D)
 
 ¶ Closed Outlines / Print and Web (see “outline-” prefix font folders)
 
-• OTF (the closed outlines OTF version is necessary in the first steps of the Inkscape layout process)
+• `OTF` (the closed outlines OTF version is necessary in the first steps of the Inkscape layout process)
 
-• WOFF2
+• `WOFF2`
 
 → For detailed font informations check / documentation / character-map / manual + character map A4 format PDF. 
 
@@ -56,13 +56,14 @@ First install `ReliefSingleLineOutline-Regular.otf` on your system; then copy `R
 
 Only for Windows users: if you can not use `ReliefSingleLine-Regular.svg` even if effectively copied in the / svg_fonts folder, try the following action: right-click on `ReliefSingleLine-Regular.svg` then select `/ Properties / Security / Unlock / Apply`.
 
-Compose your layout in [Inkscape](https://inkscape.org/) using “ReliefSingleLineOutline-Regular.otf”, launch [Hershey Text Extension](https://www.evilmadscientist.com/2019/hershey-text-v30/) (now available by default) to render your text blocks as single-line letters: go to `/ Extension / Text / Hershey Text`. 
+Compose your layout in [Inkscape](https://inkscape.org/) using `ReliefSingleLineOutline-Regular.otf`, launch [Hershey Text Extension](https://www.evilmadscientist.com/2019/hershey-text-v30/) (now available by default) to render your text blocks as single-line letters: go to `/ Extension / Text / Hershey Text`. 
 
 Then, in font select *Other* (bottom of the list after the existing Hershey fonts) and type `ReliefSingleLine-Regular` in the next field of the dialog box as a path-name, then apply rendering. 
 
 Beware to first copy your source text blocks: after the Hershey Text Extension rendering process, texts are becoming not editable. Hershey Text Extension unfortunately apparently disables the kerning values even if truly embedded in the SVG font.
 
 Process to export towards (old) SVG format with open paths:
+
 • Open a skeletal UFO file in [FontForge](https://fontforge.org/), 
 
 • File / Generate fonts / Select SVG font format,
