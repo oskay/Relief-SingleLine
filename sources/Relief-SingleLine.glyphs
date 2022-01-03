@@ -1,197 +1,6 @@
 {
 .appVersion = "3087";
 .formatVersion = 3;
-DisplayStrings = (
-"/_module_n  /_module_rond  /_module_g  HOno 0/zero.osf  O0 o/zero.osf 
-
-nanbncndnenfngn/g.ss01 nhnıninȷnjnknln/l.ss02 nmn
-nonpnqnrnsntnunvnwnxnyn/y.ss03 nzn
-nænœnﬁnﬂn/fl.ss02 nßnHẞHnffnttn
-HAHBHCHDHEHFHGHIHJHKHLHMHNH
-HOHPHQHRHSHTHUHVHWHXHYHZH
-HÆHŒH
-
-oaobocodoeofogo/g.ss01 ohoıoiojokolo/l.ss02 omo
-opoqorosotouovowoxoyo/y.ss03 ozo
-oæoœoﬁoﬂoßoOẞO
-OAOBOCODOEOFOGOIOJOKOLOMONO
-OPOQOROSOTOUOVOWOXOYOZO
-OÆOŒO
-
-̈ ̇ ̀ ́  ̋ /caroncomb.alt  ̂ ̌ ̆ ̊ ̃ ̄ ̧ ̨ ̦̒ /periodcentered.loclCAT  ·
-
-̄ ̈ ̇ ı i I /l.ss02  - ­ – — _ | ¦ − = 
-
-n. n: n; n… n! ¡n n? ¿n n·  /periodcentered.loclCAT  /periodcentered.loclCAT.ss02   /periodcentered.loclCAT.case   /period.dnom  /period.numr  /period.sups  /period.subs 
-
-n/period.ss04  n/colon.ss04  n/semicolon.ss04  n/ellipsis.ss04  n/exclam.ss04  /exclamdown.ss04 n n/question.ss04  /questiondown.ss04 n n/periodcentered.ss04  /periodcentered.loclCAT.ss04  /periodcentered.loclCAT.ss02.ss04   /periodcentered.loclCAT.case.ss04  /period.dnom.ss04  /period.numr.ss04  /period.sups.ss04  /period.subs.ss04 
-
-n/period.ss05  n/colon.ss05  n/semicolon.ss05  n/ellipsis.ss05  n/exclam.ss05  /exclamdown.ss05 n n/question.ss05  /questiondown.ss05 n n/periodcentered.ss05   /periodcentered.loclCAT.ss05  /periodcentered.loclCAT.ss02.ss05   /periodcentered.loclCAT.case.ss05  /period.dnom.ss05  /period.numr.ss05  /period.sups.ss05  /period.subs.ss05 
-
-/zero.osf/one.osf/zero.osf/two.osf/zero.osf/three.osf/zero.osf/four.osf/zero.osf/five.osf/seven.osf/zero.osf/six.osf/zero.osf/seven.osf/zero.osf/eight.osf/zero.osf/nine.osf/zero.osf/zero.osf.zero/zero.osf 
-/zero.osf . /one.osf . /two.osf . /three.osf . /four.osf . /five.osf . /six.osf . /seven.osf . /eight.osf . /nine.osf . /zero.osf.zero .
-/zero.osf , /one.osf , /two.osf , /three.osf , /four.osf , /five.osf , /six.osf , /seven.osf , /eight.osf , /nine.osf , /zero.osf.zero ,
-/zero.osf ° /one.osf ° /two.osf ° /three.osf ° /four.osf ° /five.osf ° /six.osf ° /seven.osf ° /eight.osf ° /nine.osf °
-/one.osf/four.osf  /two.osf/four.osf  /seven.osf/four.osf  /nine.osf/six.osf  /six.osf/nine.osf  /six.osf/one.osf  /four.osf/one.osf  /seven.osf/six.osf  /nine.osf/four.osf  /seven.osf/nine.osf  /seven.osf/zero.osf/six.osf  /three.osf/six.osf  /three.osf/nine.osf  /zero.osf/nine.osf 
-
-0102030405060708090/zero.zero 0
-0. 1. 2. 3. 4. 5. 6. 7. 8. 9. /zero.zero .
-0, 1, 2, 3, 4, 5, 6, 7, 8, 9, /zero.zero ,
-0° 1° 2° 3° 4° 5° 6° 7° 8° 9°
-14 24 74 96 69 61 41 76 94 79 706 36 39 09
-
-0½0⅓0⅔0¼0¾0%0‰0
-
-/zero.numr ⁄ /zero.numr ⁄ /zero.numr.zero ⁄ /one.numr ⁄ /two.numr ⁄ /three.numr ⁄ /four.numr ⁄ /five.numr ⁄ /six.numr ⁄ /seven.numr ⁄ /eight.numr ⁄ /nine.numr ⁄
-⁄/zero.dnom  ⁄/zero.dnom.zero  ⁄/one.dnom  ⁄/two.dnom  ⁄/three.dnom  ⁄/four.dnom  ⁄/five.dnom  ⁄/six.dnom  ⁄/seven.dnom  ⁄/eight.dnom  ⁄/nine.dnom  
-
-/zero.dnom/one.dnom/zero.dnom/two.dnom/zero.dnom/three.dnom/zero.dnom/four.dnom/zero.dnom/five.dnom/zero.dnom/six.dnom/zero.dnom/seven.dnom/zero.dnom/eight.dnom/zero.dnom/nine.dnom/zero.dnom/zero.dnom.zero  /zero.dnom/plus.dnom/zero.dnom/minus.dnom/zero.dnom/multiply.dnom/zero.dnom/equal.dnom/zero.dnom  /parenleft.dnom/zero.dnom/parenright.dnom  /zero.dnom/period.dnom/zero.dnom 
-/zero.dnom/period.dnom  /one.dnom/period.dnom  /two.dnom/period.dnom  /three.dnom/period.dnom  /four.dnom/period.dnom  /five.dnom/period.dnom  /six.dnom/period.dnom  /seven.dnom/period.dnom  /eight.dnom/period.dnom  /nine.dnom/period.dnom  /zero.dnom.zero/period.dnom  
-/one.dnom/four.dnom  /two.dnom/four.dnom  /seven.dnom/four.dnom  /nine.dnom/six.dnom  /six.dnom/nine.dnom  /six.dnom/one.dnom  /four.dnom/one.dnom  /seven.dnom/six.dnom  /nine.dnom/four.dnom  /seven.dnom/nine.dnom  /seven.dnom/zero.dnom/six.dnom  /three.dnom/six.dnom  /three.dnom/nine.dnom  /zero.dnom/nine.dnom 
-
-/zero.numr/one.numr/zero.numr/two.numr/zero.numr/three.numr/zero.numr/four.numr/zero.numr/five.numr/zero.numr/six.numr/zero.numr/seven.numr/zero.numr/eight.numr/zero.numr/nine.numr/zero.numr/zero.numr.zero/zero.numr/zero.numr/plus.numr/minus.numr/multiply.numr/equal.numr/parenleft.numr/parenright.numr/period.numr 
-/zero.numr/period.numr  /one.numr/period.numr  /two.numr/period.numr  /three.numr/period.numr  /four.numr/period.numr  /five.numr/period.numr  /six.numr/period.numr  /seven.numr/period.numr  /eight.numr/period.numr  /nine.numr/period.numr  /zero.numr.zero/period.numr 
-/one.numr/four.numr  /two.numr/four.numr  /seven.numr/four.numr  /nine.numr/six.numr  /six.numr/nine.numr  /six.numr/one.numr  /four.numr/one.numr  /seven.numr/six.numr  /nine.numr/four.numr  /seven.numr/nine.numr  /seven.numr/zero.numr/six.numr  /three.numr/six.numr  /three.numr/nine.numr  /zero.numr/nine.numr 
-
-⁰¹⁰²⁰³⁰⁴⁰⁵⁰⁶⁰⁷⁰⁸⁰⁹⁰/zerosuperior.zero ⁰/plus.sups/minus.sups/multiply.sups/equal.sups/parenleft.sups/parenright.sups/period.sups 
-⁰/period.sups  ¹/period.sups  ²/period.sups  ³/period.sups  ⁴/period.sups  ⁵/period.sups  ⁶/period.sups  ⁷/period.sups  ⁸/period.sups  ⁹/period.sups  /zerosuperior.zero/period.sups  
-¹⁴ ²⁴ ⁷⁴ ⁹⁶ ⁶⁹ ⁶¹ ⁴¹ ⁷⁶ ⁹⁴ ⁷⁹ ⁷⁰⁶ ³⁶ ³⁹ ⁰⁹ 
-/zero.subs/one.subs/zero.subs/two.subs/zero.subs/three.subs/zero.subs/four.subs/zero.subs/five.subs/zero.subs/six.subs/zero.subs/seven.subs/zero.subs/eight.subs/zero.subs/nine.subs/zero.subs/zero.subs.zero/zero.subs/plus.subs/minus.subs/multiply.subs/equal.subs/parenleft.subs/parenright.subs/period.subs  
-/zero.subs/period.subs  /one.subs/period.subs  /two.subs/period.subs  /three.subs/period.subs  /four.subs/period.subs  /five.subs/period.subs  /six.subs/period.subs  /seven.subs/period.subs  /eight.subs/period.subs  /nine.subs/period.subs  /zero.subs.zero/period.subs  
-/one.subs/four.subs  /two.subs/four.subs  /seven.subs/four.subs  /nine.subs/six.subs  /six.subs/nine.subs  /six.subs/one.subs  /four.subs/one.subs  /seven.subs/six.subs  /nine.subs/four.subs  /seven.subs/nine.subs  /seven.subs/zero.subs/six.subs  /three.subs/six.subs  /three.subs/nine.subs  /zero.subs/nine.subs 
-
-.,:;…!¡.?¿·∙•*⁂#H//H/backslash H(n){n}[n](H){H}[H]-­–—_ ‚ „  0€0¢0¤0$0ƒ0£0¥0+0−0×0÷0=0≠0
-0>0<0≥0≤0n±0≈0~0¬0H^0∞0
-HAHδHπHOω0H∫0∏0∑0√0µ0∂0%0‰0 ⁄ 
-◊n¶R§@nH&H6° 9° 0°©®™H°H|H¦H†HℓH‡H℮H\015
-0½0⅓0⅔0¼0¾0 H/zero.numr/zero.numr.zero/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr/parenleft.numr/period.numr/plus.numr/minus.numr/multiply.numr/equal.numr/parenright.numr ⁄/zero.dnom/zero.dnom.zero/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/parenleft.dnom/period.dnom/plus.dnom/minus.dnom/multiply.dnom/equal.dnom/parenright.dnom  /four.numr/five.numr/six.numr ⁄/three.dnom/seven.dnom/zero.dnom 
-H⁰/zerosuperior.zero ⁰¹⁰²⁰³⁰⁴⁰⁵⁰⁶⁰⁷⁰⁸⁰⁹⁰/parenleft.sups/period.sups/plus.sups/minus.sups/multiply.sups/equal.sups/parenright.sups  H/zero.subs/zero.subs.zero/zero.subs/one.subs/zero.subs/two.subs/zero.subs/three.subs/zero.subs/four.subs/zero.subs/five.subs/zero.subs/six.subs/zero.subs/seven.subs/zero.subs/eight.subs/zero.subs/nine.subs/zero.subs/parenleft.subs/period.subs/plus.subs/minus.subs/multiply.subs/equal.subs/parenright.subs  ²³⁵U
-H↓H→H↑H↗H↘H↙H←H↖H↔H↕H⟳H⟲H
-H◊H□H○H△H◇Hn◻n⚪n▵n◣n
-
-n· n• n. n: o: n, o, n.: o; n… n! ¡n n? ¿n H? ¿H O? ¿O
-«n» ‹n› “n” “n„ ‘n’  ‘n‚
-«h» ‹h› “h” “h„ ‘h’  ‘h‚ 
-«r» ‹r› “r” “r„ ‘r’  ‘r‚
-«f» ‹f› “f” “f„ ‘f’  ‘f‚
-«t» ‹t› “t” “t„ ‘t’  ‘t‚
-«H» ‹H› “H” “H„ ‘H’  ‘H‚
-«o» ‹o› “o” “o„ ‘o’  ‘o‚
-«v» ‹v› “v” “v„ ‘v’  ‘v‚
-«w» ‹w› “w” “w„ ‘w’  ‘w‚
-
-«O» ‹O› “O” “O„ ‘O’  ‘O‚
-«A» ‹A› “A” “A„ ‘A’  ‘A‚
-«V» ‹V› “V” “V„ ‘V’  ‘V‚
-«W» ‹W› “W” “W„ ‘W’  ‘W‚
-«Y» ‹Y› “Y” “Y„ ‘Y’  ‘Y‚
-«T» ‹T› “T” “T„ ‘T’  ‘T‚
-
-«O» ‹O› “O” “O„ ‘O’ ‘O‚
-«o» ‹o› “o” “o„ ‘o’ ‘o‚
-«0» ‹0› “0” “0„ ‘0’ ‘0‚
-«/zero.osf » ‹/zero.osf › “/zero.osf ” “/zero.osf „ ‘/zero.osf ’ ‘/zero.osf ‚
-«1» ‹1› “1” “1„ ‘1’  ‘1‚
-«2» ‹2› “2” “2„ ‘2’  ‘2‚
-«3» ‹3› “3” “3„ ‘3’  ‘3‚
-«4» ‹4› “4” “4„ ‘4’  ‘4‚
-«5» ‹5› “5” “5„ ‘5’  ‘5‚
-«6» ‹6› “6” “6„ ‘6’  ‘6‚
-«7» ‹7› “7” “7„ ‘7’  ‘7‚
-«8» ‹8› “8” “8„ ‘8’  ‘8‚
-«9» ‹9› “9” “9„ ‘9’  ‘9‚
-
-n\" n' n//n/backslash n|n¦n n_n  0′ 0″
-f//g f|g H//H H|H 
-H#H@H©H®H™H&H0°HªHº
-¶H†H‡H§H/.notdef H*H⁂
-{n} {fg} [n] [fg] (n) (fg)
-{f} [f] (f)
-n—n–n-n­n H   
-
-ra rt rf tf ct cf ce fa fn fu fo fe fg rn rh ru ro re rg
-vo va vu vn zıziziziz zjzjzjz
-ka ko ku kn ki ks
-xo xa xu xn xi xs
-Xo Xa Xu Ra Ro Ka Ko
-
-TeTaToTuT/y.ss03 TnTyTcTgTdT/g.ss01 T TqTvTwT 
-ty tu tv tw ly ny oy ln la le lo /l.ss02 o ll tt tf ft
-VoV hbV pVeV VaV Vu VnV Vd V/g.ss01  Vq Vy Vv 
-Fa Fo Fn Fu ea oao Pa Po Pu Pn Ln Li LI Lh LH
-OVOVOVOVO LV LW LY AYA OYO LA LO KO
-WoW We WaW WuW WnW Wd VJ WJ RARY  
-AVA AWA TAT PA FA FO PO WO TT FE FF LL RV RW
-Ya Yu Yn Yo Yc Ye Yv Yy Y OTOTO KY XYXYXHYH
-
-OÆ VÆ WÆ TÆ YÆ FÆ PÆ KÆ ZÆ Æ //Æ Æ
-
-A? ¿A V? ¿V W? ¿W T? ¿T Y? ¿Y K? ¿K
-
- A V T W K Y 7  & 
-
-r, r. r: r;  f, f. f; t, t. t; 
-v. v, v; w. w, w; 
-r- f- v-v w-w t- k- l- /l.ss02 -
-r· f· v·v w· t· k· l· /l.ss02 · L· 
-r• f• v•v w• t• k• l• /l.ss02 • L•
-7. 7, 7: 7; /seven.osf . /seven.osf , /seven.osf ;
-
-P. P… P: P, P; P· P• P- 
-F. F… F: F, F; F· F• F- 
-T. T… T: T, T; T·T T•T T-T 
-A. A… A: A, A; A·A A•A A-A
-V. V… V: V, V; V·V V•V V-V
-W. W… W: W, W; W· W• W-W
-Y. Y… Y: Y, Y; Y·Y Y•Y Y-Y
-K. K… K: K, K; K· K• K-
-L. L… L: L, L; L· L• L-
-X. X… X: X, X; X· X• X-X
-Z. Z… Z: Z, Z; Z· Z• Z-Z
-. … : , ; · • -
-
-L'observateur
-L’observateur
-L'Argument
-L’Argument
-
-r\" r' “r” ‘r’ 
-n\" n' “n” ‘n’ 
-s\" s' “s” ‘s’
-t\" t' “t” ‘t’  doesn't
-v\" v' “v” ‘v’  V\" V' “V” ‘V’ W\" W' “W” ‘W’
-f\" f' “f” ‘f’  (f)
-A\" A' “A” ‘A’ (A)
-
-AÁĂÂÄÀĀĄÅ$ÃÆBCĆČÇĈĊDÐĎĐEÉĔĚÊËĖÈĒĘFGĞĜĢĠHĦĤIÍĬÎÏİÌĪĮĨJ/Jacute ĴKĶLĹĽĻĿŁMNŃŇŅŊÑOÓŎÔÖÒŐŌØÕŒPÞQRŔŘŖSŚŠŞŜȘẞTŦŤŢȚUÚŬÛÜÙŰŪŲŮŨVWẂŴẄẀXYÝŶŸỲZŹŽŻTaáăâäàāąåãæbcćčçĉċdðďđeéĕěêëėèēęfgğĝģġhħĥiıíĭîï/idotaccent ìīįĩjȷ/jacute ĵkķlĺľļŀłmnńňņŋñoóŏôöòőōøõœpþqrŕřŗsśšşŝșßtŧťţțuúŭûüùűūųůũvwẃŵẅẁxyýŷÿỳzźžż/g.ss01/gbreve.ss01/gcircumflex.ss01/gcommaaccent.ss01/gdotaccent.ss01/l.ss02/lacute.ss02/lcaron.ss02/lcommaaccent.ss02/ldot.ss02/lslash.ss02/y.ss03/yacute.ss03/ycircumflex.ss03/ydieresis.ss03/ygrave.ss03 
-
-̦ĢȘșĺ
-
-l· /l.ss02 · L·  l/periodcentered.ss04  /l.ss02/periodcentered.ss04  L/periodcentered.ss04   l/periodcentered.ss05  /l.ss02/periodcentered.ss05  L/periodcentered.ss05   (periodcentered)
-ŀl /ldot.ss02/l.ss02  ĿL  /ldot.ss04 l /ldot.ss02.ss04/l.ss02  /Ldot.ss04 L  /ldot.ss05 l /ldot.ss02.ss05/l.ss02  /Ldot.ss05 L  (ldot, ldot.ss02, Ldot)
-l/periodcentered.loclCAT l /l.ss02/periodcentered.loclCAT.ss02/l.ss02  L/periodcentered.loclCAT.case L l/periodcentered.loclCAT.ss04 l /l.ss02/periodcentered.loclCAT.ss02.ss04/l.ss02  L/periodcentered.loclCAT.case.ss04 L l/periodcentered.loclCAT.ss05 l /l.ss02/periodcentered.loclCAT.ss02.ss05/l.ss02  L/periodcentered.loclCAT.case.ss05 L  (locl CAT, locl CAT.case)
-
-COL/periodcentered.loclCAT.case LEGI 
-COLLEGI
-paral/periodcentered.loclCAT lel 
-parallel
-para/l.ss02/periodcentered.loclCAT.ss02/l.ss02 e/l.ss02 
-para/l.ss02/l.ss02 e/l.ss02 
-
-IÍĬÎÏİÌĪĮĨJ/Jacute Ĵ
-
-ıiíĭîï/idotaccent ìīįĩjȷ/jacute ĵ
-
-",
-"Relief SingleLine
-ABCDEFGHIJKLMN
-OPQRSTUVWXYZ
-1234567890/zero.zero 
-abcdefg/g.ss01 hijkl/l.ss02 mn
-opqrstuvwxy/y.ss03 z
-/one.osf/two.osf/three.osf/four.osf/five.osf/six.osf/seven.osf/eight.osf/nine.osf/zero.osf/zero.osf.zero 
-“([{¶@#&?!;/question.ss04/exclam.ss04/semicolon.ss04/question.ss05/exclam.ss05/semicolon.ss05 }])»"
-);
 customParameters = (
 {
 name = panose;
@@ -230,7 +39,7 @@ name = "Enforce Compatibility Check";
 value = 0;
 }
 );
-date = "2021-12-29 14:04:42 +0000";
+date = "2022-01-03 09:24:47 +0000";
 familyName = "Relief SingleLine";
 featurePrefixes = (
 {
@@ -789,26 +598,6 @@ name = top;
 pos = (340,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(606,0,l),
-(342,675,l),
-(338,675,l),
-(70,0,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(155,213,l),
-(522,213,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -1033,41 +822,6 @@ kernLeft = AE;
 kernRight = E;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(41,10,l),
-(474,670,l),
-(478,670,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(478,223,l),
-(181,223,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(819,10,l),
-(478,10,l),
-(478,670,l),
-(819,670,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(802,356,l),
-(478,356,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -1103,98 +857,6 @@ nodes = (
 }
 );
 width = 919;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (303,0);
-},
-{
-name = ogonek;
-pos = (566,0);
-},
-{
-name = top;
-pos = (302,680);
-}
-);
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(425,358,l),
-(724,358,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(302,670,l),
-(739,670,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(744,10,l),
-(557,10,l),
-(302,670,l),
-(300,670,l),
-(37,5,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(119,214,l),
-(478,214,l)
-);
-},
-{
-pos = (-25,0);
-ref = A;
-}
-);
-};
-layerId = "95681CD2-5D1B-4352-8127-F26CE23EF520";
-name = "Aug 30 21, 12:29";
-shapes = (
-{
-closed = 0;
-nodes = (
-(744,10,l),
-(567,10,l),
-(307,670,l),
-(303,670,l),
-(35,0,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(727,358,l),
-(431,358,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(307,670,l),
-(744,670,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(490,213,l),
-(118,213,l)
-);
-}
-);
-width = 824;
 }
 );
 metricLeft = "=A-25";
@@ -1207,38 +869,6 @@ kernLeft = H;
 kernRight = B;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(330,356,l),
-(428,356,o),
-(514,406,o),
-(514,520,cs),
-(514,601,o),
-(471,680,o),
-(301,680,cs),
-(140,680,l),
-(140,0,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(302,0,ls),
-(475,0,o),
-(534,77,o),
-(534,179,cs),
-(534,286,o),
-(469,356,o),
-(310,356,cs),
-(140,356,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -1271,74 +901,6 @@ nodes = (
 }
 );
 width = 634;
-},
-{
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(330,356,l),
-(428,356,o),
-(514,406,o),
-(514,520,cs),
-(514,601,o),
-(471,680,o),
-(301,680,cs),
-(140,680,l),
-(140,0,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(302,0,ls),
-(475,0,o),
-(534,77,o),
-(534,179,cs),
-(534,286,o),
-(469,356,o),
-(310,356,cs),
-(140,356,l)
-);
-}
-);
-};
-layerId = "CB6E74EF-ABB2-4C2D-B63B-7146BFEA2FCB";
-name = "20 nov. 21 à 21:12";
-shapes = (
-{
-closed = 0;
-nodes = (
-(330,356,l),
-(428,356,o),
-(514,406,o),
-(514,520,cs),
-(514,601,o),
-(471,680,o),
-(301,680,cs),
-(140,680,l),
-(140,0,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(302,0,ls),
-(475,0,o),
-(534,77,o),
-(534,179,cs),
-(534,286,o),
-(469,356,o),
-(310,356,cs),
-(140,356,l)
-);
-}
-);
-width = 634;
 }
 );
 metricLeft = H;
@@ -1360,31 +922,6 @@ name = top;
 pos = (357,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(566,537,l),
-(529,631,o),
-(460,680,o),
-(358,680,cs),
-(187,680,o),
-(95,544,o),
-(95,341,cs),
-(95,117,o),
-(208,0,o),
-(358,0,cs),
-(475,0,o),
-(552,71,o),
-(580,153,c)
-);
-},
-{
-ref = O;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -1538,31 +1075,6 @@ name = top;
 pos = (354,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(260,0,ls),
-(440,0,o),
-(607,96,o),
-(608,339,cs),
-(609,549,o),
-(484,680,o),
-(287,680,cs),
-(140,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -1584,74 +1096,6 @@ nodes = (
 (484,670,o),
 (287,670,cs),
 (140,670,l)
-);
-}
-);
-width = 693;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (354,0);
-},
-{
-name = center;
-pos = (354,340);
-},
-{
-name = top;
-pos = (354,680);
-}
-);
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(260,0,ls),
-(440,0,o),
-(607,96,o),
-(608,339,cs),
-(609,549,o),
-(484,680,o),
-(287,680,cs),
-(140,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l)
-);
-}
-);
-};
-layerId = "0F3EB423-19FA-4E6F-AB3E-B4B78953DB4D";
-name = "20 nov. 21 à 21:12";
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(260,0,ls),
-(440,0,o),
-(607,96,o),
-(608,339,cs),
-(609,549,o),
-(484,680,o),
-(287,680,cs),
-(140,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l)
 );
 }
 );
@@ -1750,26 +1194,6 @@ name = topleft;
 pos = (30,696);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(501,10,l),
-(140,10,l),
-(140,670,l),
-(501,670,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,356,l),
-(484,356,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -1995,31 +1419,6 @@ kernLeft = H;
 kernRight = F;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,670,l),
-(481,670,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,670,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,347,l),
-(464,347,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -2060,30 +1459,6 @@ name = top;
 pos = (356,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(566,537,l),
-(529,631,o),
-(460,680,o),
-(358,680,cs),
-(196,680,o),
-(95,556,o),
-(95,340,cs),
-(95,152,o),
-(169,0,o),
-(363,0,cs),
-(443,0,o),
-(509,26,o),
-(560,57,c),
-(560,334,l),
-(383,334,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -2221,31 +1596,6 @@ name = topleft;
 pos = (30,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(566,0,l),
-(566,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,365,l),
-(566,365,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -2344,18 +1694,6 @@ name = topleft;
 pos = (29,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l),
-(86,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -2363,40 +1701,6 @@ closed = 0;
 nodes = (
 (140,0,l),
 (140,680,l)
-);
-}
-);
-width = 280;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (140,0);
-},
-{
-name = ogonek;
-pos = (140,0);
-},
-{
-name = top;
-pos = (140,680);
-},
-{
-name = topleft;
-pos = (29,680);
-}
-);
-associatedMasterId = master01;
-layerId = "CA5028DE-3226-46D2-9980-3253F8F1F2C1";
-name = "21 nov. 21 à 22:09";
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l),
-(86,680,l)
 );
 }
 );
@@ -2617,23 +1921,6 @@ name = top;
 pos = (231,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(50,29,ls),
-(73,7,o),
-(103,0,o),
-(128,0,cs),
-(185,0,o),
-(231,35,o),
-(231,138,cs),
-(231,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -2712,25 +1999,6 @@ name = top;
 pos = (296,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(527,0,l),
-(191,359,l),
-(503,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -2934,23 +2202,6 @@ kernLeft = H;
 kernRight = H;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(722,0,l),
-(722,680,l),
-(718,680,l),
-(433,30,l),
-(429,30,l),
-(144,680,l),
-(140,680,l),
-(140,0,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -2990,21 +2241,6 @@ name = top;
 pos = (370,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l),
-(144,680,l),
-(596,0,l),
-(600,0,l),
-(599,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -3174,28 +2410,6 @@ name = topright;
 pos = (691,696);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(357,680,l),
-(168,680,o),
-(95,501,o),
-(95,341,cs),
-(95,207,o),
-(147,0,o),
-(358,0,cs),
-(569,0,o),
-(621,207,o),
-(621,341,cs),
-(621,501,o),
-(548,680,o),
-(359,680,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -3427,14 +2641,6 @@ kernLeft = O;
 kernRight = E;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (336,0);
-ref = E;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -3491,31 +2697,6 @@ kernLeft = H;
 kernRight = P;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,316,l),
-(314,316,ls),
-(454,316,o),
-(525,381,o),
-(525,493,cs),
-(525,602,o),
-(458,680,o),
-(317,680,cs),
-(140,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -3537,60 +2718,6 @@ nodes = (
 (458,670,o),
 (317,670,cs),
 (140,670,l)
-);
-}
-);
-width = 590;
-},
-{
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,316,l),
-(314,316,ls),
-(454,316,o),
-(525,381,o),
-(525,493,cs),
-(525,602,o),
-(458,680,o),
-(317,680,cs),
-(140,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l)
-);
-}
-);
-};
-layerId = "740E901D-BDE8-45EF-A085-4B26D1D791E1";
-name = "20 nov. 21 à 21:13";
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,316,l),
-(314,316,ls),
-(454,316,o),
-(525,381,o),
-(525,493,cs),
-(525,602,o),
-(458,680,o),
-(317,680,cs),
-(140,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l)
 );
 }
 );
@@ -3642,17 +2769,6 @@ kernLeft = O;
 kernRight = O;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(599,-138,l),
-(428,7,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -3688,38 +2804,6 @@ name = top;
 pos = (300,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,344,l),
-(325,344,ls),
-(423,344,o),
-(506,406,o),
-(506,512,cs),
-(506,602,o),
-(447,680,o),
-(313,680,cs),
-(140,680,ls)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(519,0,l),
-(343,344,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -3748,84 +2832,6 @@ nodes = (
 (447,670,o),
 (313,670,cs),
 (140,670,ls)
-);
-}
-);
-width = 604;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (305,0);
-},
-{
-name = top;
-pos = (300,680);
-}
-);
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,344,l),
-(325,344,ls),
-(423,344,o),
-(506,406,o),
-(506,512,cs),
-(506,602,o),
-(447,680,o),
-(313,680,cs),
-(140,680,ls)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(519,0,l),
-(343,344,l)
-);
-}
-);
-};
-layerId = "7D11FDD9-E37F-4CF1-9A4B-DE22CE2F7D06";
-name = "20 nov. 21 à 21:13";
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,344,l),
-(325,344,ls),
-(423,344,o),
-(506,406,o),
-(506,512,cs),
-(506,602,o),
-(447,680,o),
-(313,680,cs),
-(140,680,ls)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(519,0,l),
-(343,344,l)
 );
 }
 );
@@ -3914,35 +2920,6 @@ name = top;
 pos = (298,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(95,109,l),
-(123,43,o),
-(193,0,o),
-(285,0,cs),
-(404,0,o),
-(476,74,o),
-(476,163,cs),
-(476,364,o),
-(109,334,o),
-(109,526,cs),
-(109,605,o),
-(171,680,o),
-(293,680,cs),
-(379,680,o),
-(432,642,o),
-(456,590,c)
-);
-},
-{
-pos = (-79,0);
-ref = O;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -4085,29 +3062,6 @@ kernLeft = H;
 kernRight = Germandbls;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(260,24,l),
-(283,11,o),
-(318,0,o),
-(361,0,cs),
-(472,0,o),
-(554,74,o),
-(554,186,cs),
-(554,311,o),
-(453,388,o),
-(347,401,c),
-(511,666,l),
-(511,670,l),
-(140,670,l),
-(140,0,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -4156,24 +3110,6 @@ name = top;
 pos = (260,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(40,670,l),
-(480,670,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(260,0,l),
-(260,670,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -4280,14 +3216,6 @@ name = bottom;
 pos = (250,-252);
 }
 );
-background = {
-shapes = (
-{
-pos = (201,0);
-ref = commaaccentcomb;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -4330,24 +3258,6 @@ name = topright;
 pos = (664,696);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(130,680,l),
-(130,245,ls),
-(130,87,o),
-(218,0,o),
-(347,0,cs),
-(482,0,o),
-(564,87,o),
-(564,245,cs),
-(564,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -4593,19 +3503,6 @@ kernLeft = V;
 kernRight = V;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(70,680,l),
-(319,0,l),
-(323,0,l),
-(571,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -4641,23 +3538,6 @@ name = top;
 pos = (453,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(80,680,l),
-(255,0,l),
-(259,0,l),
-(450,670,l),
-(454,670,l),
-(645,0,l),
-(649,0,l),
-(830,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -4771,24 +3651,6 @@ kernLeft = X;
 kernRight = X;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(70,0,l),
-(516,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(537,0,l),
-(93,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -4831,25 +3693,6 @@ name = topleft;
 pos = (50,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(50,680,l),
-(285,296,l),
-(525,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(285,0,l),
-(285,296,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -4977,21 +3820,6 @@ name = top;
 pos = (300,680);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(509,10,l),
-(111,10,l),
-(111,14,l),
-(498,666,l),
-(498,670,l),
-(110,670,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -5136,42 +3964,6 @@ name = top;
 pos = (281,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(441,0,l),
-(438,37,o),
-(437,97,o),
-(437,138,cs),
-(437,378,ls),
-(437,475,o),
-(398,555,o),
-(282,555,cs),
-(197,555,o),
-(147,516,o),
-(114,440,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(437,308,l),
-(376,308,ls),
-(174,308,o),
-(90,255,o),
-(90,141,cs),
-(90,68,o),
-(134,0,o),
-(229,0,cs),
-(315,0,o),
-(382,57,o),
-(437,130,cs)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -5495,31 +4287,6 @@ name = top;
 pos = (290,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(445,450,l),
-(423,504,o),
-(372,555,o),
-(289,555,cs),
-(163,555,o),
-(90,439,o),
-(90,271,cs),
-(90,107,o),
-(160,0,o),
-(290,0,cs),
-(368,0,o),
-(411,38,o),
-(446,98,cs)
-);
-},
-{
-ref = o;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -5796,29 +4563,6 @@ name = top;
 pos = (295,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(92,305,l),
-(476,305,l),
-(476,417,o),
-(439,555,o),
-(294,555,cs),
-(169,555,o),
-(90,451,o),
-(90,275,cs),
-(90,116,o),
-(154,0,o),
-(297,0,cs),
-(391,0,o),
-(443,51,o),
-(468,110,cs)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -6100,30 +4844,6 @@ kernLeft = f;
 kernRight = f;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(150,0,l),
-(150,619,ls),
-(150,696,o),
-(187,745,o),
-(258,745,cs),
-(285,745,o),
-(309,738,o),
-(328,724,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(50,500,l),
-(297,500,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -6168,28 +4888,6 @@ name = top;
 pos = (308,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(473,421,l),
-(419,517,o),
-(352,555,o),
-(280,555,cs),
-(157,555,o),
-(90,447,o),
-(90,289,cs),
-(90,147,o),
-(144,20,o),
-(280,20,cs),
-(365,20,o),
-(430,68,o),
-(473,147,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -6445,18 +5143,6 @@ name = top;
 pos = (140,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,555,l),
-(86,555,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -6464,47 +5150,6 @@ closed = 0;
 nodes = (
 (140,0,l),
 (140,555,l)
-);
-}
-);
-width = 280;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (140,0);
-},
-{
-name = ogonek;
-pos = (140,0);
-},
-{
-name = top;
-pos = (140,555);
-}
-);
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,555,l)
-);
-}
-);
-};
-layerId = "1A9DB11B-B7EB-4BC9-9F04-68C449EC9411";
-name = "21 nov. 21 à 22:07";
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,555,l),
-(86,555,l)
 );
 }
 );
@@ -6757,23 +5402,6 @@ name = top;
 pos = (158,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(0,-165,l),
-(15,-179,o),
-(39,-190,o),
-(72,-190,cs),
-(135,-190,o),
-(158,-152,o),
-(158,-83,cs),
-(158,555,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -6853,18 +5481,6 @@ name = top;
 pos = (269,745);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(478,0,l),
-(200,302,l),
-(456,555,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -7288,28 +5904,6 @@ name = topright;
 pos = (533,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(295,555,l),
-(131,555,o),
-(90,384,o),
-(90,275,cs),
-(90,140,o),
-(152,0,o),
-(296,0,cs),
-(440,0,o),
-(502,140,o),
-(502,275,cs),
-(502,384,o),
-(461,555,o),
-(297,555,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -7672,31 +6266,6 @@ name = top;
 pos = (234,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,415,l),
-(211,497,o),
-(277,555,o),
-(338,555,cs)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,555,l),
-(140,0,l)
-);
-},
-{
-alignment = -1;
-pos = (140,0);
-ref = _module_n;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -7801,31 +6370,6 @@ name = top;
 pos = (267,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(90,118,ls),
-(114,44,o),
-(185,0,o),
-(270,0,cs),
-(351,0,o),
-(436,41,o),
-(436,135,cs),
-(436,320,o),
-(109,256,o),
-(109,430,cs),
-(109,518,o),
-(193,555,o),
-(265,555,cs),
-(335,555,o),
-(390,520,o),
-(415,462,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -7847,70 +6391,6 @@ nodes = (
 (335,555,o),
 (390,520,o),
 (415,462,c)
-);
-}
-);
-width = 521;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (265,0);
-},
-{
-name = top;
-pos = (267,555);
-}
-);
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(90,118,l),
-(114,44,o),
-(185,0,o),
-(270,0,cs),
-(351,0,o),
-(436,41,o),
-(436,135,cs),
-(436,320,o),
-(109,252,o),
-(109,433,cs),
-(109,524,o),
-(193,555,o),
-(265,555,cs),
-(338,555,o),
-(388,523,o),
-(413,457,c)
-);
-}
-);
-};
-layerId = "17AFE0F8-A466-4762-BA93-C962EE6B8127";
-name = "Sep 17 21, 18:58";
-shapes = (
-{
-closed = 0;
-nodes = (
-(90,118,ls),
-(114,44,o),
-(185,0,o),
-(270,0,cs),
-(351,0,o),
-(436,41,o),
-(436,135,cs),
-(436,320,o),
-(109,256,o),
-(109,430,cs),
-(109,518,o),
-(193,555,o),
-(265,555,cs),
-(337,555,o),
-(391,519,o),
-(415,457,c)
 );
 }
 );
@@ -8032,42 +6512,6 @@ kernLeft = h;
 kernRight = germandbls;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(261,406,l),
-(302,406,ls),
-(418,406,o),
-(469,494,o),
-(469,582,cs),
-(469,670,o),
-(417,745,o),
-(309,745,cs),
-(200,745,o),
-(140,668,o),
-(140,529,cs),
-(140,0,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(250,24,ls),
-(273,11,o),
-(304,0,o),
-(341,0,cs),
-(445,0,o),
-(509,85,o),
-(509,195,cs),
-(509,317,o),
-(426,406,o),
-(302,406,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -8133,30 +6577,6 @@ name = topright;
 pos = (290,745);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(327,27,ls),
-(309,11,o),
-(281,0,o),
-(247,0,cs),
-(185,0,o),
-(150,35,o),
-(150,117,cs),
-(150,660,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(50,501,l),
-(313,501,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -8296,16 +6716,6 @@ name = topright;
 pos = (573,555);
 }
 );
-background = {
-shapes = (
-{
-alignment = -1;
-angle = 180;
-pos = (463,555);
-ref = _module_n;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -8552,19 +6962,6 @@ kernLeft = v;
 kernRight = v;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(60,555,l),
-(268,0,l),
-(274,0,l),
-(479,555,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -8598,23 +6995,6 @@ name = top;
 pos = (409,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(70,555,l),
-(237,0,l),
-(241,0,l),
-(408,545,l),
-(412,545,l),
-(584,0,l),
-(588,0,l),
-(747,555,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -8728,24 +7108,6 @@ kernLeft = x;
 kernRight = x;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(70,0,l),
-(458,555,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(470,0,l),
-(95,555,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -8784,14 +7146,6 @@ name = top;
 pos = (274,555);
 }
 );
-background = {
-shapes = (
-{
-pos = (10,0);
-ref = v;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -8816,52 +7170,6 @@ nodes = (
 }
 );
 width = 549;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (269,-16);
-},
-{
-name = top;
-pos = (269,555);
-}
-);
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-pos = (5,0);
-ref = v;
-}
-);
-};
-layerId = "584AB878-AF67-4190-BB98-5CC3335817CF";
-name = "29 déc. 21 à 14:41";
-shapes = (
-{
-closed = 0;
-nodes = (
-(276,-16,l),
-(70,555,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(103,-175,l),
-(119,-185,o),
-(138,-190,o),
-(156,-190,cs),
-(213,-190,o),
-(242,-138,o),
-(276,-16,c),
-(478,555,l)
-);
-}
-);
-width = 538;
 }
 );
 metricLeft = "=v+10";
@@ -8972,21 +7280,6 @@ name = top;
 pos = (259,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(450,10,l),
-(90,10,l),
-(90,14,l),
-(435,541,l),
-(435,545,l),
-(93,545,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -9085,56 +7378,6 @@ name = top;
 pos = (279,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(219,93,l),
-(143,63,o),
-(80,-6,o),
-(80,-68,cs),
-(80,-151,o),
-(161,-190,o),
-(277,-190,cs),
-(402,-190,o),
-(487,-142,o),
-(487,-59,cs),
-(487,109,o),
-(152,44,o),
-(152,158,cs),
-(152,186,o),
-(173,216,o),
-(220,239,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(273,555,l),
-(177,555,o),
-(101,495,o),
-(101,394,cs),
-(101,297,o),
-(168,235,o),
-(275,235,cs),
-(380,235,o),
-(449,294,o),
-(449,391,cs),
-(449,503,o),
-(363,555,o),
-(275,555,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(344,543,l),
-(517,543,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -9303,40 +7546,6 @@ nodes = (
 }
 );
 width = 270;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (109,0);
-},
-{
-name = center;
-pos = (140,389);
-},
-{
-name = top;
-pos = (209,745);
-},
-{
-name = topright;
-pos = (290,745);
-}
-);
-associatedMasterId = master01;
-layerId = "54D47EC0-96E3-44B7-8B3E-D4EB5EBE61A2";
-name = "21 nov. 21 à 22:11";
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,0,l),
-(140,745,l),
-(86,745,l)
-);
-}
-);
-width = 270;
 }
 );
 metricLeft = n;
@@ -9460,23 +7669,6 @@ name = top;
 pos = (294,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(466,155,l),
-(426,87,o),
-(354,20,o),
-(266,20,cs),
-(188,20,o),
-(138,73,o),
-(138,170,cs),
-(138,555,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -9673,14 +7865,6 @@ kernLeft = f;
 kernRight = i;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (10,0);
-ref = n;
-}
-);
-};
 guides = (
 {
 pos = (48,697);
@@ -9717,14 +7901,6 @@ kernLeft = f;
 kernRight = l;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (10,0);
-ref = n;
-}
-);
-};
 guides = (
 {
 pos = (48,697);
@@ -9758,14 +7934,6 @@ kernLeft = f;
 kernRight = l.ss02;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (10,0);
-ref = n;
-}
-);
-};
 guides = (
 {
 pos = (48,697);
@@ -9838,22 +8006,6 @@ kernLeft = A;
 kernRight = A;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(100,8,l),
-(100,0,l),
-(600,0,l),
-(600,10,l),
-(355,675,l),
-(345,675,l),
-(100,10,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -9921,32 +8073,6 @@ kernLeft = O;
 kernRight = O;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(643,10,l),
-(468,10,l),
-(468,32,l),
-(545,103,o),
-(620,212,o),
-(620,367,cs),
-(620,548,o),
-(520,680,o),
-(372,680,cs),
-(224,680,o),
-(126,548,o),
-(126,367,cs),
-(126,212,o),
-(198,103,o),
-(275,32,c),
-(275,10,l),
-(100,10,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -9983,28 +8109,6 @@ kernLeft = zero;
 kernRight = zero;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(310,680,l),
-(162,680,o),
-(90,527,o),
-(90,337,cs),
-(90,145,o),
-(162,0,o),
-(311,0,cs),
-(460,0,o),
-(532,145,o),
-(532,337,cs),
-(532,527,o),
-(460,680,o),
-(312,680,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -10037,36 +8141,6 @@ kernLeft = one;
 kernRight = H;
 layers = (
 {
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(269,0,l),
-(269,670,l),
-(265,670,l),
-(51,519,l)
-);
-}
-);
-};
-layerId = "6EDA8715-3519-4E02-AC51-65A998ED1B68";
-name = "Aug 5 21, 22:11";
-shapes = (
-{
-closed = 0;
-nodes = (
-(269,0,l),
-(269,670,l),
-(265,670,l),
-(60,521,l)
-);
-}
-);
-width = 419;
-},
-{
 layerId = master01;
 shapes = (
 {
@@ -10090,28 +8164,6 @@ kernLeft = two;
 kernRight = two;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(465,0,l),
-(65,0,l),
-(65,4,l),
-(288,249,ls),
-(364,333,o),
-(440,412,o),
-(440,519,cs),
-(440,628,o),
-(361,680,o),
-(274,680,cs),
-(186,680,o),
-(113,628,o),
-(84,542,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -10144,41 +8196,6 @@ kernLeft = zero;
 kernRight = zero;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(75,123,l),
-(94,49,o),
-(166,-1,o),
-(263,-1,cs),
-(381,-1,o),
-(456,73,o),
-(456,175,cs),
-(456,264,o),
-(400,359,o),
-(249,359,c),
-(218,359,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(249,359,l),
-(383,359,o),
-(446,436,o),
-(446,526,cs),
-(446,608,o),
-(392,680,o),
-(273,680,cs),
-(177,680,o),
-(119,632,o),
-(87,579,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -10224,21 +8241,6 @@ kernLeft = four;
 kernRight = four;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(385,0,l),
-(385,670,l),
-(375,670,l),
-(65,164,l),
-(65,160,l),
-(509,160,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -10264,30 +8266,6 @@ kernLeft = five;
 kernRight = five;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(95,138,ls),
-(127,49,o),
-(193,0,o),
-(276,0,cs),
-(385,0,o),
-(467,84,o),
-(467,208,cs),
-(467,325,o),
-(393,415,o),
-(274,415,cs),
-(228,415,o),
-(169,402,o),
-(127,376,c),
-(137,670,l),
-(449,670,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -10383,34 +8361,6 @@ kernLeft = zero;
 kernRight = zero;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(268,680,l),
-(367,680,o),
-(436,618,o),
-(436,536,cs),
-(436,353,o),
-(80,372,o),
-(80,160,cs),
-(80,58,o),
-(171,0,o),
-(268,0,cs),
-(365,0,o),
-(459,57,o),
-(459,160,cs),
-(459,371,o),
-(102,348,o),
-(102,538,cs),
-(102,610,o),
-(156,680,o),
-(266,680,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -10497,28 +8447,6 @@ kernLeft = zero.osf;
 kernRight = zero.osf;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(309,575,ls),
-(164,575,o),
-(90,444,o),
-(90,287,cs),
-(90,125,o),
-(166,0,o),
-(310,0,cs),
-(455,0,o),
-(530,125,o),
-(530,287,cs),
-(530,444,o),
-(456,575,o),
-(311,575,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -10572,28 +8500,6 @@ kernLeft = two.osf;
 kernRight = two.osf;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(480,0,l),
-(85,0,l),
-(85,4,l),
-(216,121,ls),
-(297,193,o),
-(440,312,o),
-(440,431,cs),
-(440,510,o),
-(383,575,o),
-(282,575,cs),
-(186,575,o),
-(124,516,o),
-(101,443,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -10616,102 +8522,6 @@ nodes = (
 }
 );
 width = 570;
-},
-{
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(463,0,l),
-(75,0,l),
-(75,4,l),
-(204,121,ls),
-(285,195,o),
-(435,312,o),
-(435,437,cs),
-(435,510,o),
-(384,575,o),
-(273,575,cs),
-(169,575,o),
-(113,517,o),
-(91,443,c)
-);
-}
-);
-};
-layerId = "F8202501-1B29-487A-B541-D93EABC9D375";
-name = "Sep 17 21, 19:05";
-shapes = (
-{
-closed = 0;
-nodes = (
-(473,0,l),
-(85,0,l),
-(85,4,l),
-(214,121,ls),
-(293,193,o),
-(435,312,o),
-(435,437,cs),
-(435,510,o),
-(387,575,o),
-(283,575,cs),
-(179,575,o),
-(123,517,o),
-(101,443,c)
-);
-}
-);
-width = 563;
-},
-{
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(464,-73,l),
-(83,-73,l),
-(83,-69,l),
-(296,165,ls),
-(368,245,o),
-(440,319,o),
-(440,421,cs),
-(440,525,o),
-(365,575,o),
-(282,575,cs),
-(198,575,o),
-(128,525,o),
-(101,443,c)
-);
-}
-);
-};
-layerId = "44DBC83B-AF4E-4452-9284-D47C848D5190";
-name = "Sep 18 21, 09:24";
-shapes = (
-{
-closed = 0;
-nodes = (
-(480,0,l),
-(85,0,l),
-(85,4,l),
-(216,121,ls),
-(297,193,o),
-(440,312,o),
-(440,437,cs),
-(440,510,o),
-(392,575,o),
-(283,575,cs),
-(181,575,o),
-(123,517,o),
-(101,443,c)
-);
-}
-);
-width = 570;
 }
 );
 },
@@ -10721,41 +8531,6 @@ kernLeft = zero.osf;
 kernRight = zero.osf;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(65,7,l),
-(82,-63,o),
-(154,-117,o),
-(250,-117,cs),
-(364,-117,o),
-(446,-41,o),
-(446,67,cs),
-(446,172,o),
-(368,250,o),
-(239,250,c),
-(208,250,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(239,250,l),
-(359,250,o),
-(436,312,o),
-(436,412,cs),
-(436,492,o),
-(387,575,o),
-(261,575,cs),
-(165,575,o),
-(109,526,o),
-(77,473,c)
-);
-}
-);
-};
 guides = (
 {
 pos = (289,-64);
@@ -10808,21 +8583,6 @@ kernLeft = four.osf;
 kernRight = four.osf;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(383,-133,l),
-(383,565,l),
-(373,565,l),
-(60,31,l),
-(60,27,l),
-(507,27,l)
-);
-}
-);
-};
 guides = (
 {
 pos = (124,-64);
@@ -10858,30 +8618,6 @@ kernLeft = five.osf;
 kernRight = five.osf;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(105,8,ls),
-(132,-66,o),
-(201,-117,o),
-(283,-117,cs),
-(378,-117,o),
-(468,-49,o),
-(471,85,cs),
-(474,205,o),
-(401,295,o),
-(276,295,cs),
-(223,295,o),
-(174,279,o),
-(134,257,c),
-(144,565,l),
-(454,565,l)
-);
-}
-);
-};
 guides = (
 {
 pos = (47,-64);
@@ -10926,31 +8662,6 @@ kernLeft = six.osf;
 kernRight = six.osf;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(374,706,l),
-(258,591,o),
-(80,368,o),
-(80,205,cs),
-(80,123,o),
-(131,0,o),
-(282,0,cs),
-(410,0,o),
-(482,92,o),
-(482,198,cs),
-(482,311,o),
-(401,401,o),
-(287,401,cs),
-(218,401,o),
-(141,368,o),
-(95,297,cs)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -11014,34 +8725,6 @@ kernLeft = zero.osf;
 kernRight = zero.osf;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(268,706,l),
-(367,706,o),
-(436,655,o),
-(436,569,cs),
-(436,376,o),
-(80,372,o),
-(80,170,cs),
-(80,70,o),
-(156,0,o),
-(270,0,cs),
-(394,0,o),
-(459,81,o),
-(459,171,cs),
-(459,360,o),
-(103,379,o),
-(102,571,cs),
-(102,646,o),
-(167,706,o),
-(266,706,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -11360,14 +9043,6 @@ kernLeft = two.dnom;
 kernRight = two.dnom;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (-356,0);
-ref = onehalf;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -11385,14 +9060,6 @@ kernLeft = zero.dnom;
 kernRight = zero.dnom;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (-397,0);
-ref = twothirds;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -11410,14 +9077,6 @@ kernLeft = four.dnom;
 kernRight = four.dnom;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (-313,0);
-ref = onequarter;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -11546,13 +9205,6 @@ kernLeft = one.dnom;
 kernRight = one.dnom;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = onehalf;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -11573,13 +9225,6 @@ kernLeft = two.dnom;
 kernRight = two.dnom;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = twothirds;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -11600,13 +9245,6 @@ kernLeft = zero.dnom;
 kernRight = zero.dnom;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = threequarters;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -12276,17 +9914,6 @@ kernLeft = period;
 kernRight = period;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(151,100,l),
-(151,-20,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -12735,43 +10362,6 @@ kernLeft = slash;
 kernRight = slash;
 layers = (
 {
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(55,0,l),
-(352,680,l)
-);
-}
-);
-};
-layerId = "A356D1F2-74A9-4916-B057-0B50178F140A";
-name = "Sep 18 21, 17:33";
-shapes = (
-{
-closed = 0;
-nodes = (
-(53,-5,l),
-(354,685,l)
-);
-}
-);
-width = 407;
-},
-{
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(55,0,l),
-(352,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -12939,28 +10529,6 @@ kernLeft = period;
 kernRight = period;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(149,72,l),
-(126,72,o),
-(109,54,o),
-(109,31,cs),
-(109,8,o),
-(127,-10,o),
-(150,-10,cs),
-(173,-10,o),
-(190,8,o),
-(190,31,cs),
-(190,54,o),
-(173,72,o),
-(151,72,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -13170,28 +10738,6 @@ kernLeft = period;
 kernRight = period;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(150,72,l),
-(127,72,o),
-(110,54,o),
-(110,31,cs),
-(110,8,o),
-(128,-10,o),
-(151,-10,cs),
-(174,-10,o),
-(191,8,o),
-(191,31,cs),
-(191,54,o),
-(174,72,o),
-(152,72,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -13716,18 +11262,6 @@ kernLeft = hyphen;
 kernRight = hyphen;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(100,278,l),
-(317,278,l),
-(317,224,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -13735,22 +11269,6 @@ closed = 0;
 nodes = (
 (100,278,l),
 (317,278,l)
-);
-}
-);
-width = 417;
-},
-{
-associatedMasterId = master01;
-layerId = "D7561168-BED6-42A1-A3C4-00DD095DF839";
-name = "21 nov. 21 à 22:12";
-shapes = (
-{
-closed = 0;
-nodes = (
-(100,278,l),
-(317,278,l),
-(317,224,l)
 );
 }
 );
@@ -13784,18 +11302,6 @@ kernLeft = hyphen;
 kernRight = hyphen;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(60,278,l),
-(552,278,l),
-(552,224,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -13803,22 +11309,6 @@ closed = 0;
 nodes = (
 (60,278,l),
 (552,278,l)
-);
-}
-);
-width = 612;
-},
-{
-associatedMasterId = master01;
-layerId = "55D904EB-41CB-4588-BE8F-98A8FD92C343";
-name = "21 nov. 21 à 22:13";
-shapes = (
-{
-closed = 0;
-nodes = (
-(60,278,l),
-(552,278,l),
-(552,224,l)
 );
 }
 );
@@ -13833,18 +11323,6 @@ kernLeft = hyphen;
 kernRight = hyphen;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(60,278,l),
-(826,278,l),
-(826,224,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -13852,22 +11330,6 @@ closed = 0;
 nodes = (
 (60,278,l),
 (826,278,l)
-);
-}
-);
-width = 886;
-},
-{
-associatedMasterId = master01;
-layerId = "D1290773-E5B2-4DC1-A889-5E67DE6A2EAD";
-name = "21 nov. 21 à 22:14";
-shapes = (
-{
-closed = 0;
-nodes = (
-(60,278,l),
-(826,278,l),
-(826,224,l)
 );
 }
 );
@@ -13882,34 +11344,6 @@ kernLeft = underscore;
 kernRight = underscore;
 layers = (
 {
-associatedMasterId = master01;
-layerId = "7E13BF91-6B54-486A-AE86-493B34B1970A";
-name = "21 nov. 21 à 22:25";
-shapes = (
-{
-closed = 0;
-nodes = (
-(10,-155,l),
-(400,-155,l),
-(400,-209,l)
-);
-}
-);
-width = 410;
-},
-{
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(10,-155,l),
-(400,-155,l),
-(400,-209,l)
-);
-}
-);
-};
 layerId = master01;
 name = Regular;
 shapes = (
@@ -13932,22 +11366,6 @@ kernLeft = parenleft;
 kernRight = parenleft;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(220,-116,ls),
-(149,-2,o),
-(90,139,o),
-(90,307,cs),
-(90,475,o),
-(134,606,o),
-(220,731,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -13995,35 +11413,6 @@ kernLeft = braceleft;
 kernRight = braceleft;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(321,-124,l),
-(289,-124,ls),
-(235,-124,o),
-(195,-99,o),
-(199,-25,cs),
-(209,141,ls),
-(215,235,o),
-(172,253,o),
-(106,253,cs),
-(90,253,l),
-(90,337,l),
-(106,337,ls),
-(172,337,o),
-(215,355,o),
-(209,449,cs),
-(199,615,ls),
-(195,689,o),
-(235,714,o),
-(289,714,cs),
-(321,714,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -14084,19 +11473,6 @@ kernLeft = bracketleft;
 kernRight = bracketleft;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(205,731,l),
-(90,731,l),
-(90,-116,l),
-(205,-116,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -14215,13 +11591,6 @@ kernLeft = comma;
 kernRight = comma;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = comma;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -14397,19 +11766,6 @@ kernLeft = guilsinglleft;
 kernRight = guilsinglleft;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(220,77,l),
-(60,276,l),
-(60,286,l),
-(218,485,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -14498,36 +11854,6 @@ kernLeft = florin;
 kernRight = florin;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(30,-109,l),
-(44,-119,o),
-(66,-125,o),
-(91,-125,cs),
-(136,-125,o),
-(180,-104,o),
-(199,-20,cs),
-(332,575,ls),
-(351,659,o),
-(398,680,o),
-(452,680,cs),
-(481,680,o),
-(499,673,o),
-(519,660,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(164,383,l),
-(416,383,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -14600,59 +11926,6 @@ kernLeft = O;
 kernRight = O;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(313,388,l),
-(337,441,o),
-(371,468,o),
-(428,468,cs),
-(511,468,o),
-(538,412,o),
-(538,345,cs),
-(538,167,ls),
-(538,131,o),
-(555,82,o),
-(615,82,cs),
-(697,82,o),
-(767,173,o),
-(767,308,cs),
-(767,495,o),
-(629,632,o),
-(447,632,cs),
-(257,632,o),
-(95,494,o),
-(95,272,cs),
-(95,55,o),
-(241,-86,o),
-(456,-86,cs),
-(529,-86,o),
-(586,-69,o),
-(632,-42,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(538,171,ls),
-(500,121,o),
-(453,82,o),
-(393,82,cs),
-(327,82,o),
-(297,128,o),
-(297,182,cs),
-(297,260,o),
-(358,296,o),
-(496,296,cs),
-(496,296,o),
-(538,296,o),
-(538,296,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -14706,116 +11979,6 @@ nodes = (
 }
 );
 width = 862;
-},
-{
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(627,-35,l),
-(581,-59,o),
-(524,-76,o),
-(456,-76,cs),
-(231,-76,o),
-(90,62,o),
-(90,276,cs),
-(90,482,o),
-(246,632,o),
-(446,632,cs),
-(629,632,o),
-(762,502,o),
-(762,326,cs),
-(762,161,o),
-(679,82,o),
-(597,82,cs),
-(537,82,o),
-(533,124,o),
-(533,167,cs),
-(533,345,ls),
-(533,412,o),
-(506,468,o),
-(425,468,cs),
-(366,468,o),
-(332,441,o),
-(308,388,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(533,296,l),
-(533,296,o),
-(491,296,o),
-(491,296,cs),
-(350,296,o),
-(292,260,o),
-(292,177,cs),
-(292,130,o),
-(322,82,o),
-(387,82,cs),
-(448,82,o),
-(495,121,o),
-(533,171,cs)
-);
-}
-);
-};
-layerId = "F1AECB6C-5EAE-4127-9428-DB7E31D836FF";
-name = "Jun 2 21, 11:30";
-shapes = (
-{
-closed = 0;
-nodes = (
-(308,388,l),
-(332,441,o),
-(366,468,o),
-(425,468,cs),
-(506,468,o),
-(533,412,o),
-(533,345,cs),
-(533,167,ls),
-(533,131,o),
-(533,82,o),
-(598,82,cs),
-(692,82,o),
-(762,183,o),
-(762,318,cs),
-(762,505,o),
-(624,632,o),
-(442,632,cs),
-(252,632,o),
-(90,494,o),
-(90,272,cs),
-(90,61,o),
-(236,-76,o),
-(451,-76,cs),
-(526,-76,o),
-(581,-59,o),
-(627,-35,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(533,171,ls),
-(495,121,o),
-(448,82,o),
-(387,82,cs),
-(322,82,o),
-(292,128,o),
-(292,182,cs),
-(292,260,o),
-(353,296,o),
-(491,296,cs),
-(491,296,o),
-(533,296,o),
-(533,296,c)
-);
-}
-);
-width = 852;
 }
 );
 metricLeft = O;
@@ -14828,35 +11991,6 @@ kernLeft = ampersand;
 kernRight = ampersand;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(605,0,l),
-(291,344,ls),
-(256,383,o),
-(162,464,o),
-(162,549,cs),
-(162,618,o),
-(225,680,o),
-(311,680,cs),
-(398,680,o),
-(452,615,o),
-(452,543,cs),
-(452,359,o),
-(100,369,o),
-(100,164,cs),
-(100,68,o),
-(177,0,o),
-(291,0,cs),
-(475,0,o),
-(591,176,o),
-(591,361,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -15014,90 +12148,6 @@ scale = (0.62,0.57);
 }
 );
 width = 862;
-},
-{
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(427,680,l),
-(612,680,o),
-(762,528,o),
-(762,340,cs),
-(762,153,o),
-(612,0,o),
-(426,0,cs),
-(238,0,o),
-(90,153,o),
-(90,340,cs),
-(90,528,o),
-(238,680,o),
-(425,680,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(582,426,l),
-(570,479,o),
-(523,532,o),
-(438,532,cs),
-(347,532,o),
-(261,470,o),
-(261,340,cs),
-(261,223,o),
-(342,148,o),
-(438,148,cs),
-(525,148,o),
-(571,208,o),
-(582,260,cs)
-);
-}
-);
-};
-layerId = "84267277-F79A-414F-855A-7E24AA4BAE69";
-name = "Jun 2 21, 11:39";
-shapes = (
-{
-closed = 0;
-nodes = (
-(425,680,l),
-(238,680,o),
-(90,528,o),
-(90,340,cs),
-(90,153,o),
-(238,0,o),
-(426,0,cs),
-(612,0,o),
-(762,153,o),
-(762,340,cs),
-(762,528,o),
-(612,680,o),
-(427,680,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(582,260,ls),
-(571,208,o),
-(525,148,o),
-(438,148,cs),
-(342,148,o),
-(261,223,o),
-(261,340,cs),
-(261,470,o),
-(347,532,o),
-(438,532,cs),
-(523,532,o),
-(570,479,o),
-(582,426,c)
-);
-}
-);
-width = 852;
 }
 );
 metricLeft = O;
@@ -15137,98 +12187,6 @@ scale = (0.62,0.57);
 }
 );
 width = 862;
-},
-{
-associatedMasterId = master01;
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(425,680,l),
-(612,680,o),
-(762,528,o),
-(762,340,cs),
-(762,153,o),
-(612,0,o),
-(426,0,cs),
-(238,0,o),
-(90,153,o),
-(90,340,cs),
-(90,528,o),
-(238,680,o),
-(427,680,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(442,339,l),
-(573,152,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(323,152,l),
-(323,531,l),
-(429,531,ls),
-(519,531,o),
-(559,501,o),
-(559,431,cs),
-(559,374,o),
-(521,339,o),
-(431,339,cs),
-(323,339,l)
-);
-}
-);
-};
-layerId = "FB6D3895-0255-4D5B-A2EF-BF8758F90971";
-name = "Jun 2 21, 11:39";
-shapes = (
-{
-closed = 0;
-nodes = (
-(427,680,l),
-(238,680,o),
-(90,528,o),
-(90,340,cs),
-(90,153,o),
-(238,0,o),
-(426,0,cs),
-(612,0,o),
-(762,153,o),
-(762,340,cs),
-(762,528,o),
-(612,680,o),
-(425,680,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(442,339,l),
-(573,152,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(323,339,l),
-(431,339,ls),
-(521,339,o),
-(559,374,o),
-(559,431,cs),
-(559,501,o),
-(519,531,o),
-(429,531,cs),
-(323,531,l),
-(323,152,l)
-);
-}
-);
-width = 852;
 }
 );
 metricLeft = O;
@@ -15241,37 +12199,6 @@ kernLeft = trademark;
 kernRight = trademark;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(773,317,l),
-(773,680,l),
-(770,680,l),
-(597,333,l),
-(594,333,l),
-(421,680,l),
-(418,680,l),
-(418,317,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(177,317,l),
-(177,672,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(40,672,l),
-(314,672,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -15390,18 +12317,6 @@ kernLeft = bar;
 kernRight = bar;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,-190,l),
-(140,745,l),
-(86,745,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -15409,22 +12324,6 @@ closed = 0;
 nodes = (
 (140,-190,l),
 (140,745,l)
-);
-}
-);
-width = 280;
-},
-{
-associatedMasterId = master01;
-layerId = "D0AECEB7-D2FB-475C-AB5B-7A149730F0CD";
-name = "21 nov. 21 à 22:15";
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,-190,l),
-(140,745,l),
-(86,745,l)
 );
 }
 );
@@ -15441,26 +12340,6 @@ kernLeft = bar;
 kernRight = bar;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,427,l),
-(140,745,l),
-(86,745,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,-190,l),
-(140,128,l),
-(86,128,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -15479,30 +12358,6 @@ nodes = (
 }
 );
 width = 280;
-},
-{
-associatedMasterId = master01;
-layerId = "62BF33C1-8989-4723-92BE-C4444C426CED";
-name = "21 nov. 21 à 22:16";
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,427,l),
-(140,745,l),
-(86,745,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(140,-190,l),
-(140,128,l),
-(86,128,l)
-);
-}
-);
-width = 280;
 }
 );
 metricLeft = H;
@@ -15515,24 +12370,6 @@ kernLeft = dagger;
 kernRight = dagger;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(80,462,l),
-(516,462,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(298,-124,l),
-(298,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -15561,32 +12398,6 @@ kernLeft = literSign;
 kernRight = literSign;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(80,145,l),
-(231,260,o),
-(354,402,o),
-(354,555,cs),
-(354,628,o),
-(326,680,o),
-(265,680,cs),
-(208,680,o),
-(164,634,o),
-(164,486,cs),
-(164,182,ls),
-(164,65,o),
-(203,0,o),
-(282,0,cs),
-(353,0,o),
-(387,53,o),
-(396,84,cs)
-);
-}
-);
-};
 guides = (
 {
 pos = (210,-64);
@@ -15628,31 +12439,6 @@ kernLeft = daggerdbl;
 kernRight = daggerdbl;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(100,440,l),
-(520,440,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(100,116,l),
-(520,116,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(310,-124,l),
-(310,680,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -15688,43 +12474,6 @@ kernLeft = O;
 kernRight = O;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(316,356,l),
-(874,356,l),
-(874,515,o),
-(758,680,o),
-(491,680,cs),
-(224,680,o),
-(95,500,o),
-(95,331,cs),
-(95,172,o),
-(224,0,o),
-(491,0,cs),
-(632,0,o),
-(742,54,o),
-(795,118,cs)
-);
-},
-{
-closed = 0;
-nodes = (
-(273,85,l),
-(273,586,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(711,382,l),
-(711,586,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -15964,56 +12713,6 @@ kernLeft = currency;
 kernRight = currency;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(319,541,l),
-(208,541,o),
-(120,452,o),
-(120,341,cs),
-(120,229,o),
-(209,140,o),
-(320,140,cs),
-(430,140,o),
-(520,229,o),
-(520,341,cs),
-(520,452,o),
-(431,541,o),
-(321,541,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(92,112,l),
-(178,199,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(177,482,l),
-(90,569,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(549,112,l),
-(460,198,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(461,482,l),
-(550,569,l)
-);
-}
-);
-};
 guides = (
 {
 pos = (225,-64);
@@ -16085,17 +12784,6 @@ kernLeft = O;
 kernRight = O;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(293,-128,l),
-(293,808,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -16117,24 +12805,6 @@ ref = S;
 }
 );
 width = 566;
-},
-{
-associatedMasterId = master01;
-layerId = "B0CE3318-0906-48D1-AC54-9BEF0910E3FA";
-name = "Sep 18 21, 16:53";
-shapes = (
-{
-closed = 0;
-nodes = (
-(293,-128,l),
-(293,808,l)
-);
-},
-{
-ref = S;
-}
-);
-width = 566;
 }
 );
 metricLeft = O;
@@ -16147,42 +12817,6 @@ kernLeft = euro;
 kernRight = euro;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(582,42,l),
-(535,11,o),
-(486,0,o),
-(432,0,cs),
-(240,0,o),
-(167,144,o),
-(167,341,cs),
-(167,571,o),
-(266,680,o),
-(429,680,cs),
-(485,680,o),
-(535,667,o),
-(573,641,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(60,287,l),
-(489,287,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(61,425,l),
-(489,425,l)
-);
-}
-);
-};
 guides = (
 {
 pos = (8,632);
@@ -16234,37 +12868,6 @@ kernLeft = sterling;
 kernRight = sterling;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(202,0,l),
-(202,511,ls),
-(202,613,o),
-(256,680,o),
-(359,680,cs),
-(423,680,o),
-(464,654,o),
-(487,606,cs)
-);
-},
-{
-closed = 0;
-nodes = (
-(100,0,l),
-(492,0,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(110,350,l),
-(381,350,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -16306,39 +12909,6 @@ kernLeft = Y;
 kernRight = Y;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(70,680,l),
-(282,314,l),
-(494,680,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(282,0,l),
-(282,314,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(116,163,l),
-(448,163,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(116,314,l),
-(448,314,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -16446,18 +13016,6 @@ kernLeft = minus;
 kernRight = minus;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(85,332,l),
-(550,332,l),
-(550,278,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -16465,22 +13023,6 @@ closed = 0;
 nodes = (
 (85,332,l),
 (550,332,l)
-);
-}
-);
-width = 635;
-},
-{
-associatedMasterId = master01;
-layerId = "D60BB90A-89CE-4475-8939-FB851DD77270";
-name = "21 nov. 21 à 22:15";
-shapes = (
-{
-closed = 0;
-nodes = (
-(85,332,l),
-(550,332,l),
-(550,278,l)
 );
 }
 );
@@ -16495,24 +13037,6 @@ kernLeft = multiply;
 kernRight = multiply;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(80,133,l),
-(460,533,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(460,132,l),
-(80,532,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -16541,13 +13065,6 @@ kernLeft = divide;
 kernRight = divide;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = minus;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -16575,26 +13092,6 @@ kernLeft = equal;
 kernRight = equal;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(100,422,l),
-(454,422,l),
-(454,368,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(100,222,l),
-(454,222,l),
-(454,168,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -16613,30 +13110,6 @@ nodes = (
 }
 );
 width = 554;
-},
-{
-associatedMasterId = master01;
-layerId = "8A7F68FD-55AD-46AB-AA36-95E0BB4C1288";
-name = "21 nov. 21 à 22:33";
-shapes = (
-{
-closed = 0;
-nodes = (
-(100,422,l),
-(454,422,l),
-(454,368,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(100,222,l),
-(454,222,l),
-(454,168,l)
-);
-}
-);
-width = 554;
 }
 );
 unicode = 61;
@@ -16647,31 +13120,6 @@ kernLeft = equal;
 kernRight = equal;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(190,105,l),
-(384,540,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(474,222,l),
-(100,222,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(474,422,l),
-(100,422,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -16709,19 +13157,6 @@ kernLeft = greater;
 kernRight = greater;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(100,50,l),
-(552,284,l),
-(552,288,l),
-(100,522,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -16764,32 +13199,6 @@ kernLeft = greaterequal;
 kernRight = greaterequal;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(65,538,l),
-(449,347,l),
-(449,345,l),
-(65,154,l),
-(65,104,l),
-(495,325,l),
-(495,367,l),
-(65,588,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(496,63,l),
-(59,63,l),
-(59,21,l),
-(496,21,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -16861,20 +13270,6 @@ kernLeft = approxequal;
 kernRight = approxequal;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (8,60);
-ref = asciitilde;
-scale = (0.9204,1);
-},
-{
-pos = (8,-115);
-ref = asciitilde;
-scale = (0.9204,1);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -17011,29 +13406,6 @@ kernLeft = integral;
 kernRight = integral;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(50,-89,l),
-(62,-98,o),
-(81,-104,o),
-(101,-104,cs),
-(167,-104,o),
-(200,-60,o),
-(200,50,cs),
-(200,590,ls),
-(200,700,o),
-(233,743,o),
-(299,745,cs),
-(320,746,o),
-(339,738,o),
-(350,730,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -17152,39 +13524,6 @@ kernLeft = n;
 kernRight = n;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(150,-188,l),
-(150,58,l),
-(152,58,l),
-(173,25,o),
-(203,-12,o),
-(284,-12,cs),
-(355,-12,o),
-(398,18,o),
-(438,90,c),
-(440,90,l),
-(440,0,l),
-(498,0,l),
-(498,587,l),
-(440,587,l),
-(440,173,l),
-(420,120,o),
-(372,44,o),
-(288,44,cs),
-(223,44,o),
-(150,79,o),
-(150,173,cs),
-(150,587,l),
-(92,587,l),
-(92,-188,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -17211,34 +13550,6 @@ kernLeft = partialdiff;
 kernRight = partialdiff;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(434,294,ls),
-(411,371,o),
-(346,437,o),
-(265,437,cs),
-(152,437,o),
-(90,313,o),
-(90,197,cs),
-(90,93,o),
-(134,0,o),
-(239,0,cs),
-(416,0,o),
-(444,306,o),
-(444,387,cs),
-(444,496,o),
-(421,745,o),
-(240,745,cs),
-(200,745,o),
-(151,729,o),
-(122,706,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -17306,14 +13617,6 @@ kernLeft = percent;
 kernRight = perthousand;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (19,0);
-ref = percent;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -17780,27 +14083,6 @@ kernLeft = O;
 kernRight = H;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(628,0,o),
-(780,152,o),
-(780,340,cs),
-(780,528,o),
-(628,680,o),
-(440,680,cs),
-(252,680,o),
-(100,528,o),
-(100,340,cs),
-(100,152,o),
-(252,0,o),
-(440,0,cs)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -17893,24 +14175,6 @@ unicode = 9671;
 glyphname = lozenge;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(100,339,l),
-(100,331,l),
-(283,-16,l),
-(293,-16,l),
-(476,331,l),
-(476,341,l),
-(293,696,l),
-(283,696,l),
-(100,341,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -18063,26 +14327,6 @@ name = top;
 pos = (81,745);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(152,660,l),
-(152,785,l),
-(98,785,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(10,660,l),
-(10,785,l),
-(-44,785,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -18097,40 +14341,6 @@ closed = 0;
 nodes = (
 (152,660,l),
 (152,785,l)
-);
-}
-);
-width = 162;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (81,555);
-},
-{
-name = top;
-pos = (81,745);
-}
-);
-associatedMasterId = master01;
-layerId = "D74B792B-7DCF-4603-B079-D04743889951";
-name = "21 nov. 21 à 22:42";
-shapes = (
-{
-closed = 0;
-nodes = (
-(152,660,l),
-(152,785,l),
-(98,785,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(10,660,l),
-(10,785,l),
-(-44,785,l)
 );
 }
 );
@@ -18153,18 +14363,6 @@ name = top;
 pos = (40,745);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(40,678,l),
-(40,785,l),
-(-14,785,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -18172,32 +14370,6 @@ closed = 0;
 nodes = (
 (40,678,l),
 (40,785,l)
-);
-}
-);
-width = 80;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (40,555);
-},
-{
-name = top;
-pos = (40,745);
-}
-);
-associatedMasterId = master01;
-layerId = "F62BFC0E-613D-4376-9329-61C90E686E89";
-name = "21 nov. 21 à 22:06";
-shapes = (
-{
-closed = 0;
-nodes = (
-(40,678,l),
-(40,785,l),
-(-14,785,l)
 );
 }
 );
@@ -18333,19 +14505,6 @@ name = _top;
 pos = (121,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(222,648,l),
-(113,774,l),
-(109,774,l),
-(0,648,l)
-);
-}
-);
-};
 guides = (
 {
 pos = (159,-64);
@@ -18520,18 +14679,6 @@ name = top;
 pos = (121,703);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(10,703,l),
-(231,703,l),
-(231,649,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -18539,32 +14686,6 @@ closed = 0;
 nodes = (
 (231,703,l),
 (10,703,l)
-);
-}
-);
-width = 241;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (121,555);
-},
-{
-name = top;
-pos = (121,703);
-}
-);
-associatedMasterId = master01;
-layerId = "E50E627D-C2D0-4D2F-967F-01B705061156";
-name = "21 nov. 21 à 22:44";
-shapes = (
-{
-closed = 0;
-nodes = (
-(10,703,l),
-(231,703,l),
-(231,649,l)
 );
 }
 );
@@ -18707,62 +14828,6 @@ name = top;
 pos = (82,777);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-19,734,l),
-(-37,734,o),
-(-50,720,o),
-(-50,702,cs),
-(-50,685,o),
-(-36,671,o),
-(-18,671,cs),
-(-1,671,o),
-(12,685,o),
-(12,702,cs),
-(12,720,o),
-(-1,734,o),
-(-18,734,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(163,734,l),
-(146,734,o),
-(132,720,o),
-(132,702,cs),
-(132,685,o),
-(147,671,o),
-(164,671,cs),
-(182,671,o),
-(194,685,o),
-(194,702,cs),
-(194,720,o),
-(182,734,o),
-(164,734,c)
-);
-},
-{
-closed = 0;
-nodes = (
-(2,650,l),
-(2,770,l),
-(0,770,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(144,650,l),
-(144,770,l),
-(142,770,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -18801,28 +14866,6 @@ name = top;
 pos = (42,745);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(31,734,l),
-(13,734,o),
-(0,720,o),
-(0,702,cs),
-(0,685,o),
-(14,671,o),
-(32,671,cs),
-(49,671,o),
-(62,685,o),
-(62,702,cs),
-(62,720,o),
-(49,734,o),
-(32,734,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -18872,19 +14915,6 @@ name = _top;
 pos = (74,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(25,660,l),
-(76,660,l),
-(210,801,l),
-(134,801,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -18946,22 +14976,6 @@ name = _top;
 pos = (121,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(150,660,l),
-(212,660,l),
-(106,801,l),
-(36,801,l),
-(-70,660,l),
-(-8,660,l),
-(71,765,l)
-);
-}
-);
-};
 guides = (
 {
 pos = (159,-64);
@@ -19095,41 +15109,6 @@ name = _top;
 pos = (146,555);
 }
 );
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(240,751,o),
-(225,724,o),
-(198,724,cs),
-(184,724,o),
-(160,734,o),
-(135,746,cs),
-(110,758,o),
-(83,770,o),
-(61,770,cs),
-(15,770,o),
-(-22,737,o),
-(-31,671,c),
-(8,671,l),
-(13,713,o),
-(37,720,o),
-(51,720,cs),
-(76,720,o),
-(97,711,o),
-(120,699,cs),
-(143,688,o),
-(168,676,o),
-(198,676,cs),
-(260,676,o),
-(276,745,o),
-(283,773,c),
-(244,773,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -19193,45 +15172,6 @@ name = _bottom;
 pos = (90,0);
 }
 );
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(-25,-200,o),
-(22,-210,o),
-(46,-210,cs),
-(130,-210,o),
-(157,-159,o),
-(157,-127,cs),
-(157,-81,o),
-(125,-56,o),
-(71,-56,cs),
-(59,-56,o),
-(53,-57,o),
-(46,-60,c),
-(44,-58,l),
-(89,0,l),
-(52,0,l),
-(-11,-82,l),
-(6,-97,l),
-(18,-91,o),
-(31,-88,o),
-(45,-88,cs),
-(84,-88,o),
-(99,-108,o),
-(99,-129,cs),
-(99,-154,o),
-(76,-174,o),
-(47,-174,cs),
-(19,-174,o),
-(-9,-168,o),
-(-34,-156,c),
-(-48,-189,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -19349,23 +15289,6 @@ export = 0;
 glyphname = _module_g;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(0,-107,l),
-(34,-164,o),
-(91,-190,o),
-(167,-190,cs),
-(280,-190,o),
-(346,-126,o),
-(346,-2,cs),
-(346,555,l)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -19391,23 +15314,6 @@ export = 0;
 glyphname = _module_n;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(333,0,l),
-(333,415,ls),
-(333,502,o),
-(293,555,o),
-(216,555,cs),
-(127,555,o),
-(61,485,o),
-(0,415,c)
-);
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -19433,32 +15339,6 @@ export = 0;
 glyphname = _module_rond;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(0,137,l),
-(43,52,o),
-(108,0,o),
-(193,0,cs),
-(329,0,o),
-(383,132,o),
-(383,279,cs),
-(383,447,o),
-(316,555,o),
-(194,555,cs),
-(121,555,o),
-(54,517,o),
-(0,421,c)
-);
-},
-{
-pos = (-109,0);
-ref = o;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
